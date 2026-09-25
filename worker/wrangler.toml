@@ -8,4 +8,4 @@ ALLOW_ORIGIN = "https://timateus.github.io"
 [[d1_databases]]
 binding = "DB"
 database_name = "steppe-by-steppe"
-database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+database_id = "1d7ed0a1-a3de-47ba-9b80-9922482263ea"
