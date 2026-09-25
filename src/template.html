@@ -42,11 +42,13 @@ body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size
 .wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
 header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
 h1{font-family:var(--display);font-weight:700;font-size:clamp(22px,4.2vw,32px);letter-spacing:-.01em;margin:0;line-height:1.05}
-h1 span{color:var(--accent)}
+h1 span{color:var(--accent);cursor:default;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.gsbadge{display:inline-flex;align-items:center;gap:6px;margin-top:6px;border:1px solid #c99a2e;background:color-mix(in srgb,#e7b54a 18%,var(--surface));color:var(--ink);font:700 11.5px var(--body);letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:4px 6px 4px 10px;cursor:pointer}
+.gsbadge span{font-size:15px;line-height:1;color:var(--muted);letter-spacing:0}
 .tag{color:var(--muted);margin:4px 0 0;font-size:13.5px}
 .hctl{display:flex;gap:8px;flex-wrap:wrap}
 .seg{display:flex;gap:4px;background:var(--surface);border:1px solid var(--hair);border-radius:999px;padding:3px}
-.seg button{border:0;background:none;color:var(--muted);font:600 13px var(--body);padding:7px 14px;border-radius:999px;cursor:pointer}
+.seg button{touch-action:manipulation;border:0;background:none;color:var(--muted);font:600 13px var(--body);padding:7px 14px;border-radius:999px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
 .brief{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;justify-content:space-between}
 .route{font-size:clamp(17px,2.6vw,22px);font-weight:600;text-wrap:balance;margin:0}
@@ -59,7 +61,7 @@ h1 span{color:var(--accent)}
 .count small{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:3px}
 .mapbox{scroll-margin-top:12px;position:relative;background:var(--surface);border:1px solid var(--hair);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
 .mapwrap{position:relative;touch-action:none}
-svg#map{display:block;width:100%;height:auto;max-height:64vh;aspect-ratio:1000/770;cursor:grab;user-select:none;-webkit-user-select:none}
+svg#map{display:block;width:100%;height:clamp(300px,62vh,620px);cursor:grab;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
 svg#map.drag{cursor:grabbing}
 .ctry{fill:var(--land);stroke:var(--land-line);stroke-width:1.1;vector-effect:non-scaling-stroke;stroke-linejoin:round}
 .r{fill:transparent;stroke:none;vector-effect:non-scaling-stroke;stroke-linejoin:round;transition:fill .35s}
@@ -103,7 +105,7 @@ svg#map.drag{cursor:grabbing}
 .sugg li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:8px 10px;border-radius:8px;cursor:pointer}
 .sugg li[aria-selected="true"]{background:var(--accent-soft)}
 .sugg .loc{color:var(--muted);font-size:12.5px;text-align:right}
-.btn{font:600 14.5px var(--body);border-radius:11px;padding:0 16px;min-height:46px;cursor:pointer;border:1.5px solid var(--hair);background:var(--surface);color:var(--ink)}
+.btn{touch-action:manipulation;font:600 14.5px var(--body);border-radius:11px;padding:0 16px;min-height:46px;cursor:pointer;border:1.5px solid var(--hair);background:var(--surface);color:var(--ink)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .btn:disabled{opacity:.45;cursor:not-allowed}
 button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -139,8 +141,27 @@ td.l{color:var(--muted)}
 .ctylist summary small{color:var(--muted);font-weight:500;font-variant-numeric:tabular-nums}
 .ctylist .divtable{padding:0 14px 10px}
 @media (max-width:640px){
-  .counts{gap:14px}.count b{font-size:19px}.legend{font-size:10.5px;gap:7px}
+  body{padding-block:12px 32px}
+  .wrap{gap:10px}
+  header{align-items:flex-start}
+  .tag{font-size:12.5px}
+  .hctl{width:100%;justify-content:space-between}
+  .seg button{padding:6px 11px;font-size:12.5px}
+  .brief{flex-wrap:nowrap;align-items:flex-start;gap:10px}
+  .route{font-size:16px;flex:1;min-width:0}
+  .counts{gap:10px;flex-shrink:0}.count b{font-size:18px}.count small{font-size:9.5px;letter-spacing:.04em;text-align:right;max-width:64px;line-height:1.15}
+  svg#map{height:min(58vh,480px)}
+  .legend{position:static;border:0;border-top:1px solid var(--hair);border-radius:0;background:var(--surface);max-width:none;padding:6px 10px;font-size:10.5px;gap:4px 10px}
+  .zoom button{width:38px;height:38px}
   .fact{position:static;max-width:none;border:0;border-top:1px solid var(--hair);border-radius:0;box-shadow:none}
+  .play{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+  .play .field{grid-column:1/-1}
+  .play .btn{padding:0 6px;font-size:13px;min-height:44px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .donebar{padding:8px}
+  .donebar b{flex-basis:100%}
+  .donebar .btn{flex:1}
+  .panel{padding:16px}
+  .panel pre{font-size:13px}
 }
 @media (prefers-reduced-motion:reduce){.r{transition:none}}
 </style>
@@ -149,7 +170,8 @@ td.l{color:var(--muted)}
   <header>
     <div>
       <h1 id="h1"></h1>
-      <p class="tag" data-t="tagline"></p>
+      <p class="tag" id="tagline"></p>
+      <button class="gsbadge" id="gsBadge" type="button" hidden></button>
     </div>
     <div class="hctl">
       <div class="seg" role="group" aria-label="Game mode">
@@ -157,8 +179,9 @@ td.l{color:var(--muted)}
         <button id="mPractice" aria-pressed="false" data-t="practice"></button>
       </div>
       <div class="seg" role="group" aria-label="Language">
-        <button id="lEn" aria-pressed="true" lang="en">EN</button>
-        <button id="lRu" aria-pressed="false" lang="ru">RU</button>
+        <button id="lEn" aria-pressed="true" lang="en">ENG</button>
+        <button id="lRu" aria-pressed="false" lang="ru">РУС</button>
+        <button id="lKk" aria-pressed="false" lang="kk">ҚАЗ</button>
       </div>
     </div>
   </header>
@@ -173,7 +196,7 @@ td.l{color:var(--muted)}
 
   <div class="mapbox" id="mapbox">
     <div class="mapwrap">
-      <svg id="map" viewBox="0 0 1000 770" role="img" aria-label="Map of Central Asian regions">
+      <svg id="map" viewBox="0 0 1000 770" role="img" aria-label="Map">
         <g id="gCtry"></g><g id="gReg"></g><g id="gDots"></g><g id="gLbl"></g>
       </svg>
       <div class="zoom">
@@ -229,268 +252,12 @@ td.l{color:var(--muted)}
   </div>
 
   <details class="box"><summary data-t="howTitle"></summary><div id="how"></div></details>
-  <details class="box"><summary data-t="listTitle"></summary><div id="about"></div><div id="divs" class="ctylist"></div></details>
+  <details class="box"><summary id="listTitle"></summary><div id="about"></div><div id="divs" class="ctylist"></div></details>
 </div>
 
 <script>
 /*DATA*/
 </script>
 <script>
-(()=>{
-const R=DATA.regions, IDS=Object.keys(R);
-const $=id=>document.getElementById(id);
-const NS="http://www.w3.org/2000/svg";
-const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-
-// ---- i18n ----
-const plural=(n,one,few,many)=>{const a=n%10,b=n%100;return a===1&&b!==11?one:a>=2&&a<=4&&(b<10||b>=20)?few:many};
-const T={
-en:{name:'Steppe <span>by</span> Steppe',plain:"Steppe by Steppe",tagline:"Travel region to region across Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan and Uzbekistan.",
-  daily:"Daily",practice:"Practice",shortest:"Shortest",left:"Guesses left",lg0:"On a shortest route",lg1:"1 step off",lg2:"2 off",lg3:"Far off",
-  ph:"Type a region, oblast or city…",guessBtn:"Guess",hintBtn:"Hint",borders:"Show borders",bordersOn:"Borders shown",bordersTip:"Reveal every region's outline. Counts as a hint.",giveUp:"Give up",
-  showResult:"Show result",seeMap:"Look at the map",copy:"Copy result",copied:"Copied",nextP:"Play a practice route",nextN:"New practice route",
-  labels:"Label revealed regions",factsToggle:"Show a fact after each guess",howTitle:"How to play",listTitle:"The 55 regions on this map",
-  C:{KZ:"Kazakhstan",KG:"Kyrgyzstan",TJ:"Tajikistan",TM:"Turkmenistan",UZ:"Uzbekistan"},
-  already:n=>`${n} is already on the map.`,dup:n=>`You've already guessed ${n}.`,unknown:q=>`“${q}” isn't a region we know. Try another spelling.`,
-  ex0:n=>`${n} is on a shortest route.`,exFar:n=>`${n} is far from the shortest route.`,exN:(n,e)=>`${n} is ${e} step${e>1?"s":""} off the shortest route.`,
-  hintMsg:(c,l)=>`Hint: a region in ${c} starting with “${l}” (outlined in purple).`,bordersMsg:"Region borders revealed. This counts as a hint.",
-  kWin:"You made it",kLose:"Game over",tPerfect:"Perfect route!",tWin:"Route complete",tGave:"Route revealed",tOut:"Out of guesses",
-  winText:(g,sp,over,h,b)=>`${g} guess${g>1?"es":""} for a ${sp}-region shortest route${over?` (${over} extra)`:""}${h?`, ${h} hint${h>1?"s":""}`:""}${b?", borders shown":""}.`,
-  loseText:p=>`One shortest route: ${p}.`,doneWin:(g,sp)=>`Solved in ${g} guess${g>1?"es":""} (shortest: ${sp})`,doneLose:"Not this time: the shortest route is shown on the map",
-  shareOk:"Shortest route!",shareOver:o=>`+${o} over shortest`,shareFail:"Didn't make it",shareP:"(practice)",selCopy:"Press Ctrl/⌘+C to copy the selected result.",
-  btw:"btw,",close:"Close",regions:n=>`${n} regions`,thR:"Region",thL:"Official local name",thC:"Capital",
-  how:`<ul>
-<li>Connect the two blue regions with a chain of regions that share a land border. Enter the regions in between, in any order.</li>
-<li>Each guess is coloured by how far it is from a shortest route: <b style="color:var(--g0)">green</b> is on one, <b style="color:var(--g1)">yellow</b> adds one step, <b style="color:var(--g2)">orange</b> adds two, and <b style="color:var(--g3)">red</b> adds three or more.</li>
-<li>You get the shortest route's length plus four guesses. <b>Hint</b> outlines a region on the best remaining route. <b>Show borders</b> reveals every region's outline for the rest of the game. Neither uses up a guess, but both show in your result (💡 and 🗺️).</li>
-<li>After each guess you get a quick fact about that region. Tap any coloured region for another one.</li>
-<li>Borders count across countries. Cities with regional status (Astana, Bishkek, Dushanbe, Tashkent, Ashgabat, Arkadag and others) are separate stops. Most sit inside a single region, so they only connect to it.</li>
-<li>You can type English, Russian or local official names, or common older spellings (Zhambyl, Navoiy, Soghd, Nur-Sultan…).</li></ul>`,
-  about:`<p>Current first-level divisions as of September 2026, including Kazakhstan's 2022 reform (Abai, Jetisu and Ulytau regions) and Turkmenistan's Arkadag, designated a city of national importance in 2023. Names follow each government's English usage, with the official local-language name alongside.</p>
-<p>Size and population rankings in the facts use official areas and figures from the national statistics offices (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) and Turkmenistan's 2022 census. Boundaries: © OpenStreetMap contributors (ODbL), simplified.</p>`},
-ru:{name:'Steppe <span>by</span> Steppe',plain:"Steppe by Steppe",tagline:"Путешествие от региона к региону по Казахстану, Кыргызстану, Таджикистану, Туркменистану и Узбекистану.",
-  daily:"Задача дня",practice:"Тренировка",shortest:"Кратчайший",left:"Осталось попыток",lg0:"На кратчайшем пути",lg1:"+1 шаг",lg2:"+2",lg3:"Далеко",
-  ph:"Введите область, регион или город…",guessBtn:"Ввод",hintBtn:"Подсказка",borders:"Показать границы",bordersOn:"Границы видны",bordersTip:"Показать контуры всех регионов. Считается подсказкой.",giveUp:"Сдаться",
-  showResult:"Показать итог",seeMap:"Посмотреть карту",copy:"Скопировать",copied:"Скопировано",nextP:"Сыграть тренировку",nextN:"Новый маршрут",
-  labels:"Подписывать открытые регионы",factsToggle:"Показывать факт после каждого хода",howTitle:"Как играть",listTitle:"55 регионов на карте",
-  C:{KZ:"Казахстан",KG:"Кыргызстан",TJ:"Таджикистан",TM:"Туркменистан",UZ:"Узбекистан"},
-  already:n=>`${n} — уже на карте.`,dup:n=>`${n} — уже названо.`,unknown:q=>`Не знаем региона «${q}». Попробуйте другое написание.`,
-  ex0:n=>`${n} — на кратчайшем пути.`,exFar:n=>`${n} — далеко от кратчайшего пути.`,exN:(n,e)=>`${n} — ${e} ${plural(e,"шаг","шага","шагов")} в сторону от кратчайшего пути.`,
-  hintMsg:(c,l)=>`Подсказка: регион в стране «${c}» на букву «${l}» (обведён фиолетовым).`,bordersMsg:"Границы регионов показаны. Это считается подсказкой.",
-  kWin:"Получилось",kLose:"Игра окончена",tPerfect:"Идеальный маршрут!",tWin:"Маршрут пройден",tGave:"Маршрут показан",tOut:"Попытки закончились",
-  winText:(g,sp,over,h,b)=>`${g} ${plural(g,"попытка","попытки","попыток")} при кратчайшем пути в ${sp} ${plural(sp,"регион","региона","регионов")}${over?` (лишних: ${over})`:""}${h?`, подсказок: ${h}`:""}${b?", с границами":""}.`,
-  loseText:p=>`Один из кратчайших путей: ${p}.`,doneWin:(g,sp)=>`Пройдено за ${g} ${plural(g,"попытку","попытки","попыток")} (кратчайший: ${sp})`,doneLose:"В этот раз не вышло — кратчайший путь показан на карте",
-  shareOk:"Кратчайший путь!",shareOver:o=>`+${o} к кратчайшему`,shareFail:"Не получилось",shareP:"(тренировка)",selCopy:"Нажмите Ctrl/⌘+C, чтобы скопировать выделенный результат.",
-  btw:"Кстати,",close:"Закрыть",regions:n=>`${n} ${plural(n,"регион","региона","регионов")}`,thR:"Регион",thL:"Официальное местное название",thC:"Центр",
-  how:`<ul>
-<li>Соедините два синих региона цепочкой регионов, у которых есть общая сухопутная граница. Вводите промежуточные регионы в любом порядке.</li>
-<li>Цвет показывает, насколько регион далёк от кратчайшего пути: <b style="color:var(--g0)">зелёный</b> — на нём, <b style="color:var(--g1)">жёлтый</b> — +1 шаг, <b style="color:var(--g2)">оранжевый</b> — +2, <b style="color:var(--g3)">красный</b> — +3 и больше.</li>
-<li>Попыток — длина кратчайшего пути плюс четыре. <b>Подсказка</b> обводит регион на лучшем оставшемся пути. <b>Показать границы</b> открывает контуры всех регионов до конца игры. Попыток они не тратят, но видны в результате (💡 и 🗺️).</li>
-<li>После каждого хода — короткий факт о регионе. Нажмите на любой цветной регион, чтобы узнать ещё один.</li>
-<li>Границы между странами тоже считаются. Города с особым статусом (Астана, Бишкек, Душанбе, Ташкент, Ашхабад, Аркадаг и другие) — отдельные остановки; большинство из них окружены одним регионом и соединяются только с ним.</li>
-<li>Можно вводить русские, английские и официальные местные названия, а также старые варианты (Жамбыл, Навоий, Согд, Нур-Султан…).</li></ul>`,
-  about:`<p>Действующее административное деление первого уровня на сентябрь 2026 года, включая реформу 2022 года в Казахстане (Абайская, Жетысуская и Улытауская области) и туркменский Аркадаг, получивший в 2023 году статус города государственного значения. Рядом с русским названием приведено официальное название на государственном языке.</p>
-<p>Рейтинги по площади и населению в фактах основаны на официальных площадях и данных национальных статистических служб (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) и переписи Туркменистана 2022 года. Границы: © участники OpenStreetMap (ODbL), упрощены.</p>`}
-};
-let LANG=(store.get("sbs-prefs")||{}).lang||((navigator.language||"").startsWith("ru")?"ru":"en");
-const L=()=>T[LANG];
-const nm=id=>LANG==="ru"?R[id].ru:R[id].en;
-function short(id){const r=R[id];if(LANG==="ru"){const m={"TJ-GB":"ГБАО","TJ-RA":"РРП","UZ-QR":"Каракалпакстан"};return m[id]||r.ru.replace(/ область$/," обл.").replace(/ велаят$/," вел.")}
-  return r.en.replace(/ Region$/,"").replace(/^Republic of /,"").replace(/ Autonomous Region$/,"")}
-const fmt=n=>new Intl.NumberFormat(LANG==="ru"?"ru-RU":"en-US").format(n);
-
-// ---- graph ----
-const D={};
-for(const s of IDS){const d={[s]:0},q=[s];while(q.length){const u=q.shift();for(const v of R[u].n)if(!(v in d)){d[v]=d[u]+1;q.push(v)}}D[s]=d}
-const excess=(a,b,x)=>D[a][x]+D[x][b]-D[a][b];
-function connected(a,b,set){const seen=new Set([a]),q=[a];while(q.length){const u=q.shift();if(u===b)return true;for(const v of R[u].n)if(set.has(v)&&!seen.has(v)){seen.add(v);q.push(v)}}return false}
-function bestPath(a,b,known){const cost={},prev={},dq=[a];cost[a]=0;
-  while(dq.length){const u=dq.shift();for(const v of R[u].n){const w=cost[u]+(known.has(v)?0:1);if(!(v in cost)||w<cost[v]){cost[v]=w;prev[v]=u;known.has(v)?dq.unshift(v):dq.push(v)}}}
-  const p=[];for(let u=b;u!==a;u=prev[u])p.unshift(u);p.pop();return p}
-
-// ---- search (English, Russian, local names and aliases) ----
-const norm=s=>s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/ё/g,"е").replace(/[ʻʼ'’‘`\-.\s]/g,"");
-const STRIP=/(^|\s)(region|oblast|oblysy|oblusu|viloyati|welayaty|province|city|shahri|shaary|sheheri|republic of|respublikasi|область|облысы|облусу|велаят|республика|город)(?=\s|$)/gi;
-const KEYS={};
-for(const id of IDS){const r=R[id];const en=r.en.replace(/ Region$/,"").replace(/^Republic of /,"");
-  KEYS[id]=[...new Set([r.en,r.local,r.ru,en,...r.aliases,r.en.replace(STRIP," "),r.local.replace(STRIP," "),r.ru.replace(STRIP," ")].map(norm).filter(Boolean))]}
-function search(q){const nq=norm(q),n2=norm(q.replace(STRIP," "));if(!nq)return[];
-  const out=[];for(const id of IDS){let best=9;for(const k of KEYS[id])for(const t of [nq,n2]){if(!t)continue;
-    if(k===t)best=Math.min(best,0);else if(k.startsWith(t))best=Math.min(best,1);else if(k.includes(t))best=Math.min(best,3)}
-    if(best<9)out.push([best,id])}
-  out.sort((a,b)=>a[0]-b[0]||nm(a[1]).length-nm(b[1]).length||nm(a[1]).localeCompare(nm(b[1])));return out.slice(0,8).map(x=>x[1])}
-
-// ---- map ----
-const svg=$("map"),gR=$("gReg"),gD=$("gDots"),gL=$("gLbl");
-for(const cc in DATA.countries){const p=document.createElementNS(NS,"path");p.setAttribute("d",DATA.countries[cc]);p.setAttribute("class","ctry");$("gCtry").appendChild(p)}
-const area=id=>{const b=R[id].b;return (b[2]-b[0])*(b[3]-b[1])};
-const EL={};
-for(const id of [...IDS].sort((a,b)=>area(b)-area(a))){const p=document.createElementNS(NS,"path");p.setAttribute("d",R[id].d);p.setAttribute("class","r");p.dataset.id=id;gR.appendChild(p);EL[id]=p}
-const SMALL=id=>{const b=R[id].b;return Math.max(b[2]-b[0],b[3]-b[1])<9};
-
-let vb={x:0,y:0,w:1000,h:770};
-function setVB(v){v.w=Math.max(40,Math.min(1300,v.w));v.h=v.w*0.77;
-  v.x=Math.max(-200,Math.min(1000-v.w+200,v.x));v.y=Math.max(-160,Math.min(770-v.h+160,v.y));vb=v;
-  svg.setAttribute("viewBox",`${v.x} ${v.y} ${v.w} ${v.h}`);scaleMarks()}
-function fitTo(ids,pad=0.18){let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;for(const id of ids){const b=R[id].b;x0=Math.min(x0,b[0]);y0=Math.min(y0,b[1]);x1=Math.max(x1,b[2]);y1=Math.max(y1,b[3])}
-  let w=Math.max(x1-x0,(y1-y0)/0.77,150);w*=1+pad*2;const h=w*0.77;setVB({x:(x0+x1)/2-w/2,y:(y0+y1)/2-h/2,w,h})}
-function zoomAt(f,cx,cy){const w=vb.w*f;if(w<40||w>1300)return;setVB({x:cx-(cx-vb.x)*f,y:cy-(cy-vb.y)*f,w,h:w*0.77})}
-function toSvg(e){const r=svg.getBoundingClientRect();return[vb.x+(e.clientX-r.left)/r.width*vb.w,vb.y+(e.clientY-r.top)/r.height*vb.h]}
-svg.addEventListener("wheel",e=>{e.preventDefault();const[x,y]=toSvg(e);zoomAt(e.deltaY>0?1.18:1/1.18,x,y)},{passive:false});
-const ptrs=new Map();let moved=0,downTarget=null;
-svg.addEventListener("pointerdown",e=>{downTarget=e.target;svg.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,[e.clientX,e.clientY]);svg.classList.add("drag");moved=0});
-svg.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;const r=svg.getBoundingClientRect();const prev=ptrs.get(e.pointerId);
-  moved+=Math.abs(e.clientX-prev[0])+Math.abs(e.clientY-prev[1]);
-  if(ptrs.size===1){setVB({...vb,x:vb.x-(e.clientX-prev[0])/r.width*vb.w,y:vb.y-(e.clientY-prev[1])/r.height*vb.h})}
-  else if(ptrs.size===2){const [a,b]=[...ptrs.values()];const d0=Math.hypot(a[0]-b[0],a[1]-b[1]);ptrs.set(e.pointerId,[e.clientX,e.clientY]);const [c,dd]=[...ptrs.values()];const d1=Math.hypot(c[0]-dd[0],c[1]-dd[1]);
-    if(d0>0&&d1>0){const mx=(c[0]+dd[0])/2,my=(c[1]+dd[1])/2;zoomAt(d0/d1,vb.x+(mx-r.left)/r.width*vb.w,vb.y+(my-r.top)/r.height*vb.h)}return}
-  ptrs.set(e.pointerId,[e.clientX,e.clientY])});
-const up=e=>{const was=ptrs.size;ptrs.delete(e.pointerId);if(!ptrs.size)svg.classList.remove("drag");
-  if(e.type==="pointerup"&&was===1&&moved<6&&downTarget){const id=downTarget.dataset&&downTarget.dataset.id;if(id&&isShown(id))showFact(id)}};
-svg.addEventListener("pointerup",up);svg.addEventListener("pointercancel",up);
-$("zIn").onclick=()=>zoomAt(1/1.4,vb.x+vb.w/2,vb.y+vb.h/2);
-$("zOut").onclick=()=>zoomAt(1.4,vb.x+vb.w/2,vb.y+vb.h/2);
-$("zFit").onclick=()=>fitTo([G.start,G.end,...G.guesses,...G.hints]);
-function scaleMarks(){const k=vb.w/Math.max(svg.clientWidth,300);
-  for(const c of gD.children)c.setAttribute("r",5.5*k);
-  for(const t of gL.children){t.setAttribute("font-size",12*k);t.setAttribute("stroke-width",3*k)}}
-
-// ---- game ----
-const DAY0=Date.UTC(2026,8,25);
-const today=()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`};
-const dayNo=s=>{const[y,m,d]=s.split("-").map(Number);return Math.round((Date.UTC(y,m-1,d)-DAY0)/864e5)+1};
-function rng(seed){let a=0;for(const ch of seed)a=Math.imul(a^ch.charCodeAt(0),2654435761)>>>0;return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
-const PAIRS=[];for(const a of IDS)for(const b of IDS)if(a<b&&D[a][b]>=3&&D[a][b]<=8)PAIRS.push([a,b]);
-function pick(rand){const [a,b]=PAIRS[Math.floor(rand()*PAIRS.length)];return rand()<.5?[a,b]:[b,a]}
-
-let G, factId=null, factIdx=0, overlayOpen=false;
-const maxG=()=>D[G.start][G.end]-1+4;
-const known=()=>new Set([G.start,G.end,...G.guesses]);
-const solution=()=>G.done&&!G.won?new Set(bestPath(G.start,G.end,known())):new Set();
-const isShown=id=>id===G.start||id===G.end||G.guesses.includes(id)||solution().has(id);
-function newGame(mode){
-  if(mode==="daily"){const t=today();const saved=store.get("sbs-daily");
-    if(saved&&saved.date===t&&R[saved.start]){G=saved}else{const[s,e]=pick(rng("sbs-"+t));G={mode,date:t,start:s,end:e,guesses:[],hints:[],done:false,won:false}}}
-  else{const[s,e]=pick(Math.random);G={mode,start:s,end:e,guesses:[],hints:[],done:false,won:false}}
-  $("mDaily").setAttribute("aria-pressed",mode==="daily");$("mPractice").setAttribute("aria-pressed",mode!=="daily");
-  $("guess").value="";closeSugg();msg("");hideFact();overlayOpen=G.done;render();fitTo(G.done?[G.start,G.end,...G.guesses]:[G.start,G.end]);
-}
-function save(){if(G.mode==="daily")store.set("sbs-daily",G)}
-
-function guess(id){
-  if(G.done)return;
-  if(id===G.start||id===G.end){msg(L().already(nm(id)),true);return}
-  if(G.guesses.includes(id)){msg(L().dup(nm(id)),true);return}
-  G.guesses.push(id);G.hints=G.hints.filter(h=>h!==id);
-  const ex=excess(G.start,G.end,id);
-  msg(ex===0?L().ex0(nm(id)):ex>=3?L().exFar(nm(id)):L().exN(nm(id),ex));
-  if(connected(G.start,G.end,known())){G.done=true;G.won=true;finish()}
-  else if(G.guesses.length>=maxG()){G.done=true;G.won=false;finish()}
-  save();
-  if($("tFacts").checked)showFact(id);
-  render();
-  const b=R[id].b;if(G.done)fitTo([G.start,G.end,...G.guesses,...solution()]);else if(b[0]<vb.x||b[2]>vb.x+vb.w||b[1]<vb.y||b[3]>vb.y+vb.h)fitTo([G.start,G.end,...G.guesses]);
-}
-function hint(){if(G.done)return;const p=bestPath(G.start,G.end,known());const id=p.find(x=>!G.guesses.includes(x)&&!G.hints.includes(x))||p.find(x=>!G.guesses.includes(x));
-  if(!id)return;if(!G.hints.includes(id))G.hints.push(id);msg(L().hintMsg(L().C[R[id].cc],nm(id)[0]));save();render()}
-function giveUp(){if(G.done)return;G.done=true;G.won=false;G.gaveUp=true;finish();save();render();fitTo([G.start,G.end,...G.guesses,...solution()])}
-function finish(){overlayOpen=true;
-  if(G.mode==="daily"){const st=store.get("sbs-stats")||{played:0,won:0,perfect:0,last:null};if(st.last!==G.date){st.played++;if(G.won)st.won++;if(G.won&&G.guesses.length===D[G.start][G.end]-1&&!G.hints.length&&!G.borders)st.perfect++;st.last=G.date;store.set("sbs-stats",st)}}
-  requestAnimationFrame(()=>{const r=$("mapbox").getBoundingClientRect();if(r.top<0||r.bottom>innerHeight)$("mapbox").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})})}
-
-// ---- fact card ----
-function showFact(id){const r=R[id];if(!r.facts||!r.facts.length)return;
-  let k=Math.floor(Math.random()*r.facts.length);if(factId===id&&r.facts.length>1&&k===factIdx)k=(k+1)%r.facts.length;
-  factIdx=k;factId=id;renderFact();render()}
-function hideFact(){factId=null;$("fact").hidden=true;for(const el of Object.values(EL))el.classList.remove("focus")}
-function renderFact(){const id=factId;if(!id){$("fact").hidden=true;return}const r=R[id],f=r.facts[factIdx][LANG==="ru"?1:0];
-  $("fact").innerHTML=`<p><b>${L().btw}</b> ${esc(f)}</p><button class="x" type="button" aria-label="${L().close}" id="fx">×</button>`;
-  $("fact").hidden=false;$("fx").onclick=hideFact;
-  for(const [k,el] of Object.entries(EL))el.classList.toggle("focus",k===id)}
-
-// ---- render ----
-const DOTC=["var(--g0)","var(--g1)","var(--g2)","var(--g3)"];
-function render(){
-  const l=L(),sp=D[G.start][G.end]-1;
-  $("route").innerHTML=`<span class="pt">${esc(nm(G.start))}</span><span class="cc">${G.start.slice(0,2)}</span><span class="arrow">→</span><span class="pt">${esc(nm(G.end))}</span><span class="cc">${G.end.slice(0,2)}</span>`;
-  $("cShort").textContent=sp;$("cLeft").textContent=Math.max(0,maxG()-G.guesses.length);
-  const sol=solution();
-  for(const id of IDS){const el=EL[id];let c="r";let t=null;
-    if(id===G.start)c+=" on start",t=1;else if(id===G.end)c+=" on end",t=1;
-    else if(G.guesses.includes(id)){c+=" on s"+Math.min(excess(G.start,G.end,id),3);t=1}
-    else if(sol.has(id))c+=" sol",t=1;
-    else if(G.hints.includes(id))c+=" hinted";
-    if(id===factId)c+=" focus";
-    el.setAttribute("class",c);el.innerHTML=t?`<title>${esc(nm(id))} · ${esc(R[id].local)}</title>`:""}
-  svg.classList.toggle("borders",!!G.borders||G.done);
-  $("bordersBtn").textContent=G.borders?l.bordersOn:l.borders;$("bordersBtn").title=l.bordersTip;
-  gD.innerHTML="";gL.innerHTML="";
-  for(const id of [G.start,G.end,...G.guesses,...sol]){const[x,y]=R[id].c;
-    if(SMALL(id)){const c=document.createElementNS(NS,"circle");c.setAttribute("cx",x);c.setAttribute("cy",y);c.setAttribute("class","dot");c.dataset.id=id;
-      c.style.fill=id===G.start||id===G.end?"var(--accent)":sol.has(id)?"var(--accent-soft)":DOTC[Math.min(excess(G.start,G.end,id),3)];gD.appendChild(c)}
-    if($("tLabels").checked||id===G.start||id===G.end){const t=document.createElementNS(NS,"text");t.setAttribute("x",x);t.setAttribute("y",SMALL(id)?y-9*vb.w/1000:y);t.setAttribute("class","lbl");t.textContent=short(id);gL.appendChild(t)}}
-  scaleMarks();
-  $("guesses").innerHTML=G.guesses.map(id=>`<li data-id="${id}"><i style="background:${DOTC[Math.min(excess(G.start,G.end,id),3)]}"></i>${esc(nm(id))}</li>`).join("")+G.hints.filter(h=>!G.guesses.includes(h)).map(()=>`<li class="h"><i></i>${l.hintBtn}</li>`).join("");
-  $("form").hidden=G.done;$("donebar").hidden=!G.done;
-  $("over").hidden=!(G.done&&overlayOpen);
-  if(G.done){const over=G.guesses.length-sp,perfect=G.won&&over===0&&!G.hints.length&&!G.borders;
-    $("panel").classList.toggle("lost",!G.won);$("donebar").classList.toggle("lost",!G.won);
-    $("rKick").textContent=G.won?l.kWin:l.kLose;
-    $("rTitle").textContent=G.won?(perfect?l.tPerfect:l.tWin):G.gaveUp?l.tGave:l.tOut;
-    $("rText").textContent=G.won?l.winText(G.guesses.length,sp,over,G.hints.length,G.borders):l.loseText(bestPath(G.start,G.end,new Set([G.start,G.end])).map(nm).join(" → "));
-    $("doneText").textContent=G.won?l.doneWin(G.guesses.length,sp):l.doneLose;
-    const sq=["🟩","🟨","🟧","🟥"];
-    $("rShare").textContent=`${l.plain}${G.mode==="daily"?" #"+dayNo(G.date):" "+l.shareP}\n${short(G.start)} → ${short(G.end)}\n${G.guesses.map(id=>sq[Math.min(excess(G.start,G.end,id),3)]).join("")}${"💡".repeat(G.hints.length)}${G.borders?"🗺️":""} ${G.won?"✅":"❌"}\n${G.won?(over?l.shareOver(over):l.shareOk):l.shareFail}`;
-    $("next").textContent=$("next2").textContent=G.mode==="daily"?l.nextP:l.nextN;
-  }
-  if(factId)renderFact();
-}
-function msg(t,err){$("msg").textContent=t;$("msg").classList.toggle("err",!!err)}
-
-function applyLang(){const l=L();document.documentElement.lang=LANG;
-  $("h1").innerHTML=l.name;
-  document.querySelectorAll("[data-t]").forEach(el=>{el.textContent=l[el.dataset.t]});
-  $("guess").placeholder=l.ph;$("guess").setAttribute("aria-label",l.ph);$("copy").textContent=l.copy;
-  $("how").innerHTML=l.how;$("about").innerHTML=l.about;
-  $("lEn").setAttribute("aria-pressed",LANG==="en");$("lRu").setAttribute("aria-pressed",LANG==="ru");
-  $("divs").innerHTML=["KZ","KG","TJ","TM","UZ"].map(cc=>{const ids=IDS.filter(i=>R[i].cc===cc).sort((a,b)=>nm(a).localeCompare(nm(b),LANG));
-    return `<details><summary><span>${l.C[cc]}</span><small>${l.regions(ids.length)}</small></summary><div class="divtable"><table><thead><tr><th>${l.thR}</th><th>${l.thL}</th><th>${l.thC}</th><th>ISO</th></tr></thead><tbody>${ids.map(id=>`<tr><td>${esc(nm(id))}</td><td class="l">${esc(R[id].local)}</td><td class="l">${R[id].cap?esc(R[id].cap[LANG==="ru"?1:0]):"—"}</td><td class="l">${id==="TM-AR"?"—":id}</td></tr>`).join("")}</tbody></table></div></details>`}).join("");
-  if(G)render()}
-function setLang(x){LANG=x;savePrefs();applyLang();msg("")}
-function savePrefs(){store.set("sbs-prefs",{lang:LANG,labels:$("tLabels").checked,facts:$("tFacts").checked})}
-
-// ---- input / suggestions ----
-const inp=$("guess"),sug=$("sugg");let items=[],sel=0;
-function closeSugg(){sug.hidden=true;items=[]}
-function showSugg(){items=search(inp.value);sel=0;if(!items.length||!inp.value.trim()){closeSugg();return}
-  sug.innerHTML=items.map((id,i)=>`<li role="option" data-id="${id}" aria-selected="${i===sel}"><span>${esc(nm(id))}</span><span class="loc">${esc(R[id].local)} · ${L().C[R[id].cc]}</span></li>`).join("");sug.hidden=false}
-function mark(){[...sug.children].forEach((li,i)=>li.setAttribute("aria-selected",i===sel));sug.children[sel]?.scrollIntoView({block:"nearest"})}
-inp.addEventListener("input",showSugg);
-inp.addEventListener("keydown",e=>{if(sug.hidden)return;if(e.key==="ArrowDown"){sel=(sel+1)%items.length;mark();e.preventDefault()}else if(e.key==="ArrowUp"){sel=(sel-1+items.length)%items.length;mark();e.preventDefault()}else if(e.key==="Escape")closeSugg()});
-sug.addEventListener("pointerdown",e=>{const li=e.target.closest("li");if(li){e.preventDefault();submit(li.dataset.id)}});
-inp.addEventListener("blur",()=>setTimeout(closeSugg,120));
-function submit(id){if(!id){const q=inp.value.trim();if(!q)return;const r=search(q);if(!r.length){msg(L().unknown(q),true);return}id=items.length?items[sel]:r[0]}
-  inp.value="";closeSugg();guess(id);if(!G.done)inp.focus()}
-$("form").addEventListener("submit",e=>{e.preventDefault();submit(null)});
-$("hint").onclick=hint;$("giveup").onclick=giveUp;
-$("bordersBtn").onclick=()=>{if(G.done||G.borders)return;G.borders=true;msg(L().bordersMsg);save();render()};
-$("mDaily").onclick=()=>newGame("daily");$("mPractice").onclick=()=>newGame("practice");
-$("lEn").onclick=()=>setLang("en");$("lRu").onclick=()=>setLang("ru");
-$("next").onclick=$("next2").onclick=()=>newGame("practice");
-$("seeMap").onclick=()=>{overlayOpen=false;render()};
-$("showRes").onclick=()=>{overlayOpen=true;render();$("mapbox").scrollIntoView({block:"start"})};
-$("guesses").addEventListener("click",e=>{const li=e.target.closest("li[data-id]");if(li)showFact(li.dataset.id)});
-$("copy").onclick=()=>{const t=$("rShare").textContent;const done=()=>{$("copy").textContent=L().copied;setTimeout(()=>$("copy").textContent=L().copy,1600)};
-  try{navigator.clipboard.writeText(t).then(done,selectShare)}catch(e){selectShare()}};
-function selectShare(){const r=document.createRange();r.selectNodeContents($("rShare"));const s=getSelection();s.removeAllRanges();s.addRange(r);msg(L().selCopy)}
-const prefs=store.get("sbs-prefs")||{};if(prefs.labels===false)$("tLabels").checked=false;if(prefs.facts===false)$("tFacts").checked=false;
-$("tLabels").onchange=()=>{savePrefs();render()};$("tFacts").onchange=savePrefs;
-window.addEventListener("resize",scaleMarks);
-
-applyLang();
-function start(data){if(data&&data.G&&R[data.G.start]){G=data.G;overlayOpen=!!data.overlayOpen;render();fitTo([G.start,G.end,...G.guesses])}else newGame("daily")}
-window.claude?.hot?.snapshot?.(()=>({G,overlayOpen}));
-window.claude?.hot?.ready?window.claude.hot.ready(start):start(window.claude?.hot?.data??{});
-})();
+/*APP*/
 </script>

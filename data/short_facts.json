@@ -1,115 +1,1127 @@
 {
-"KZ-10": [["Abai Region is named after the poet Abai, who was born here in 1845.", "Абайская область названа в честь поэта Абая, родившегося здесь в 1845 году."],
-          ["the Soviet Union ran more than 450 nuclear tests in what is now Abai Region.", "на территории нынешней Абайской области СССР провёл более 450 ядерных испытаний."],
-          ["Dostoevsky spent five years in Semey, Abai Region's capital.", "Достоевский провёл пять лет в Семее, центре Абайской области."]],
-"KZ-11": [["Burabay in Akmola Region is nicknamed the 'Kazakh Switzerland'.", "Бурабай в Акмолинской области называют «казахстанской Швейцарией»."],
-          ["Akmola Region was at the heart of the Soviet Virgin Lands campaign.", "Акмолинская область была центром освоения целины."]],
-"KZ-15": [["Aktobe means 'white hill' in Kazakh.", "Актобе по-казахски значит «белый холм»."],
-          ["Aktobe Region holds some of the world's largest chromium ore reserves.", "в Актюбинской области — одни из крупнейших в мире запасов хромовой руды."]],
-"KZ-19": [["Almaty Region's capital moved to Konaev (ex-Kapshagay) in 2022.", "центр Алматинской области в 2022 году переехал в Конаев (бывший Капшагай)."],
-          ["Charyn Canyon, Kazakhstan's 'Grand Canyon', is in Almaty Region.", "Чарынский каньон — «казахстанский Гранд-Каньон» — находится в Алматинской области."]],
-"KZ-23": [["Atyrau city sits on the Ural River, where Europe meets Asia.", "Атырау стоит на реке Урал — на границе Европы и Азии."],
-          ["the giant Tengiz and Kashagan oil fields are both in Atyrau Region.", "гигантские нефтяные месторождения Тенгиз и Кашаган — в Атырауской области."]],
-"KZ-27": [["Oral (Uralsk) was founded by Cossacks back in 1613.", "Уральск основали казаки ещё в 1613 году."],
-          ["Pushkin visited Uralsk in 1833 to research Pugachev's rebellion.", "Пушкин приезжал в Уральск в 1833 году, собирая материал о пугачёвском бунте."]],
-"KZ-31": [["Taraz, Jambyl Region's capital, celebrated its 2,000th birthday in 2002.", "Тараз, центр Жамбылской области, отметил 2000-летие в 2002 году."],
-          ["Jambyl Region is named after Jambyl Jabayev, a famous improvising poet (akyn).", "Жамбылская область названа в честь знаменитого акына Жамбыла Жабаева."]],
-"KZ-33": [["Jetisu means 'Seven Rivers', the same as Semirechye in Russian.", "Жетысу значит «Семь рек», то же, что Семиречье."],
-          ["Jetisu Region only exists since 2022.", "Жетысуская область существует только с 2022 года."]],
-"KZ-35": [["Lake Balkhash in Karaganda Region is fresh at one end and salty at the other.", "озеро Балхаш в Карагандинской области с одного конца пресное, а с другого солёное."],
-          ["Karaganda city grew up around a 1930s coal basin.", "Караганда выросла в 1930-х годах вокруг угольного бассейна."]],
-"KZ-39": [["Kostanay was founded in 1879 under the name Nikolaevsk.", "Костанай основан в 1879 году под названием Николаевск."],
-          ["Kostanay Region's Naurzum reserve is a UNESCO World Heritage Site.", "Наурзумский заповедник в Костанайской области — объект ЮНЕСКО."]],
-"KZ-43": [["Gagarin launched from Baikonur, in Kyzylorda Region.", "Гагарин стартовал с Байконура в Кызылординской области."],
-          ["Kyzylorda was the capital of Soviet Kazakhstan from 1925 to 1929.", "Кызылорда была столицей Казахской АССР в 1925–1929 годах."]],
-"KZ-47": [["the Karagiye Depression in Mangystau Region is 132 m below sea level.", "впадина Карагие в Мангистауской области лежит на 132 м ниже уровня моря."],
-          ["Aktau was called Shevchenko until 1991.", "Актау до 1991 года назывался Шевченко."]],
-"KZ-55": [["Bayanaul in Pavlodar Region was Kazakhstan's first national park.", "Баянаул в Павлодарской области — первый национальный парк Казахстана."],
-          ["Ekibastuz in Pavlodar Region has one of the world's biggest open-pit coal mines.", "в Экибастузе (Павлодарская область) — один из крупнейших угольных разрезов мира."]],
-"KZ-59": [["Petropavl started out as a fortress in 1752.", "Петропавловск начинался как крепость в 1752 году."],
-          ["North Kazakhstan Region is the country's northernmost region.", "Северо-Казахстанская область — самый северный регион страны."]],
-"KZ-61": [["Turkistan's Yasawi Mausoleum was begun on Timur's orders.", "мавзолей Ясави в Туркестане начали строить по приказу Тимура."],
-          ["Turkistan Region was called South Kazakhstan until 2018.", "Туркестанская область до 2018 года называлась Южно-Казахстанской."]],
-"KZ-62": [["Ulytau Region was only created in 2022.", "Улытауская область создана только в 2022 году."],
-          ["tradition says Genghis Khan's son Jochi is buried in Ulytau Region.", "по преданию, в Улытауской области похоронен Джучи, сын Чингисхана."]],
-"KZ-63": [["Mount Belukha (4,506 m), the Altai's highest peak, is in East Kazakhstan.", "Белуха (4506 м), высшая точка Алтая, — в Восточно-Казахстанской области."],
-          ["Oskemen is still officially called Ust-Kamenogorsk in Russian.", "по-русски Оскемен официально по-прежнему Усть-Каменогорск."]],
-"KZ-71": [["Astana was called Nur-Sultan from 2019 to 2022.", "Астана называлась Нур-Султаном с 2019 по 2022 год."],
-          ["the Bayterek tower in Astana is 97 m tall, for 1997, the year the capital moved.", "Байтерек в Астане высотой 97 м — в честь 1997 года, когда перенесли столицу."]],
-"KZ-75": [["Almaty began in 1854 as the Russian fort Verny.", "Алматы начинался в 1854 году как укрепление Верный."],
-          ["Almaty's Medeu skating rink sits at about 1,690 m.", "каток «Медеу» в Алматы находится на высоте около 1690 м."]],
-"KZ-79": [["Shymkent is Kazakhstan's third-largest city.", "Шымкент — третий по величине город Казахстана."],
-          ["Shymkent celebrated its 2,200th birthday in 2011.", "Шымкент отметил 2200-летие в 2011 году."]],
-"KG-B": [["Batken Region surrounds enclaves of both Uzbekistan and Tajikistan.", "внутри Баткенской области есть анклавы и Узбекистана, и Таджикистана."],
-         ["Batken is famous for its apricots.", "Баткен славится абрикосами."]],
-"KG-C": [["the Burana Tower in Chüy Region is almost 1,000 years old.", "башне Бурана в Чуйской области почти тысяча лет."],
-         ["Ala-Archa National Park in Chüy Region is less than an hour from Bishkek.", "до национального парка Ала-Арча в Чуйской области меньше часа от Бишкека."]],
-"KG-Y": [["Lake Issyk-Kul never freezes, even in winter.", "Иссык-Куль не замерзает даже зимой."],
-         ["Issyk-Kul hosted the World Nomad Games three times.", "на Иссык-Куле трижды проходили Всемирные игры кочевников."]],
-"KG-J": [["Arslanbob in Jalal-Abad Region has one of the world's largest walnut forests.", "в Арсланбобе (Джалал-Абадская область) — один из крупнейших ореховых лесов мира."],
-         ["Jalal-Abad city was renamed Manas in 2025.", "город Джалал-Абад в 2025 году переименовали в Манас."]],
-"KG-N": [["almost all of Naryn Region lies above 2,000 m.", "почти вся Нарынская область лежит выше 2000 м."],
-         ["Tash Rabat in Naryn Region is a stone caravanserai on the old road to Kashgar.", "Таш-Рабат в Нарынской области — каменный караван-сарай на старом пути в Кашгар."]],
-"KG-O": [["Lenin Peak (7,134 m) stands on Osh Region's border with Tajikistan.", "пик Ленина (7134 м) стоит на границе Ошской области с Таджикистаном."],
-         ["the Pamir Highway starts in Osh.", "Памирский тракт начинается в Оше."]],
-"KG-T": [["the Battle of Talas in 751 pitted the Abbasids against Tang China.", "в битве при Таласе в 751 году сошлись Аббасиды и танский Китай."],
-         ["tradition says the epic hero Manas is buried in Talas Region.", "по преданию, эпический герой Манас похоронен в Таласской области."]],
-"KG-GB": [["Bishkek was called Frunze from 1926 to 1991.", "Бишкек назывался Фрунзе с 1926 по 1991 год."],
-          ["Bishkek is the capital of Kyrgyzstan and of Chüy Region at the same time.", "Бишкек — одновременно столица Кыргызстана и центр Чуйской области."]],
-"KG-GO": [["Osh officially celebrated its 3,000th birthday in 2000.", "Ош официально отметил 3000-летие в 2000 году."],
-          ["Sulaiman-Too in Osh was Kyrgyzstan's first UNESCO site.", "Сулайман-Тоо в Оше — первый объект ЮНЕСКО в Кыргызстане."]],
-"TJ-SU": [["Khujand was founded by Alexander the Great in 329 BC.", "Худжанд основал Александр Македонский в 329 году до н. э."],
-          ["the Kayrakkum Reservoir in Sughd Region is nicknamed the 'Tajik Sea'.", "Кайраккумское водохранилище в Согдийской области называют «Таджикским морем»."]],
-"TJ-RA": [["the Districts of Republican Subordination aren't a province: they're run straight from Dushanbe.", "Районы республиканского подчинения — не область: ими управляют прямо из Душанбе."],
-          ["the Hisor Fortress, just west of Dushanbe, has guarded its valley for centuries.", "Гиссарская крепость к западу от Душанбе веками охраняла долину."]],
-"TJ-KT": [["the Nurek Dam in Khatlon Region is about 300 m tall.", "высота Нурекской плотины в Хатлонской области — около 300 м."],
-          ["Bokhtar was called Kurgan-Tyube until 2018.", "Бохтар до 2018 года назывался Курган-Тюбе."]],
-"TJ-GB": [["Gorno-Badakhshan covers about 45% of Tajikistan but has only 2–3% of its people.", "ГБАО занимает около 45% Таджикистана, но там живёт лишь 2–3% населения."],
-          ["Ismoil Somoni Peak (7,495 m) in Gorno-Badakhshan was the USSR's highest point.", "пик Исмоила Сомони (7495 м) в ГБАО был высшей точкой СССР."]],
-"TJ-DU": [["Dushanbe means 'Monday': it grew from a Monday market.", "«Душанбе» значит «понедельник»: город вырос из понедельничного базара."],
-          ["Dushanbe was called Stalinabad from 1929 to 1961.", "Душанбе назывался Сталинабадом с 1929 по 1961 год."]],
-"TM-A": [["Ahal Region is the home of the Akhal-Teke horse.", "Ахалский велаят — родина ахалтекинских лошадей."],
-         ["the Darvaza gas crater in Ahal Region has been burning since the 1970s.", "газовый кратер Дарваза в Ахалском велаяте горит с 1970-х годов."]],
-"TM-B": [["Garabogazköl in Balkan Region is one of the saltiest waters on Earth.", "залив Кара-Богаз-Гол в Балканском велаяте — один из самых солёных водоёмов Земли."],
-         ["the port of Türkmenbaşy was called Krasnovodsk until 1993.", "порт Туркменбаши до 1993 года назывался Красноводск."]],
-"TM-D": [["Köneürgenç in Dashoguz Region was once the capital of Khwarazm.", "Кёнеургенч в Дашогузском велаяте когда-то был столицей Хорезма."],
-         ["Dashoguz was called Tashauz in Soviet times.", "в советское время Дашогуз назывался Ташауз."]],
-"TM-L": [["Lebap means 'riverbank'. The region follows the Amu Darya.", "«Лебап» значит «берег реки»: велаят тянется вдоль Амударьи."],
-         ["Turkmenistan's highest peak, Aýrybaba (3,137 m), is in Lebap Region.", "высшая точка Туркменистана, гора Айрыбаба (3137 м), — в Лебапском велаяте."]],
-"TM-M": [["ancient Merv, in Mary Region, was one of the world's biggest cities in the 12th century.", "древний Мерв в Марыйском велаяте в XII веке был одним из крупнейших городов мира."],
-         ["Galkynyş in Mary Region is one of the world's largest gas fields.", "Галкыныш в Марыйском велаяте — одно из крупнейших газовых месторождений мира."]],
-"TM-S": [["Ashgabat holds the Guinness record for the most white-marble buildings.", "у Ашхабада рекорд Гиннесса по числу зданий из белого мрамора."],
-         ["Ashgabat was almost completely destroyed by an earthquake in 1948.", "Ашхабад был почти полностью разрушен землетрясением 1948 года."]],
-"TM-AR": [["Arkadag only opened in 2023.", "Аркадаг открылся только в 2023 году."],
-          ["Arkadag is named after the title of former president Gurbanguly Berdimuhamedow.", "Аркадаг назван по титулу бывшего президента Гурбангулы Бердымухамедова."]],
-"UZ-QR": [["Karakalpakstan has its own constitution.", "у Каракалпакстана своя конституция."],
-          ["Nukus's Savitsky Museum has one of the biggest collections of Russian avant-garde art.", "в музее Савицкого в Нукусе — одно из крупнейших собраний русского авангарда."],
-          ["Moynaq was once an Aral Sea port. Now its ships rust in the desert.", "Муйнак был портом на Арале; теперь его корабли ржавеют в пустыне."]],
-"UZ-XO": [["Khiva was Central Asia's first UNESCO World Heritage Site.", "Хива — первый объект ЮНЕСКО в Центральной Азии."],
-          ["the word 'algorithm' comes from al-Khwarizmi, a scholar from Khorezm.", "слово «алгоритм» — от имени аль-Хорезми, уроженца Хорезма."]],
-"UZ-BU": [["Bukhara is more than 2,500 years old.", "Бухаре больше 2500 лет."],
-          ["Avicenna was born near Bukhara in 980.", "Авиценна родился под Бухарой в 980 году."]],
-"UZ-NW": [["Muruntau in Navoi Region is one of the world's largest gold mines.", "Мурунтау в Навоийской области — один из крупнейших золотых рудников мира."],
-          ["Navoi city was only founded in 1958.", "город Навои основан только в 1958 году."]],
-"UZ-SA": [["Timur is buried in Samarkand's Gur-e-Amir mausoleum.", "Тимур похоронен в Самарканде, в мавзолее Гур-Эмир."],
-          ["Ulugh Beg built his observatory in Samarkand in the 1420s.", "Улугбек построил обсерваторию в Самарканде в 1420-х годах."]],
-"UZ-QA": [["Timur was born in Shahrisabz, in Kashkadarya Region.", "Тимур родился в Шахрисабзе, в Кашкадарьинской области."],
-          ["Karshi was called Nasaf in the Middle Ages.", "в средние века Карши назывался Насаф."]],
-"UZ-SU": [["Surkhandarya is Uzbekistan's southernmost region, across the river from Afghanistan.", "Сурхандарья — самая южная область Узбекистана, за рекой уже Афганистан."],
-          ["Termez was a major Buddhist centre long before Islam arrived.", "Термез был крупным буддийским центром задолго до прихода ислама."]],
-"UZ-JI": [["Timur's Gate in Jizzakh Region has inscriptions carved by Ulugh Beg.", "на скалах «Ворот Тамерлана» в Джизакской области — надписи Улугбека."],
-          ["Lake Aydarkul formed by accident in 1969, from Syr Darya floodwater.", "озеро Айдаркуль образовалось случайно в 1969 году из паводковых вод Сырдарьи."]],
-"UZ-SI": [["Syrdarya Region lies in the 'Hungry Steppe', a desert turned farmland.", "Сырдарьинская область лежит в Голодной степи — пустыне, ставшей полями."],
-          ["the Syrdarya power station is one of Central Asia's largest.", "Сырдарьинская ТЭС — одна из крупнейших в Центральной Азии."]],
-"UZ-TO": [["Chimgan and Charvak are Tashkent's favourite mountain escapes.", "Чимган и Чарвак — любимые горные места отдыха ташкентцев."],
-          ["Tashkent Region's capital, Nurafshon, used to be called Toytepa.", "центр Ташкентской области Нурафшан раньше назывался Тойтепа."]],
-"UZ-TK": [["Tashkent is the largest city in Central Asia.", "Ташкент — крупнейший город Центральной Азии."],
-          ["Tashkent's metro, opened in 1977, was the first in Central Asia.", "Ташкентское метро, открытое в 1977 году, — первое в Центральной Азии."]],
-"UZ-NG": [["Namangan is called the 'city of flowers'.", "Наманган называют «городом цветов»."],
-          ["Chust in Namangan Region is famous for its knives.", "Чуст в Наманганской области славится ножами."]],
-"UZ-AN": [["Babur, founder of the Mughal Empire, was born in Andijan.", "Бабур, основатель империи Великих Моголов, родился в Андижане."],
-          ["most of Uzbekistan's cars are made in Asaka, Andijan Region.", "большинство автомобилей Узбекистана делают в Асаке, Андижанская область."]],
-"UZ-FA": [["Margilan in Fergana Region has made silk for centuries.", "в Маргилане (Ферганская область) шёлк ткут веками."],
-          ["Rishtan in Fergana Region is famous for blue ceramics.", "Риштан в Ферганской области знаменит голубой керамикой."],
-          ["the Shakhimardan enclave, surrounded by Kyrgyzstan, belongs to Fergana Region.", "анклав Шахимардан внутри Кыргызстана относится к Ферганской области."]]
+ "KZ-10": [
+  [
+   "Abai Region is named after the poet Abai, who was born here in 1845.",
+   "Абайская область названа в честь поэта Абая, родившегося здесь в 1845 году.",
+   "Абай облысы 1845 жылы осында туған ақын Абайдың құрметіне аталған."
+  ],
+  [
+   "the Soviet Union ran more than 450 nuclear tests in what is now Abai Region.",
+   "на территории нынешней Абайской области СССР провёл более 450 ядерных испытаний.",
+   "қазіргі Абай облысының аумағында КСРО 450-ден астам ядролық сынақ өткізген."
+  ],
+  [
+   "Dostoevsky spent five years in Semey, Abai Region's capital.",
+   "Достоевский провёл пять лет в Семее, центре Абайской области.",
+   "Достоевский Абай облысының орталығы Семейде бес жыл өткізген."
+  ]
+ ],
+ "KZ-11": [
+  [
+   "Burabay in Akmola Region is nicknamed the 'Kazakh Switzerland'.",
+   "Бурабай в Акмолинской области называют «казахстанской Швейцарией».",
+   "Ақмола облысындағы Бурабайды «Қазақстан Швейцариясы» деп атайды."
+  ],
+  [
+   "Akmola Region was at the heart of the Soviet Virgin Lands campaign.",
+   "Акмолинская область была центром освоения целины.",
+   "Ақмола облысы кеңестік тың игерудің орталығы болған."
+  ]
+ ],
+ "KZ-15": [
+  [
+   "Aktobe means 'white hill' in Kazakh.",
+   "Актобе по-казахски значит «белый холм».",
+   "«Ақтөбе» атауы «ақ төбе» деген мағынаны береді."
+  ],
+  [
+   "Aktobe Region holds some of the world's largest chromium ore reserves.",
+   "в Актюбинской области — одни из крупнейших в мире запасов хромовой руды.",
+   "Ақтөбе облысында әлемдегі ең ірі хром кені қорларының бірі бар."
+  ]
+ ],
+ "KZ-19": [
+  [
+   "Almaty Region's capital moved to Konaev (ex-Kapshagay) in 2022.",
+   "центр Алматинской области в 2022 году переехал в Конаев (бывший Капшагай).",
+   "Алматы облысының орталығы 2022 жылы Қонаевқа (бұрынғы Қапшағай) көшті."
+  ],
+  [
+   "Charyn Canyon, Kazakhstan's 'Grand Canyon', is in Almaty Region.",
+   "Чарынский каньон — «казахстанский Гранд-Каньон» — находится в Алматинской области.",
+   "«Қазақстанның Гранд-Каньоны» — Шарын шатқалы Алматы облысында."
+  ]
+ ],
+ "KZ-23": [
+  [
+   "Atyrau city sits on the Ural River, where Europe meets Asia.",
+   "Атырау стоит на реке Урал — на границе Европы и Азии.",
+   "Атырау қаласы Еуропа мен Азия түйісетін Жайық өзенінің бойында тұр."
+  ],
+  [
+   "the giant Tengiz and Kashagan oil fields are both in Atyrau Region.",
+   "гигантские нефтяные месторождения Тенгиз и Кашаган — в Атырауской области.",
+   "Теңіз және Қашаған алып мұнай кен орындары Атырау облысында."
+  ]
+ ],
+ "KZ-27": [
+  [
+   "Oral (Uralsk) was founded by Cossacks back in 1613.",
+   "Уральск основали казаки ещё в 1613 году.",
+   "Оралдың негізін 1613 жылы казактар қалаған."
+  ],
+  [
+   "Pushkin visited Uralsk in 1833 to research Pugachev's rebellion.",
+   "Пушкин приезжал в Уральск в 1833 году, собирая материал о пугачёвском бунте.",
+   "Пушкин 1833 жылы Пугачев көтерілісі туралы дерек жинау үшін Оралға келген."
+  ]
+ ],
+ "KZ-31": [
+  [
+   "Taraz, Jambyl Region's capital, celebrated its 2,000th birthday in 2002.",
+   "Тараз, центр Жамбылской области, отметил 2000-летие в 2002 году.",
+   "Жамбыл облысының орталығы Тараз 2002 жылы 2000 жылдығын тойлады."
+  ],
+  [
+   "Jambyl Region is named after Jambyl Jabayev, a famous improvising poet (akyn).",
+   "Жамбылская область названа в честь знаменитого акына Жамбыла Жабаева.",
+   "Жамбыл облысы әйгілі ақын Жамбыл Жабаевтың құрметіне аталған."
+  ]
+ ],
+ "KZ-33": [
+  [
+   "Jetisu means 'Seven Rivers', the same as Semirechye in Russian.",
+   "Жетысу значит «Семь рек», то же, что Семиречье.",
+   "Жетісу — «жеті өзен» деген сөз, орысша Семиречье."
+  ],
+  [
+   "Jetisu Region only exists since 2022.",
+   "Жетысуская область существует только с 2022 года.",
+   "Жетісу облысы тек 2022 жылдан бері бар."
+  ]
+ ],
+ "KZ-35": [
+  [
+   "Lake Balkhash in Karaganda Region is fresh at one end and salty at the other.",
+   "озеро Балхаш в Карагандинской области с одного конца пресное, а с другого солёное.",
+   "Қарағанды облысындағы Балқаш көлінің бір жағы тұщы, екінші жағы тұзды."
+  ],
+  [
+   "Karaganda city grew up around a 1930s coal basin.",
+   "Караганда выросла в 1930-х годах вокруг угольного бассейна.",
+   "Қарағанды қаласы 1930 жылдары көмір бассейнінің айналасында өсті."
+  ]
+ ],
+ "KZ-39": [
+  [
+   "Kostanay was founded in 1879 under the name Nikolaevsk.",
+   "Костанай основан в 1879 году под названием Николаевск.",
+   "Қостанайдың негізі 1879 жылы Николаевск деген атпен қаланған."
+  ],
+  [
+   "Kostanay Region's Naurzum reserve is a UNESCO World Heritage Site.",
+   "Наурзумский заповедник в Костанайской области — объект ЮНЕСКО.",
+   "Қостанай облысындағы Наурызым қорығы — ЮНЕСКО мұрасы."
+  ]
+ ],
+ "KZ-43": [
+  [
+   "Gagarin launched from Baikonur, in Kyzylorda Region.",
+   "Гагарин стартовал с Байконура в Кызылординской области.",
+   "Гагарин Қызылорда облысындағы Байқоңырдан ұшқан."
+  ],
+  [
+   "Kyzylorda was the capital of Soviet Kazakhstan from 1925 to 1929.",
+   "Кызылорда была столицей Казахской АССР в 1925–1929 годах.",
+   "Қызылорда 1925–1929 жылдары Қазақ АКСР-інің астанасы болған."
+  ]
+ ],
+ "KZ-47": [
+  [
+   "the Karagiye Depression in Mangystau Region is 132 m below sea level.",
+   "впадина Карагие в Мангистауской области лежит на 132 м ниже уровня моря.",
+   "Маңғыстау облысындағы Қарақия ойысы теңіз деңгейінен 132 м төмен."
+  ],
+  [
+   "Aktau was called Shevchenko until 1991.",
+   "Актау до 1991 года назывался Шевченко.",
+   "Ақтау 1991 жылға дейін Шевченко деп аталған."
+  ]
+ ],
+ "KZ-55": [
+  [
+   "Bayanaul in Pavlodar Region was Kazakhstan's first national park.",
+   "Баянаул в Павлодарской области — первый национальный парк Казахстана.",
+   "Павлодар облысындағы Баянауыл — Қазақстанның тұңғыш ұлттық паркі."
+  ],
+  [
+   "Ekibastuz in Pavlodar Region has one of the world's biggest open-pit coal mines.",
+   "в Экибастузе (Павлодарская область) — один из крупнейших угольных разрезов мира.",
+   "Павлодар облысындағы Екібастұзда әлемдегі ең ірі көмір разрездерінің бірі бар."
+  ]
+ ],
+ "KZ-59": [
+  [
+   "Petropavl started out as a fortress in 1752.",
+   "Петропавловск начинался как крепость в 1752 году.",
+   "Петропавл 1752 жылы бекініс ретінде басталған."
+  ],
+  [
+   "North Kazakhstan Region is the country's northernmost region.",
+   "Северо-Казахстанская область — самый северный регион страны.",
+   "Солтүстік Қазақстан облысы — елдің ең солтүстіктегі өңірі."
+  ]
+ ],
+ "KZ-61": [
+  [
+   "Turkistan's Yasawi Mausoleum was begun on Timur's orders.",
+   "мавзолей Ясави в Туркестане начали строить по приказу Тимура.",
+   "Түркістандағы Ясауи кесенесін Әмір Темірдің бұйрығымен сала бастаған."
+  ],
+  [
+   "Turkistan Region was called South Kazakhstan until 2018.",
+   "Туркестанская область до 2018 года называлась Южно-Казахстанской.",
+   "Түркістан облысы 2018 жылға дейін Оңтүстік Қазақстан облысы деп аталған."
+  ]
+ ],
+ "KZ-62": [
+  [
+   "Ulytau Region was only created in 2022.",
+   "Улытауская область создана только в 2022 году.",
+   "Ұлытау облысы тек 2022 жылы құрылды."
+  ],
+  [
+   "tradition says Genghis Khan's son Jochi is buried in Ulytau Region.",
+   "по преданию, в Улытауской области похоронен Джучи, сын Чингисхана.",
+   "аңыз бойынша Шыңғыс ханның ұлы Жошы Ұлытау облысында жерленген."
+  ]
+ ],
+ "KZ-63": [
+  [
+   "Mount Belukha (4,506 m), the Altai's highest peak, is in East Kazakhstan.",
+   "Белуха (4506 м), высшая точка Алтая, — в Восточно-Казахстанской области.",
+   "Алтайдың ең биік шыңы Мұзтау (Белуха, 4506 м) Шығыс Қазақстан облысында."
+  ],
+  [
+   "Oskemen is still officially called Ust-Kamenogorsk in Russian.",
+   "по-русски Оскемен официально по-прежнему Усть-Каменогорск.",
+   "Өскемен орыс тілінде ресми түрде әлі де Усть-Каменогорск деп аталады."
+  ]
+ ],
+ "KZ-71": [
+  [
+   "Astana was called Nur-Sultan from 2019 to 2022.",
+   "Астана называлась Нур-Султаном с 2019 по 2022 год.",
+   "Астана 2019–2022 жылдары Нұр-Сұлтан деп аталған."
+  ],
+  [
+   "the Bayterek tower in Astana is 97 m tall, for 1997, the year the capital moved.",
+   "Байтерек в Астане высотой 97 м — в честь 1997 года, когда перенесли столицу.",
+   "Астанадағы Бәйтеректің биіктігі 97 м — астана көшкен 1997 жылдың құрметіне."
+  ]
+ ],
+ "KZ-75": [
+  [
+   "Almaty began in 1854 as the Russian fort Verny.",
+   "Алматы начинался в 1854 году как укрепление Верный.",
+   "Алматы 1854 жылы Верный бекінісі ретінде басталған."
+  ],
+  [
+   "Almaty's Medeu skating rink sits at about 1,690 m.",
+   "каток «Медеу» в Алматы находится на высоте около 1690 м.",
+   "Алматыдағы «Медеу» мұз айдыны шамамен 1690 м биіктікте орналасқан."
+  ]
+ ],
+ "KZ-79": [
+  [
+   "Shymkent is Kazakhstan's third-largest city.",
+   "Шымкент — третий по величине город Казахстана.",
+   "Шымкент — Қазақстандағы үшінші ірі қала."
+  ],
+  [
+   "Shymkent celebrated its 2,200th birthday in 2011.",
+   "Шымкент отметил 2200-летие в 2011 году.",
+   "Шымкент 2011 жылы 2200 жылдығын тойлады."
+  ]
+ ],
+ "KG-B": [
+  [
+   "Batken Region surrounds enclaves of both Uzbekistan and Tajikistan.",
+   "внутри Баткенской области есть анклавы и Узбекистана, и Таджикистана.",
+   "Баткен облысының ішінде Өзбекстанның да, Тәжікстанның да анклавтары бар."
+  ],
+  [
+   "Batken is famous for its apricots.",
+   "Баткен славится абрикосами.",
+   "Баткен өрігімен әйгілі."
+  ]
+ ],
+ "KG-C": [
+  [
+   "the Burana Tower in Chüy Region is almost 1,000 years old.",
+   "башне Бурана в Чуйской области почти тысяча лет.",
+   "Шу облысындағы Бұрана мұнарасына мыңға жуық жыл."
+  ],
+  [
+   "Ala-Archa National Park in Chüy Region is less than an hour from Bishkek.",
+   "до национального парка Ала-Арча в Чуйской области меньше часа от Бишкека.",
+   "Шу облысындағы Ала-Арча ұлттық паркіне Бішкектен бір сағатқа жетпей жетуге болады."
+  ]
+ ],
+ "KG-Y": [
+  [
+   "Lake Issyk-Kul never freezes, even in winter.",
+   "Иссык-Куль не замерзает даже зимой.",
+   "Ыстықкөл қыста да қатпайды."
+  ],
+  [
+   "Issyk-Kul hosted the World Nomad Games three times.",
+   "на Иссык-Куле трижды проходили Всемирные игры кочевников.",
+   "Ыстықкөлде Дүниежүзілік көшпенділер ойындары үш рет өтті."
+  ]
+ ],
+ "KG-J": [
+  [
+   "Arslanbob in Jalal-Abad Region has one of the world's largest walnut forests.",
+   "в Арсланбобе (Джалал-Абадская область) — один из крупнейших ореховых лесов мира.",
+   "Жалалабад облысындағы Арсланбапта әлемдегі ең ірі жаңғақ ормандарының бірі бар."
+  ],
+  [
+   "Jalal-Abad city was renamed Manas in 2025.",
+   "город Джалал-Абад в 2025 году переименовали в Манас.",
+   "Жалалабад қаласы 2025 жылы Манас болып өзгертілді."
+  ]
+ ],
+ "KG-N": [
+  [
+   "almost all of Naryn Region lies above 2,000 m.",
+   "почти вся Нарынская область лежит выше 2000 м.",
+   "Нарын облысы түгелге жуық 2000 м-ден биік жатыр."
+  ],
+  [
+   "Tash Rabat in Naryn Region is a stone caravanserai on the old road to Kashgar.",
+   "Таш-Рабат в Нарынской области — каменный караван-сарай на старом пути в Кашгар.",
+   "Нарын облысындағы Таш-Рабат — Қашқарға баратын ескі жолдағы тас керуен-сарай."
+  ]
+ ],
+ "KG-O": [
+  [
+   "Lenin Peak (7,134 m) stands on Osh Region's border with Tajikistan.",
+   "пик Ленина (7134 м) стоит на границе Ошской области с Таджикистаном.",
+   "Ленин шыңы (7134 м) Ош облысының Тәжікстанмен шекарасында тұр."
+  ],
+  [
+   "the Pamir Highway starts in Osh.",
+   "Памирский тракт начинается в Оше.",
+   "Памир тас жолы Оштан басталады."
+  ]
+ ],
+ "KG-T": [
+  [
+   "the Battle of Talas in 751 pitted the Abbasids against Tang China.",
+   "в битве при Таласе в 751 году сошлись Аббасиды и танский Китай.",
+   "751 жылғы Талас шайқасында Аббасидтер мен Таң Қытайы соғысқан."
+  ],
+  [
+   "tradition says the epic hero Manas is buried in Talas Region.",
+   "по преданию, эпический герой Манас похоронен в Таласской области.",
+   "аңыз бойынша эпос батыры Манас Талас облысында жерленген."
+  ]
+ ],
+ "KG-GB": [
+  [
+   "Bishkek was called Frunze from 1926 to 1991.",
+   "Бишкек назывался Фрунзе с 1926 по 1991 год.",
+   "Бішкек 1926–1991 жылдары Фрунзе деп аталған."
+  ],
+  [
+   "Bishkek is the capital of Kyrgyzstan and of Chüy Region at the same time.",
+   "Бишкек — одновременно столица Кыргызстана и центр Чуйской области.",
+   "Бішкек — әрі Қырғызстанның астанасы, әрі Шу облысының орталығы."
+  ]
+ ],
+ "KG-GO": [
+  [
+   "Osh officially celebrated its 3,000th birthday in 2000.",
+   "Ош официально отметил 3000-летие в 2000 году.",
+   "Ош 2000 жылы 3000 жылдығын ресми түрде тойлады."
+  ],
+  [
+   "Sulaiman-Too in Osh was Kyrgyzstan's first UNESCO site.",
+   "Сулайман-Тоо в Оше — первый объект ЮНЕСКО в Кыргызстане.",
+   "Оштағы Сүлеймен тауы — Қырғызстандағы ЮНЕСКО-ның тұңғыш нысаны."
+  ]
+ ],
+ "TJ-SU": [
+  [
+   "Khujand was founded by Alexander the Great in 329 BC.",
+   "Худжанд основал Александр Македонский в 329 году до н. э.",
+   "Хұжандтың негізін б. з. б. 329 жылы Ескендір Зұлқарнайын қалаған."
+  ],
+  [
+   "the Kayrakkum Reservoir in Sughd Region is nicknamed the 'Tajik Sea'.",
+   "Кайраккумское водохранилище в Согдийской области называют «Таджикским морем».",
+   "Соғды облысындағы Қайраққұм су қоймасын «Тәжік теңізі» деп атайды."
+  ]
+ ],
+ "TJ-RA": [
+  [
+   "the Districts of Republican Subordination aren't a province: they're run straight from Dushanbe.",
+   "Районы республиканского подчинения — не область: ими управляют прямо из Душанбе.",
+   "Республикалық бағыныстағы аудандар облыс емес: оларды тікелей Душанбеден басқарады."
+  ],
+  [
+   "the Hisor Fortress, just west of Dushanbe, has guarded its valley for centuries.",
+   "Гиссарская крепость к западу от Душанбе веками охраняла долину.",
+   "Душанбенің батысындағы Хисар қамалы ғасырлар бойы алқапты күзеткен."
+  ]
+ ],
+ "TJ-KT": [
+  [
+   "the Nurek Dam in Khatlon Region is about 300 m tall.",
+   "высота Нурекской плотины в Хатлонской области — около 300 м.",
+   "Хатлон облысындағы Нұрек бөгетінің биіктігі шамамен 300 м."
+  ],
+  [
+   "Bokhtar was called Kurgan-Tyube until 2018.",
+   "Бохтар до 2018 года назывался Курган-Тюбе.",
+   "Бохтар 2018 жылға дейін Қорғантөбе деп аталған."
+  ]
+ ],
+ "TJ-GB": [
+  [
+   "Gorno-Badakhshan covers about 45% of Tajikistan but has only 2–3% of its people.",
+   "ГБАО занимает около 45% Таджикистана, но там живёт лишь 2–3% населения.",
+   "Таулы Бадахшан Тәжікстан аумағының 45%-ын алады, бірақ онда халықтың тек 2–3%-ы тұрады."
+  ],
+  [
+   "Ismoil Somoni Peak (7,495 m) in Gorno-Badakhshan was the USSR's highest point.",
+   "пик Исмоила Сомони (7495 м) в ГБАО был высшей точкой СССР.",
+   "Таулы Бадахшандағы Исмаил Сомони шыңы (7495 м) КСРО-ның ең биік нүктесі болған."
+  ]
+ ],
+ "TJ-DU": [
+  [
+   "Dushanbe means 'Monday': it grew from a Monday market.",
+   "«Душанбе» значит «понедельник»: город вырос из понедельничного базара.",
+   "«Душанбе» — «дүйсенбі» деген сөз: қала дүйсенбі базарынан өсіп шыққан."
+  ],
+  [
+   "Dushanbe was called Stalinabad from 1929 to 1961.",
+   "Душанбе назывался Сталинабадом с 1929 по 1961 год.",
+   "Душанбе 1929–1961 жылдары Сталинабад деп аталған."
+  ]
+ ],
+ "TM-A": [
+  [
+   "Ahal Region is the home of the Akhal-Teke horse.",
+   "Ахалский велаят — родина ахалтекинских лошадей.",
+   "Ахал уәлаяты — ахалтеке жылқысының отаны."
+  ],
+  [
+   "the Darvaza gas crater in Ahal Region has been burning since the 1970s.",
+   "газовый кратер Дарваза в Ахалском велаяте горит с 1970-х годов.",
+   "Ахал уәлаятындағы Дарваза газ кратері 1970 жылдардан бері жанып жатыр."
+  ]
+ ],
+ "TM-B": [
+  [
+   "Garabogazköl in Balkan Region is one of the saltiest waters on Earth.",
+   "залив Кара-Богаз-Гол в Балканском велаяте — один из самых солёных водоёмов Земли.",
+   "Балқан уәлаятындағы Қарабұғаз шығанағы — жердегі ең тұзды су айдындарының бірі."
+  ],
+  [
+   "the port of Türkmenbaşy was called Krasnovodsk until 1993.",
+   "порт Туркменбаши до 1993 года назывался Красноводск.",
+   "Түрікменбашы порты 1993 жылға дейін Красноводск деп аталған."
+  ]
+ ],
+ "TM-D": [
+  [
+   "Köneürgenç in Dashoguz Region was once the capital of Khwarazm.",
+   "Кёнеургенч в Дашогузском велаяте когда-то был столицей Хорезма.",
+   "Дашоғыз уәлаятындағы Көнеүргеніш бір кездері Хорезмнің астанасы болған."
+  ],
+  [
+   "Dashoguz was called Tashauz in Soviet times.",
+   "в советское время Дашогуз назывался Ташауз.",
+   "Кеңес заманында Дашоғыз Ташауз деп аталған."
+  ]
+ ],
+ "TM-L": [
+  [
+   "Lebap means 'riverbank'. The region follows the Amu Darya.",
+   "«Лебап» значит «берег реки»: велаят тянется вдоль Амударьи.",
+   "«Лебап» — «өзен жағасы» деген сөз: уәлаят Әмудария бойымен созылып жатыр."
+  ],
+  [
+   "Turkmenistan's highest peak, Aýrybaba (3,137 m), is in Lebap Region.",
+   "высшая точка Туркменистана, гора Айрыбаба (3137 м), — в Лебапском велаяте.",
+   "Түрікменстанның ең биік нүктесі Айрыбаба тауы (3137 м) Лебап уәлаятында."
+  ]
+ ],
+ "TM-M": [
+  [
+   "ancient Merv, in Mary Region, was one of the world's biggest cities in the 12th century.",
+   "древний Мерв в Марыйском велаяте в XII веке был одним из крупнейших городов мира.",
+   "Мары уәлаятындағы ежелгі Мерв XII ғасырда әлемдегі ең ірі қалалардың бірі болған."
+  ],
+  [
+   "Galkynyş in Mary Region is one of the world's largest gas fields.",
+   "Галкыныш в Марыйском велаяте — одно из крупнейших газовых месторождений мира.",
+   "Мары уәлаятындағы Галкыныш — әлемдегі ең ірі газ кен орындарының бірі."
+  ]
+ ],
+ "TM-S": [
+  [
+   "Ashgabat holds the Guinness record for the most white-marble buildings.",
+   "у Ашхабада рекорд Гиннесса по числу зданий из белого мрамора.",
+   "Ашхабадтың ақ мәрмәр ғимараттар саны бойынша Гиннесс рекорды бар."
+  ],
+  [
+   "Ashgabat was almost completely destroyed by an earthquake in 1948.",
+   "Ашхабад был почти полностью разрушен землетрясением 1948 года.",
+   "1948 жылғы жер сілкінісі Ашхабадты түгелге жуық қиратқан."
+  ]
+ ],
+ "TM-AR": [
+  [
+   "Arkadag only opened in 2023.",
+   "Аркадаг открылся только в 2023 году.",
+   "Аркадаг тек 2023 жылы ашылды."
+  ],
+  [
+   "Arkadag is named after the title of former president Gurbanguly Berdimuhamedow.",
+   "Аркадаг назван по титулу бывшего президента Гурбангулы Бердымухамедова.",
+   "Аркадаг бұрынғы президент Гурбангулы Бердімұхамедовтің лауазымының атымен аталған."
+  ]
+ ],
+ "UZ-QR": [
+  [
+   "Karakalpakstan has its own constitution.",
+   "у Каракалпакстана своя конституция.",
+   "Қарақалпақстанның өз конституциясы бар."
+  ],
+  [
+   "Nukus's Savitsky Museum has one of the biggest collections of Russian avant-garde art.",
+   "в музее Савицкого в Нукусе — одно из крупнейших собраний русского авангарда.",
+   "Нүкістегі Савицкий мұражайында орыс авангардының әлемдегі ең ірі жинақтарының бірі бар."
+  ],
+  [
+   "Moynaq was once an Aral Sea port. Now its ships rust in the desert.",
+   "Муйнак был портом на Арале; теперь его корабли ржавеют в пустыне.",
+   "Мойнақ бір кездері Арал теңізіндегі порт болған; қазір оның кемелері шөлде тот басып жатыр."
+  ]
+ ],
+ "UZ-XO": [
+  [
+   "Khiva was Central Asia's first UNESCO World Heritage Site.",
+   "Хива — первый объект ЮНЕСКО в Центральной Азии.",
+   "Хиуа — Орталық Азиядағы ЮНЕСКО-ның тұңғыш нысаны."
+  ],
+  [
+   "the word 'algorithm' comes from al-Khwarizmi, a scholar from Khorezm.",
+   "слово «алгоритм» — от имени аль-Хорезми, уроженца Хорезма.",
+   "«Алгоритм» сөзі хорезмдік ғалым әл-Хорезмидің атынан шыққан."
+  ]
+ ],
+ "UZ-BU": [
+  [
+   "Bukhara is more than 2,500 years old.",
+   "Бухаре больше 2500 лет.",
+   "Бұхараның жасы 2500-ден асады."
+  ],
+  [
+   "Avicenna was born near Bukhara in 980.",
+   "Авиценна родился под Бухарой в 980 году.",
+   "Ибн Сина 980 жылы Бұхара маңында дүниеге келген."
+  ]
+ ],
+ "UZ-NW": [
+  [
+   "Muruntau in Navoi Region is one of the world's largest gold mines.",
+   "Мурунтау в Навоийской области — один из крупнейших золотых рудников мира.",
+   "Науаи облысындағы Мұрынтау — әлемдегі ең ірі алтын кеніштерінің бірі."
+  ],
+  [
+   "Navoi city was only founded in 1958.",
+   "город Навои основан только в 1958 году.",
+   "Науаи қаласының негізі тек 1958 жылы қаланған."
+  ]
+ ],
+ "UZ-SA": [
+  [
+   "Timur is buried in Samarkand's Gur-e-Amir mausoleum.",
+   "Тимур похоронен в Самарканде, в мавзолее Гур-Эмир.",
+   "Әмір Темір Самарқандтағы Гүр-Әмір кесенесінде жерленген."
+  ],
+  [
+   "Ulugh Beg built his observatory in Samarkand in the 1420s.",
+   "Улугбек построил обсерваторию в Самарканде в 1420-х годах.",
+   "Ұлықбек 1420 жылдары Самарқандта обсерватория салдырған."
+  ]
+ ],
+ "UZ-QA": [
+  [
+   "Timur was born in Shahrisabz, in Kashkadarya Region.",
+   "Тимур родился в Шахрисабзе, в Кашкадарьинской области.",
+   "Әмір Темір Қашқадария облысындағы Шахрисабзда туған."
+  ],
+  [
+   "Karshi was called Nasaf in the Middle Ages.",
+   "в средние века Карши назывался Насаф.",
+   "Орта ғасырларда Қарши Насаф деп аталған."
+  ]
+ ],
+ "UZ-SU": [
+  [
+   "Surkhandarya is Uzbekistan's southernmost region, across the river from Afghanistan.",
+   "Сурхандарья — самая южная область Узбекистана, за рекой уже Афганистан.",
+   "Сурхандария — Өзбекстанның ең оңтүстік облысы, өзеннің арғы жағы — Ауғанстан."
+  ],
+  [
+   "Termez was a major Buddhist centre long before Islam arrived.",
+   "Термез был крупным буддийским центром задолго до прихода ислама.",
+   "Термез исламнан көп бұрын ірі буддалық орталық болған."
+  ]
+ ],
+ "UZ-JI": [
+  [
+   "Timur's Gate in Jizzakh Region has inscriptions carved by Ulugh Beg.",
+   "на скалах «Ворот Тамерлана» в Джизакской области — надписи Улугбека.",
+   "Жизақ облысындағы «Темір қақпасы» жартастарында Ұлықбектің жазулары сақталған."
+  ],
+  [
+   "Lake Aydarkul formed by accident in 1969, from Syr Darya floodwater.",
+   "озеро Айдаркуль образовалось случайно в 1969 году из паводковых вод Сырдарьи.",
+   "Айдаркөл 1969 жылы Сырдарияның тасқын суынан кездейсоқ пайда болған."
+  ]
+ ],
+ "UZ-SI": [
+  [
+   "Syrdarya Region lies in the 'Hungry Steppe', a desert turned farmland.",
+   "Сырдарьинская область лежит в Голодной степи — пустыне, ставшей полями.",
+   "Сырдария облысы «Аштық даласында» жатыр — ол шөлден егістікке айналған."
+  ],
+  [
+   "the Syrdarya power station is one of Central Asia's largest.",
+   "Сырдарьинская ТЭС — одна из крупнейших в Центральной Азии.",
+   "Сырдария ЖЭС-і — Орталық Азиядағы ең ірі электр станцияларының бірі."
+  ]
+ ],
+ "UZ-TO": [
+  [
+   "Chimgan and Charvak are Tashkent's favourite mountain escapes.",
+   "Чимган и Чарвак — любимые горные места отдыха ташкентцев.",
+   "Шымған мен Шарбақ — ташкенттіктердің сүйікті таулы демалыс орындары."
+  ],
+  [
+   "Tashkent Region's capital, Nurafshon, used to be called Toytepa.",
+   "центр Ташкентской области Нурафшан раньше назывался Тойтепа.",
+   "Ташкент облысының орталығы Нұрафшан бұрын Тойтөбе деп аталған."
+  ]
+ ],
+ "UZ-TK": [
+  [
+   "Tashkent is the largest city in Central Asia.",
+   "Ташкент — крупнейший город Центральной Азии.",
+   "Ташкент — Орталық Азиядағы ең ірі қала."
+  ],
+  [
+   "Tashkent's metro, opened in 1977, was the first in Central Asia.",
+   "Ташкентское метро, открытое в 1977 году, — первое в Центральной Азии.",
+   "1977 жылы ашылған Ташкент метросы Орталық Азиядағы алғашқы метро болды."
+  ]
+ ],
+ "UZ-NG": [
+  [
+   "Namangan is called the 'city of flowers'.",
+   "Наманган называют «городом цветов».",
+   "Наманганды «гүлдер қаласы» деп атайды."
+  ],
+  [
+   "Chust in Namangan Region is famous for its knives.",
+   "Чуст в Наманганской области славится ножами.",
+   "Наманган облысындағы Шуст пышақтарымен әйгілі."
+  ]
+ ],
+ "UZ-AN": [
+  [
+   "Babur, founder of the Mughal Empire, was born in Andijan.",
+   "Бабур, основатель империи Великих Моголов, родился в Андижане.",
+   "Ұлы Моғолдар империясының негізін қалаушы Бабыр Әндіжанда туған."
+  ],
+  [
+   "most of Uzbekistan's cars are made in Asaka, Andijan Region.",
+   "большинство автомобилей Узбекистана делают в Асаке, Андижанская область.",
+   "Өзбекстан автокөліктерінің көбі Әндіжан облысындағы Асакада жасалады."
+  ]
+ ],
+ "UZ-FA": [
+  [
+   "Margilan in Fergana Region has made silk for centuries.",
+   "в Маргилане (Ферганская область) шёлк ткут веками.",
+   "Ферғана облысындағы Марғиланда ғасырлар бойы жібек тоқылады."
+  ],
+  [
+   "Rishtan in Fergana Region is famous for blue ceramics.",
+   "Риштан в Ферганской области знаменит голубой керамикой.",
+   "Ферғана облысындағы Риштан көк керамикасымен әйгілі."
+  ],
+  [
+   "the Shakhimardan enclave, surrounded by Kyrgyzstan, belongs to Fergana Region.",
+   "анклав Шахимардан внутри Кыргызстана относится к Ферганской области.",
+   "Қырғызстанның ішіндегі Шахимардан анклавы Ферғана облысына қарайды."
+  ]
+ ],
+ "RU-AST": [
+  [
+   "the Volga meets the Caspian through a vast delta in Astrakhan Oblast.",
+   "в Астраханской области Волга впадает в Каспий огромной дельтой.",
+   "Астрахан облысында Еділ Каспийге кең атырау арқылы құяды."
+  ],
+  [
+   "the great Kazakh composer Kurmangazy is buried in Astrakhan Oblast.",
+   "великий казахский композитор Курмангазы похоронен в Астраханской области.",
+   "ұлы күйші Құрманғазы Астрахан облысында жерленген."
+  ]
+ ],
+ "RU-KL": [
+  [
+   "Kalmykia is the only region in Europe where Buddhism is the main religion.",
+   "Калмыкия — единственный регион Европы, где буддизм — основная религия.",
+   "Қалмақстан — буддизм негізгі дін болып саналатын Еуропадағы жалғыз өңір."
+  ],
+  [
+   "Elista built a whole 'Chess City' for the 1998 Chess Olympiad.",
+   "к шахматной олимпиаде 1998 года в Элисте построили целый «Сити-Чесс».",
+   "Элистада 1998 жылғы шахмат олимпиадасы үшін тұтас «Шахмат қаласы» салынған."
+  ]
+ ],
+ "RU-VGG": [
+  [
+   "Volgograd was called Stalingrad from 1925 to 1961.",
+   "Волгоград назывался Сталинградом с 1925 по 1961 год.",
+   "Волгоград 1925–1961 жылдары Сталинград деп аталған."
+  ],
+  [
+   "The Motherland Calls statue in Volgograd is 85 m tall.",
+   "монумент «Родина-мать зовёт!» в Волгограде высотой 85 м.",
+   "Волгоградтағы «Отан-ана шақырады!» ескерткішінің биіктігі 85 м."
+  ]
+ ],
+ "RU-SAR": [
+  [
+   "Gagarin landed in Saratov Oblast after the first human spaceflight.",
+   "после первого полёта в космос Гагарин приземлился в Саратовской области.",
+   "Гагарин ғарышқа алғашқы ұшудан кейін Саратов облысына қонған."
+  ]
+ ],
+ "RU-SAM": [
+  [
+   "Samara was the USSR's backup capital during World War II.",
+   "во время войны Куйбышев (Самара) был запасной столицей СССР.",
+   "Екінші дүниежүзілік соғыс кезінде Самара (Куйбышев) КСРО-ның запастағы астанасы болған."
+  ],
+  [
+   "Samara was called Kuybyshev from 1935 to 1991.",
+   "Самара называлась Куйбышевом с 1935 по 1991 год.",
+   "Самара 1935–1991 жылдары Куйбышев деп аталған."
+  ]
+ ],
+ "RU-ORE": [
+  [
+   "Orenburg was the capital of the Kazakh autonomous republic from 1920 to 1925.",
+   "в 1920–1925 годах Оренбург был столицей Казахской (тогда Киргизской) АССР.",
+   "1920–1925 жылдары Орынбор Қазақ (ол кезде Қырғыз) АКСР-інің астанасы болған."
+  ],
+  [
+   "Orenburg is famous for its gossamer-thin down shawls.",
+   "Оренбург славится тончайшими пуховыми платками.",
+   "Орынбор ең жұқа түбіт орамалдарымен әйгілі."
+  ]
+ ],
+ "RU-BA": [
+  [
+   "a giant statue of the Bashkir hero Salawat Yulayev overlooks the river in Ufa.",
+   "в Уфе над рекой возвышается огромный памятник башкирскому герою Салавату Юлаеву.",
+   "Уфада өзен үстінде башқұрт батыры Салауат Юлаевқа арналған алып ескерткіш тұр."
+  ],
+  [
+   "Bashkortostan is the homeland of the Bashkirs, a Turkic people.",
+   "Башкортостан — родина башкир, тюркского народа.",
+   "Башқұртстан — түркі халқы башқұрттардың отаны."
+  ]
+ ],
+ "RU-TA": [
+  [
+   "the Kazan Kremlin is a UNESCO World Heritage Site.",
+   "Казанский кремль — объект Всемирного наследия ЮНЕСКО.",
+   "Қазан кремлі — ЮНЕСКО-ның Бүкіләлемдік мұра нысаны."
+  ],
+  [
+   "Tatars are Russia's second-largest ethnic group.",
+   "татары — второй по численности народ России.",
+   "татарлар — Ресейдегі саны жағынан екінші халық."
+  ]
+ ],
+ "RU-CU": [
+  [
+   "Chuvash is the only living language of the Oghur branch of the Turkic languages.",
+   "чувашский — единственный живой язык огурской ветви тюркских языков.",
+   "шуваш тілі — түркі тілдерінің оғыр тармағындағы жалғыз тірі тіл."
+  ]
+ ],
+ "RU-CHE": [
+  [
+   "a meteor exploded over Chelyabinsk in February 2013.",
+   "в феврале 2013 года над Челябинском взорвался метеорит.",
+   "2013 жылдың ақпанында Челябі үстінде метеорит жарылды."
+  ],
+  [
+   "Arkaim, a Bronze Age settlement, is in Chelyabinsk Oblast.",
+   "Аркаим, поселение бронзового века, находится в Челябинской области.",
+   "қола дәуірінің қонысы Арқайым Челябі облысында."
+  ]
+ ],
+ "RU-KGN": [
+  [
+   "the name Kurgan comes from the Turkic word for 'fortress'.",
+   "название Курган происходит от тюркского слова «крепость».",
+   "«Курган» атауы түркінің «қорған» сөзінен шыққан."
+  ]
+ ],
+ "RU-TYU": [
+  [
+   "Tyumen, founded in 1586, was the first Russian town in Siberia.",
+   "Тюмень, основанная в 1586 году, — первый русский город в Сибири.",
+   "1586 жылы негізі қаланған Түмен — Сібірдегі алғашқы орыс қаласы."
+  ]
+ ],
+ "RU-OMS": [
+  [
+   "Dostoevsky served his hard labour sentence in the Omsk fortress.",
+   "Достоевский отбывал каторгу в Омской крепости.",
+   "Достоевский Омбы бекінісінде каторгада болған."
+  ]
+ ],
+ "RU-NVS": [
+  [
+   "Novosibirsk is Russia's third-largest city.",
+   "Новосибирск — третий по величине город России.",
+   "Новосібір — Ресейдегі үшінші ірі қала."
+  ],
+  [
+   "Novosibirsk grew up in 1893 around a railway bridge over the Ob.",
+   "Новосибирск вырос в 1893 году вокруг железнодорожного моста через Обь.",
+   "Новосібір 1893 жылы Обь арқылы өтетін темір жол көпірінің маңында өсті."
+  ]
+ ],
+ "RU-ALT": [
+  [
+   "Barnaul grew around a silver-smelting works set up by the Demidovs.",
+   "Барнаул вырос вокруг сереброплавильного завода Демидовых.",
+   "Барнауыл Демидовтардың күміс балқыту зауытының маңында өсті."
+  ],
+  [
+   "the writer Vasily Shukshin was born in Altai Krai.",
+   "писатель Василий Шукшин родился в Алтайском крае.",
+   "жазушы Василий Шукшин Алтай өлкесінде туған."
+  ]
+ ],
+ "RU-AL": [
+  [
+   "the Golden Mountains of Altai are a UNESCO World Heritage Site.",
+   "«Золотые горы Алтая» — объект Всемирного наследия ЮНЕСКО.",
+   "«Алтайдың Алтын таулары» — ЮНЕСКО-ның Бүкіләлемдік мұра нысаны."
+  ],
+  [
+   "the 2,500-year-old 'Ice Maiden' mummy was found on the Ukok Plateau in the Altai Republic.",
+   "на плато Укок в Республике Алтай нашли мумию «алтайской принцессы» возрастом 2500 лет.",
+   "Алтай Республикасындағы Үкөк үстіртінен 2500 жылдық «Алтай ханшайымының» мумиясы табылған."
+  ]
+ ],
+ "RU-TY": [
+  [
+   "Kyzyl has a monument marking the 'Centre of Asia'.",
+   "в Кызыле стоит обелиск «Центр Азии».",
+   "Қызылда «Азияның орталығы» ескерткіші тұр."
+  ],
+  [
+   "Tuva was a nominally independent country from 1921 to 1944.",
+   "с 1921 по 1944 год Тува формально была независимым государством.",
+   "1921–1944 жылдары Тыва ресми түрде тәуелсіз мемлекет болған."
+  ],
+  [
+   "Tuvan throat singing (khöömei) is famous around the world.",
+   "тувинское горловое пение (хоомей) известно во всём мире.",
+   "тыва тамақ әні (хөөмей) бүкіл әлемге әйгілі."
+  ]
+ ],
+ "RU-KK": [
+  [
+   "Russia's biggest hydropower plant, Sayano-Shushenskaya, is in Khakassia.",
+   "крупнейшая ГЭС России, Саяно-Шушенская, находится в Хакасии.",
+   "Ресейдің ең ірі СЭС-і — Саян-Шушенск Хакасияда."
+  ]
+ ],
+ "RU-BU": [
+  [
+   "Buryatia holds most of Lake Baikal's eastern shore.",
+   "Бурятии принадлежит большая часть восточного берега Байкала.",
+   "Байкалдың шығыс жағалауының көп бөлігі Бурятияға тиесілі."
+  ],
+  [
+   "Lake Baikal is the deepest lake in the world.",
+   "Байкал — самое глубокое озеро в мире.",
+   "Байкал — әлемдегі ең терең көл."
+  ]
+ ],
+ "CN-XJ": [
+  [
+   "Xinjiang is China's largest province-level region.",
+   "Синьцзян — крупнейший регион Китая.",
+   "Шыңжаң — Қытайдың ең үлкен өңірі."
+  ],
+  [
+   "Ürümqi is often called the city farthest from any sea.",
+   "Урумчи часто называют самым удалённым от моря городом мира.",
+   "Үрімжіні жиі теңізден ең алыс қала деп атайды."
+  ],
+  [
+   "the Turpan Depression in Xinjiang drops 154 m below sea level.",
+   "Турфанская впадина в Синьцзяне опускается на 154 м ниже уровня моря.",
+   "Шыңжаңдағы Тұрпан ойысы теңіз деңгейінен 154 м төмен."
+  ]
+ ],
+ "CN-GS": [
+  [
+   "the Great Wall's western end is at Jiayuguan in Gansu.",
+   "западный край Великой Китайской стены — Цзяюйгуань в Ганьсу.",
+   "Ұлы Қытай қорғанының батыс шеті — Ганьсудағы Цзяюйгуань."
+  ],
+  [
+   "the Mogao Caves at Dunhuang hold a thousand years of Buddhist art.",
+   "пещеры Могао в Дуньхуане хранят тысячелетнее буддийское искусство.",
+   "Дунхуандағы Могао үңгірлерінде мың жылдық будда өнері сақталған."
+  ]
+ ],
+ "CN-NM": [
+  [
+   "Inner Mongolia stretches about 2,400 km from west to east.",
+   "Внутренняя Монголия протянулась с запада на восток примерно на 2400 км.",
+   "Ішкі Моңғолия батыстан шығысқа қарай шамамен 2400 км-ге созылған."
+  ],
+  [
+   "Kublai Khan's summer capital, Xanadu, was in Inner Mongolia.",
+   "летняя столица Хубилая, Шанду (Ксанаду), находилась во Внутренней Монголии.",
+   "Құбылай ханның жазғы астанасы Шанду Ішкі Моңғолияда болған."
+  ]
+ ],
+ "CN-QH": [
+  [
+   "Qinghai Lake is the largest lake in China.",
+   "Цинхай — самое большое озеро Китая.",
+   "Цинхай көлі — Қытайдағы ең үлкен көл."
+  ],
+  [
+   "the Yellow River, the Yangtze and the Mekong all begin in Qinghai.",
+   "Хуанхэ, Янцзы и Меконг берут начало в Цинхае.",
+   "Хуанхэ, Янцзы және Меконг өзендері Цинхайдан бастау алады."
+  ]
+ ],
+ "MN-073": [
+  [
+   "the ruins of Ordu-Baliq, capital of the Uyghur Khaganate, are in Arkhangai.",
+   "руины Орду-Балыка, столицы Уйгурского каганата, находятся в Архангае.",
+   "Ұйғыр қағанатының астанасы Орду-Балықтың қирандылары Архангайда."
+  ]
+ ],
+ "MN-071": [
+  [
+   "Bayan-Ölgii is Mongolia's only Kazakh-majority province.",
+   "Баян-Улгий — единственный аймак Монголии с казахским большинством.",
+   "Баян-Өлгий — Моңғолиядағы қазақтар көпшілік болатын жалғыз аймақ."
+  ],
+  [
+   "Bayan-Ölgii's Golden Eagle Festival celebrates eagle hunters.",
+   "в Баян-Улгии проходит фестиваль беркутчи.",
+   "Баян-Өлгийде бүркітшілер фестивалі өтеді."
+  ]
+ ],
+ "MN-069": [
+  [
+   "Bayankhongor stretches from the Khangai mountains down into the Gobi.",
+   "Баянхонгор протянулся от гор Хангая до Гоби.",
+   "Баянхонгор Хангай тауларынан Гобиге дейін созылып жатыр."
+  ]
+ ],
+ "MN-067": [
+  [
+   "Bulgan has an extinct volcano, Uran Togoo, protected as a nature reserve.",
+   "в Булгане есть потухший вулкан Уран-Тогоо — заповедник.",
+   "Булғанда сөнген Уран-Тогоо жанартауы бар, ол қорық."
+  ]
+ ],
+ "MN-037": [
+  [
+   "Darkhan-Uul is surrounded entirely by Selenge Province.",
+   "Дархан-Уул со всех сторон окружён Селенгинским аймаком.",
+   "Дархан-Уулды жан-жағынан Сэлэнгэ аймағы қоршап тұр."
+  ]
+ ],
+ "MN-061": [
+  [
+   "the Battle of Khalkhin Gol in 1939 was fought in Dornod.",
+   "бои на Халхин-Голе в 1939 году шли в Восточном аймаке.",
+   "1939 жылғы Халхин-Гол шайқасы Дорнод аймағында өтті."
+  ]
+ ],
+ "MN-063": [
+  [
+   "the Trans-Mongolian Railway crosses into China at Zamyn-Üüd in Dornogovi.",
+   "Трансмонгольская магистраль уходит в Китай через Замын-Ууд в Восточно-Гобийском аймаке.",
+   "Трансмоңғол теміржолы Дорноговьтағы Замын-Үүд арқылы Қытайға өтеді."
+  ]
+ ],
+ "MN-059": [
+  [
+   "Dundgovi means 'Middle Gobi'.",
+   "Дундговь значит «Средняя Гоби».",
+   "Дундговь — «Орта Гоби» дегенді білдіреді."
+  ]
+ ],
+ "MN-065": [
+  [
+   "Govi-Altai is home to the Gobi bear, one of the rarest bears on Earth.",
+   "в Гоби-Алтае живёт гобийский медведь — один из самых редких медведей на Земле.",
+   "Говь-Алтайда жердегі ең сирек аюлардың бірі — Гоби аюы мекендейді."
+  ]
+ ],
+ "MN-064": [
+  [
+   "Govisümber only became a province in 1994.",
+   "Гобисумбэр стал аймаком только в 1994 году.",
+   "Говьсүмбэр тек 1994 жылы аймақ болды."
+  ]
+ ],
+ "MN-039": [
+  [
+   "Genghis Khan was born in Khentii, traditionally by the Onon River.",
+   "Чингисхан родился в Хэнтэе, по преданию на реке Онон.",
+   "Шыңғыс хан Хэнтийде, аңыз бойынша Онон өзенінің бойында туған."
+  ],
+  [
+   "Khentii's capital was renamed Chinggis in 2013.",
+   "центр Хэнтэйского аймака в 2013 году переименовали в Чингис.",
+   "Хэнтий аймағының орталығы 2013 жылы Шыңғыс болып өзгертілді."
+  ]
+ ],
+ "MN-043": [
+  [
+   "Khovd is one of Mongolia's most ethnically diverse provinces.",
+   "Кобдоский аймак — один из самых многонациональных в Монголии.",
+   "Ховд — Моңғолиядағы ең көпұлтты аймақтардың бірі."
+  ]
+ ],
+ "MN-041": [
+  [
+   "Lake Khövsgöl holds about 70% of Mongolia's fresh water.",
+   "в Хубсугуле около 70% пресной воды Монголии.",
+   "Хөвсгөл көлінде Моңғолияның тұщы суының шамамен 70%-ы бар."
+  ]
+ ],
+ "MN-053": [
+  [
+   "the first dinosaur eggs known to science were found at the Flaming Cliffs in Ömnögovi.",
+   "первые известные науке яйца динозавров нашли у Пылающих утёсов в Южно-Гобийском аймаке.",
+   "ғылымға белгілі алғашқы динозавр жұмыртқалары Өмнөговьтағы Жалындаған жартастардан табылған."
+  ],
+  [
+   "Oyu Tolgoi in Ömnögovi is one of the world's largest copper and gold mines.",
+   "Оюу-Толгой в Южно-Гобийском аймаке — одно из крупнейших в мире месторождений меди и золота.",
+   "Өмнөговьтағы Оюу-Толгой — әлемдегі ең ірі мыс пен алтын кеніштерінің бірі."
+  ]
+ ],
+ "MN-035": [
+  [
+   "Erdenet grew around one of Asia's largest copper mines.",
+   "Эрдэнэт вырос вокруг одного из крупнейших медных рудников Азии.",
+   "Эрдэнэт Азиядағы ең ірі мыс кеніштерінің бірінің маңында өсті."
+  ]
+ ],
+ "MN-055": [
+  [
+   "Karakorum, the Mongol Empire's capital, lies in Övörkhangai.",
+   "Каракорум, столица Монгольской империи, находится в Уверхангае.",
+   "Моңғол империясының астанасы Қарақорым Өвөрхангайда."
+  ],
+  [
+   "Erdene Zuu, founded in 1585, is Mongolia's oldest surviving Buddhist monastery.",
+   "Эрдэни-Дзу, основанный в 1585 году, — старейший сохранившийся буддийский монастырь Монголии.",
+   "1585 жылы негізі қаланған Эрдэнэ-Зуу — Моңғолиядағы сақталған ең көне будда монастыры."
+  ]
+ ],
+ "MN-049": [
+  [
+   "Selenge is Mongolia's breadbasket.",
+   "Сэлэнгэ — главная житница Монголии.",
+   "Сэлэнгэ — Моңғолияның астықты өлкесі."
+  ],
+  [
+   "the Selenge River flows from here into Lake Baikal.",
+   "отсюда река Селенга течёт в Байкал.",
+   "Сэлэнгэ өзені осы жерден Байкалға ағады."
+  ]
+ ],
+ "MN-051": [
+  [
+   "Sükhbaatar Province is named after the revolutionary Damdin Sükhbaatar.",
+   "Сухэ-Баторский аймак назван в честь революционера Дамдина Сухэ-Батора.",
+   "Сүхбаатар аймағы революционер Дамдин Сүхбаатардың құрметіне аталған."
+  ]
+ ],
+ "MN-047": [
+  [
+   "Töv means 'central': the province surrounds Ulaanbaatar.",
+   "Төв значит «центральный»: аймак окружает Улан-Батор.",
+   "Төв — «орталық» дегенді білдіреді: аймақ Ұланбатырды қоршап жатыр."
+  ],
+  [
+   "a 40 m steel statue of Genghis Khan on horseback stands in Töv.",
+   "в Центральном аймаке стоит 40-метровая стальная конная статуя Чингисхана.",
+   "Төв аймағында Шыңғыс ханның 40 метрлік болат салт атты мүсіні тұр."
+  ]
+ ],
+ "MN-046": [
+  [
+   "Uvs Lake is the largest lake in Mongolia.",
+   "Убсу-Нур — самое большое озеро Монголии.",
+   "Увс көлі — Моңғолиядағы ең үлкен көл."
+  ],
+  [
+   "the Uvs Nuur Basin is a UNESCO site shared with Tuva.",
+   "Убсунурская котловина — объект ЮНЕСКО, общий с Тувой.",
+   "Увс көлі қазаншұңқыры — Тывамен ортақ ЮНЕСКО нысаны."
+  ]
+ ],
+ "MN-057": [
+  [
+   "Otgontenger, the highest peak of the Khangai range, is in Zavkhan.",
+   "Отгонтэнгэр, высшая точка Хангая, находится в Завхане.",
+   "Хангайдың ең биік шыңы Отгонтэнгэр Завханда."
+  ]
+ ],
+ "MN-1": [
+  [
+   "Ulaanbaatar is the coldest national capital in the world.",
+   "Улан-Батор — самая холодная столица мира.",
+   "Ұланбатыр — әлемдегі ең суық астана."
+  ],
+  [
+   "Ulaanbaatar was called Urga until 1924.",
+   "до 1924 года Улан-Батор назывался Ургой.",
+   "Ұланбатыр 1924 жылға дейін Урга деп аталған."
+  ]
+ ]
 }

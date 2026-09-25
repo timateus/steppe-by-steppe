@@ -1,11 +1,11 @@
-"""Inline build/data.js into src/template.html.
+"""Inline build/data.js and src/app.js into src/template.html.
 
 Writes index.html (a complete document, for GitHub Pages or opening locally)
 and build/artifact.html (body-only, for publishing as a claude.ai artifact).
 """
 t = open("src/template.html").read()
 d = open("build/data.js").read()
-body = t.replace("/*DATA*/", d)
+body = t.replace("/*DATA*/", d).replace("/*APP*/", open("src/app.js").read())
 open("build/artifact.html", "w").write(body)
 head, rest = body.split("</style>", 1)
 open("index.html", "w").write(

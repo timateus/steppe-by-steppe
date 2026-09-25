@@ -1,0 +1,2274 @@
+{
+ "KZ-27": {
+  "osm": 215441,
+  "cc": "KZ",
+  "core": true,
+  "en": "West Kazakhstan Region",
+  "ru": "Западно-Казахстанская область",
+  "kk": "Батыс Қазақстан облысы",
+  "local": "Батыс Қазақстан облысы",
+  "aliases": [
+   "Batys Qazaqstan",
+   "West Kazakhstan",
+   "Oral",
+   "Uralsk"
+  ],
+  "cap": [
+   "Oral",
+   "Уральск",
+   "Орал"
+  ],
+  "short": [
+   "West Kazakhstan",
+   "Западно-Казахстанская обл.",
+   "Батыс Қазақстан обл."
+  ]
+ },
+ "KZ-23": {
+  "osm": 214834,
+  "cc": "KZ",
+  "core": true,
+  "en": "Atyrau Region",
+  "ru": "Атырауская область",
+  "kk": "Атырау облысы",
+  "local": "Атырау облысы",
+  "aliases": [
+   "Atyraū"
+  ],
+  "cap": [
+   "Atyrau",
+   "Атырау",
+   "Атырау"
+  ],
+  "short": [
+   "Atyrau",
+   "Атырауская обл.",
+   "Атырау обл."
+  ]
+ },
+ "KZ-47": {
+  "osm": 215686,
+  "cc": "KZ",
+  "core": true,
+  "en": "Mangystau Region",
+  "ru": "Мангистауская область",
+  "kk": "Маңғыстау облысы",
+  "local": "Маңғыстау облысы",
+  "aliases": [
+   "Mangghystau",
+   "Mangistau",
+   "Aktau"
+  ],
+  "cap": [
+   "Aktau",
+   "Актау",
+   "Ақтау"
+  ],
+  "short": [
+   "Mangystau",
+   "Мангистауская обл.",
+   "Маңғыстау обл."
+  ]
+ },
+ "KZ-15": {
+  "osm": 215683,
+  "cc": "KZ",
+  "core": true,
+  "en": "Aktobe Region",
+  "ru": "Актюбинская область",
+  "kk": "Ақтөбе облысы",
+  "local": "Ақтөбе облысы",
+  "aliases": [
+   "Aqtöbe",
+   "Aqtobe",
+   "Aktyubinsk"
+  ],
+  "cap": [
+   "Aktobe",
+   "Актобе",
+   "Ақтөбе"
+  ],
+  "short": [
+   "Aktobe",
+   "Актюбинская обл.",
+   "Ақтөбе обл."
+  ]
+ },
+ "KZ-39": {
+  "osm": 1288730,
+  "cc": "KZ",
+  "core": true,
+  "en": "Kostanay Region",
+  "ru": "Костанайская область",
+  "kk": "Қостанай облысы",
+  "local": "Қостанай облысы",
+  "aliases": [
+   "Qostanay",
+   "Kostanai"
+  ],
+  "cap": [
+   "Kostanay",
+   "Костанай",
+   "Қостанай"
+  ],
+  "short": [
+   "Kostanay",
+   "Костанайская обл.",
+   "Қостанай обл."
+  ]
+ },
+ "KZ-59": {
+  "osm": 215760,
+  "cc": "KZ",
+  "core": true,
+  "en": "North Kazakhstan Region",
+  "ru": "Северо-Казахстанская область",
+  "kk": "Солтүстік Қазақстан облысы",
+  "local": "Солтүстік Қазақстан облысы",
+  "aliases": [
+   "Soltüstik Qazaqstan",
+   "North Kazakhstan",
+   "Petropavl"
+  ],
+  "cap": [
+   "Petropavl",
+   "Петропавловск",
+   "Петропавл"
+  ],
+  "short": [
+   "North Kazakhstan",
+   "Северо-Казахстанская обл.",
+   "Солтүстік Қазақстан обл."
+  ]
+ },
+ "KZ-11": {
+  "osm": 215743,
+  "cc": "KZ",
+  "core": true,
+  "en": "Akmola Region",
+  "ru": "Акмолинская область",
+  "kk": "Ақмола облысы",
+  "local": "Ақмола облысы",
+  "aliases": [
+   "Aqmola",
+   "Kokshetau"
+  ],
+  "cap": [
+   "Kokshetau",
+   "Кокшетау",
+   "Көкшетау"
+  ],
+  "short": [
+   "Akmola",
+   "Акмолинская обл.",
+   "Ақмола обл."
+  ]
+ },
+ "KZ-55": {
+  "osm": 215772,
+  "cc": "KZ",
+  "core": true,
+  "en": "Pavlodar Region",
+  "ru": "Павлодарская область",
+  "kk": "Павлодар облысы",
+  "local": "Павлодар облысы",
+  "aliases": [],
+  "cap": [
+   "Pavlodar",
+   "Павлодар",
+   "Павлодар"
+  ],
+  "short": [
+   "Pavlodar",
+   "Павлодарская обл.",
+   "Павлодар обл."
+  ]
+ },
+ "KZ-35": {
+  "osm": 215776,
+  "cc": "KZ",
+  "core": true,
+  "en": "Karaganda Region",
+  "ru": "Карагандинская область",
+  "kk": "Қарағанды облысы",
+  "local": "Қарағанды облысы",
+  "aliases": [
+   "Qaraghandy",
+   "Karagandy"
+  ],
+  "cap": [
+   "Karaganda",
+   "Караганда",
+   "Қарағанды"
+  ],
+  "short": [
+   "Karaganda",
+   "Карагандинская обл.",
+   "Қарағанды обл."
+  ]
+ },
+ "KZ-62": {
+  "osm": 14312737,
+  "cc": "KZ",
+  "core": true,
+  "en": "Ulytau Region",
+  "ru": "Улытауская область",
+  "kk": "Ұлытау облысы",
+  "local": "Ұлытау облысы",
+  "aliases": [
+   "Ulytaū",
+   "Zhezkazgan"
+  ],
+  "cap": [
+   "Jezkazgan",
+   "Жезказган",
+   "Жезқазған"
+  ],
+  "short": [
+   "Ulytau",
+   "Улытауская обл.",
+   "Ұлытау обл."
+  ]
+ },
+ "KZ-43": {
+  "osm": 215727,
+  "cc": "KZ",
+  "core": true,
+  "en": "Kyzylorda Region",
+  "ru": "Кызылординская область",
+  "kk": "Қызылорда облысы",
+  "local": "Қызылорда облысы",
+  "aliases": [
+   "Qyzylorda"
+  ],
+  "cap": [
+   "Kyzylorda",
+   "Кызылорда",
+   "Қызылорда"
+  ],
+  "short": [
+   "Kyzylorda",
+   "Кызылординская обл.",
+   "Қызылорда обл."
+  ]
+ },
+ "KZ-61": {
+  "osm": 215739,
+  "cc": "KZ",
+  "core": true,
+  "en": "Turkistan Region",
+  "ru": "Туркестанская область",
+  "kk": "Түркістан облысы",
+  "local": "Түркістан облысы",
+  "aliases": [
+   "Türkistan",
+   "South Kazakhstan"
+  ],
+  "cap": [
+   "Turkistan",
+   "Туркестан",
+   "Түркістан"
+  ],
+  "short": [
+   "Turkistan",
+   "Туркестанская обл.",
+   "Түркістан обл."
+  ]
+ },
+ "KZ-31": {
+  "osm": 215722,
+  "cc": "KZ",
+  "core": true,
+  "en": "Jambyl Region",
+  "ru": "Жамбылская область",
+  "kk": "Жамбыл облысы",
+  "local": "Жамбыл облысы",
+  "aliases": [
+   "Zhambyl",
+   "Taraz"
+  ],
+  "cap": [
+   "Taraz",
+   "Тараз",
+   "Тараз"
+  ],
+  "short": [
+   "Jambyl",
+   "Жамбылская обл.",
+   "Жамбыл обл."
+  ]
+ },
+ "KZ-19": {
+  "osm": 215718,
+  "cc": "KZ",
+  "core": true,
+  "en": "Almaty Region",
+  "ru": "Алматинская область",
+  "kk": "Алматы облысы",
+  "local": "Алматы облысы",
+  "aliases": [
+   "Konaev",
+   "Qonaev"
+  ],
+  "cap": [
+   "Konaev",
+   "Конаев",
+   "Қонаев"
+  ],
+  "short": [
+   "Almaty",
+   "Алматинская обл.",
+   "Алматы обл."
+  ]
+ },
+ "KZ-33": {
+  "osm": 14312169,
+  "cc": "KZ",
+  "core": true,
+  "en": "Jetisu Region",
+  "ru": "Жетысуская область",
+  "kk": "Жетісу облысы",
+  "local": "Жетісу облысы",
+  "aliases": [
+   "Zhetisu",
+   "Zhetysu",
+   "Taldykorgan"
+  ],
+  "cap": [
+   "Taldykorgan",
+   "Талдыкорган",
+   "Талдықорған"
+  ],
+  "short": [
+   "Jetisu",
+   "Жетысуская обл.",
+   "Жетісу обл."
+  ]
+ },
+ "KZ-10": {
+  "osm": 14243026,
+  "cc": "KZ",
+  "core": true,
+  "en": "Abai Region",
+  "ru": "Абайская область",
+  "kk": "Абай облысы",
+  "local": "Абай облысы",
+  "aliases": [
+   "Abay",
+   "Semey"
+  ],
+  "cap": [
+   "Semey",
+   "Семей",
+   "Семей"
+  ],
+  "short": [
+   "Abai",
+   "Абайская обл.",
+   "Абай обл."
+  ]
+ },
+ "KZ-63": {
+  "osm": 215699,
+  "cc": "KZ",
+  "core": true,
+  "en": "East Kazakhstan Region",
+  "ru": "Восточно-Казахстанская область",
+  "kk": "Шығыс Қазақстан облысы",
+  "local": "Шығыс Қазақстан облысы",
+  "aliases": [
+   "Shyghys Qazaqstan",
+   "East Kazakhstan",
+   "Oskemen",
+   "Ust-Kamenogorsk"
+  ],
+  "cap": [
+   "Oskemen",
+   "Усть-Каменогорск",
+   "Өскемен"
+  ],
+  "short": [
+   "East Kazakhstan",
+   "Восточно-Казахстанская обл.",
+   "Шығыс Қазақстан обл."
+  ]
+ },
+ "KZ-71": {
+  "osm": 3087155,
+  "cc": "KZ",
+  "core": true,
+  "en": "Astana",
+  "ru": "Астана",
+  "kk": "Астана",
+  "local": "Астана",
+  "aliases": [
+   "Nur-Sultan",
+   "Akmola city"
+  ],
+  "cap": null,
+  "short": [
+   "Astana",
+   "Астана",
+   "Астана"
+  ]
+ },
+ "KZ-75": {
+  "osm": 2465058,
+  "cc": "KZ",
+  "core": true,
+  "en": "Almaty",
+  "ru": "Алматы",
+  "kk": "Алматы",
+  "local": "Алматы",
+  "aliases": [
+   "Almaty city",
+   "Alma-Ata"
+  ],
+  "cap": null,
+  "short": [
+   "Almaty",
+   "Алматы",
+   "Алматы"
+  ]
+ },
+ "KZ-79": {
+  "osm": 3389772,
+  "cc": "KZ",
+  "core": true,
+  "en": "Shymkent",
+  "ru": "Шымкент",
+  "kk": "Шымкент",
+  "local": "Шымкент",
+  "aliases": [
+   "Chimkent"
+  ],
+  "cap": null,
+  "short": [
+   "Shymkent",
+   "Шымкент",
+   "Шымкент"
+  ]
+ },
+ "KG-C": {
+  "osm": 178026,
+  "cc": "KG",
+  "core": true,
+  "en": "Chüy Region",
+  "ru": "Чуйская область",
+  "kk": "Шу облысы",
+  "local": "Чүй облусу",
+  "aliases": [
+   "Chuy",
+   "Chui"
+  ],
+  "cap": [
+   "Bishkek",
+   "Бишкек",
+   "Бішкек"
+  ],
+  "short": [
+   "Chüy",
+   "Чуйская обл.",
+   "Шу обл."
+  ]
+ },
+ "KG-T": {
+  "osm": 178023,
+  "cc": "KG",
+  "core": true,
+  "en": "Talas Region",
+  "ru": "Таласская область",
+  "kk": "Талас облысы",
+  "local": "Талас облусу",
+  "aliases": [],
+  "cap": [
+   "Talas",
+   "Талас",
+   "Талас"
+  ],
+  "short": [
+   "Talas",
+   "Таласская обл.",
+   "Талас обл."
+  ]
+ },
+ "KG-Y": {
+  "osm": 178025,
+  "cc": "KG",
+  "core": true,
+  "en": "Issyk-Kul Region",
+  "ru": "Иссык-Кульская область",
+  "kk": "Ыстықкөл облысы",
+  "local": "Ысык-Көл облусу",
+  "aliases": [
+   "Ysyk-Köl",
+   "Issyk Kul",
+   "Issykkul",
+   "Karakol"
+  ],
+  "cap": [
+   "Karakol",
+   "Каракол",
+   "Қарақол"
+  ],
+  "short": [
+   "Issyk-Kul",
+   "Иссык-Кульская обл.",
+   "Ыстықкөл обл."
+  ]
+ },
+ "KG-N": {
+  "osm": 1251542,
+  "cc": "KG",
+  "core": true,
+  "en": "Naryn Region",
+  "ru": "Нарынская область",
+  "kk": "Нарын облысы",
+  "local": "Нарын облусу",
+  "aliases": [],
+  "cap": [
+   "Naryn",
+   "Нарын",
+   "Нарын"
+  ],
+  "short": [
+   "Naryn",
+   "Нарынская обл.",
+   "Нарын обл."
+  ]
+ },
+ "KG-J": {
+  "osm": 178024,
+  "cc": "KG",
+  "core": true,
+  "en": "Jalal-Abad Region",
+  "ru": "Джалал-Абадская область",
+  "kk": "Жалалабад облысы",
+  "local": "Жалал-Абад облусу",
+  "aliases": [
+   "Jalalabad",
+   "Djalal-Abad"
+  ],
+  "cap": [
+   "Manas",
+   "Манас",
+   "Манас"
+  ],
+  "short": [
+   "Jalal-Abad",
+   "Джалал-Абадская обл.",
+   "Жалалабад обл."
+  ]
+ },
+ "KG-O": {
+  "osm": 178020,
+  "cc": "KG",
+  "core": true,
+  "en": "Osh Region",
+  "ru": "Ошская область",
+  "kk": "Ош облысы",
+  "local": "Ош облусу",
+  "aliases": [],
+  "cap": [
+   "Osh",
+   "Ош",
+   "Ош"
+  ],
+  "short": [
+   "Osh",
+   "Ошская обл.",
+   "Ош обл."
+  ]
+ },
+ "KG-B": {
+  "osm": 178019,
+  "cc": "KG",
+  "core": true,
+  "en": "Batken Region",
+  "ru": "Баткенская область",
+  "kk": "Баткен облысы",
+  "local": "Баткен облусу",
+  "aliases": [],
+  "cap": [
+   "Batken",
+   "Баткен",
+   "Баткен"
+  ],
+  "short": [
+   "Batken",
+   "Баткенская обл.",
+   "Баткен обл."
+  ]
+ },
+ "KG-GB": {
+  "osm": 8493930,
+  "cc": "KG",
+  "core": true,
+  "en": "Bishkek",
+  "ru": "Бишкек",
+  "kk": "Бішкек",
+  "local": "Бишкек шаары",
+  "aliases": [
+   "Frunze"
+  ],
+  "cap": null,
+  "short": [
+   "Bishkek",
+   "Бишкек",
+   "Бішкек"
+  ]
+ },
+ "KG-GO": {
+  "osm": 19059632,
+  "cc": "KG",
+  "core": true,
+  "en": "Osh",
+  "ru": "Ош",
+  "kk": "Ош",
+  "local": "Ош шаары",
+  "aliases": [
+   "Osh city"
+  ],
+  "cap": null,
+  "short": [
+   "Osh",
+   "Ош",
+   "Ош"
+  ]
+ },
+ "TJ-SU": {
+  "osm": 3279374,
+  "cc": "TJ",
+  "core": true,
+  "en": "Sughd Region",
+  "ru": "Согдийская область",
+  "kk": "Соғды облысы",
+  "local": "Вилояти Суғд",
+  "aliases": [
+   "Sogd",
+   "Soghd",
+   "Khujand",
+   "Leninabad"
+  ],
+  "cap": [
+   "Khujand",
+   "Худжанд",
+   "Хұжанд"
+  ],
+  "short": [
+   "Sughd",
+   "Согдийская обл.",
+   "Соғды обл."
+  ]
+ },
+ "TJ-RA": {
+  "osm": 3279615,
+  "cc": "TJ",
+  "core": true,
+  "en": "Districts of Republican Subordination",
+  "ru": "Районы республиканского подчинения",
+  "kk": "Республикалық бағыныстағы аудандар",
+  "local": "Ноҳияҳои тобеи ҷумҳурӣ",
+  "aliases": [
+   "Nohiyahoi Tobei Jumhuri",
+   "RRS",
+   "DRS",
+   "Republican Subordination"
+  ],
+  "cap": null,
+  "short": [
+   "Republican Subordination",
+   "РРП",
+   "РБА"
+  ]
+ },
+ "TJ-KT": {
+  "osm": 3279616,
+  "cc": "TJ",
+  "core": true,
+  "en": "Khatlon Region",
+  "ru": "Хатлонская область",
+  "kk": "Хатлон облысы",
+  "local": "Вилояти Хатлон",
+  "aliases": [
+   "Bokhtar"
+  ],
+  "cap": [
+   "Bokhtar",
+   "Бохтар",
+   "Бохтар"
+  ],
+  "short": [
+   "Khatlon",
+   "Хатлонская обл.",
+   "Хатлон обл."
+  ]
+ },
+ "TJ-GB": {
+  "osm": 3279614,
+  "cc": "TJ",
+  "core": true,
+  "en": "Gorno-Badakhshan Autonomous Region",
+  "ru": "Горно-Бадахшанская автономная область",
+  "kk": "Таулы Бадахшан автономиялық облысы",
+  "local": "Вилояти Мухтори Кӯҳистони Бадахшон",
+  "aliases": [
+   "GBAO",
+   "Kuhistoni Badakhshon",
+   "Kŭhistoni Badakhshon",
+   "Mountainous Badakhshan",
+   "Badakhshan",
+   "Pamir",
+   "Khorog"
+  ],
+  "cap": [
+   "Khorugh",
+   "Хорог",
+   "Хорог"
+  ],
+  "short": [
+   "Gorno-Badakhshan",
+   "ГБАО",
+   "ТБАО"
+  ]
+ },
+ "TJ-DU": {
+  "osm": 7328360,
+  "cc": "TJ",
+  "core": true,
+  "en": "Dushanbe",
+  "ru": "Душанбе",
+  "kk": "Душанбе",
+  "local": "Душанбе",
+  "aliases": [
+   "Stalinabad"
+  ],
+  "cap": null,
+  "short": [
+   "Dushanbe",
+   "Душанбе",
+   "Душанбе"
+  ]
+ },
+ "TM-B": {
+  "osm": 223032,
+  "cc": "TM",
+  "core": true,
+  "en": "Balkan Region",
+  "ru": "Балканский велаят",
+  "kk": "Балқан уәлаяты",
+  "local": "Balkan welaýaty",
+  "aliases": [
+   "Balkan"
+  ],
+  "cap": [
+   "Balkanabat",
+   "Балканабад",
+   "Балқанабат"
+  ],
+  "short": [
+   "Balkan",
+   "Балканский вел.",
+   "Балқан уәл."
+  ]
+ },
+ "TM-A": {
+  "osm": 223031,
+  "cc": "TM",
+  "core": true,
+  "en": "Ahal Region",
+  "ru": "Ахалский велаят",
+  "kk": "Ахал уәлаяты",
+  "local": "Ahal welaýaty",
+  "aliases": [
+   "Akhal"
+  ],
+  "cap": [
+   "Arkadag",
+   "Аркадаг",
+   "Аркадаг"
+  ],
+  "short": [
+   "Ahal",
+   "Ахалский вел.",
+   "Ахал уәл."
+  ]
+ },
+ "TM-D": {
+  "osm": 223028,
+  "cc": "TM",
+  "core": true,
+  "en": "Dashoguz Region",
+  "ru": "Дашогузский велаят",
+  "kk": "Дашоғыз уәлаяты",
+  "local": "Daşoguz welaýaty",
+  "aliases": [
+   "Daşoguz",
+   "Dashhowuz",
+   "Dasoguz"
+  ],
+  "cap": [
+   "Dashoguz",
+   "Дашогуз",
+   "Дашоғыз"
+  ],
+  "short": [
+   "Dashoguz",
+   "Дашогузский вел.",
+   "Дашоғыз уәл."
+  ]
+ },
+ "TM-L": {
+  "osm": 223029,
+  "cc": "TM",
+  "core": true,
+  "en": "Lebap Region",
+  "ru": "Лебапский велаят",
+  "kk": "Лебап уәлаяты",
+  "local": "Lebap welaýaty",
+  "aliases": [
+   "Türkmenabat"
+  ],
+  "cap": [
+   "Türkmenabat",
+   "Туркменабад",
+   "Түрікменабат"
+  ],
+  "short": [
+   "Lebap",
+   "Лебапский вел.",
+   "Лебап уәл."
+  ]
+ },
+ "TM-M": {
+  "osm": 223030,
+  "cc": "TM",
+  "core": true,
+  "en": "Mary Region",
+  "ru": "Марыйский велаят",
+  "kk": "Мары уәлаяты",
+  "local": "Mary welaýaty",
+  "aliases": [],
+  "cap": [
+   "Mary",
+   "Мары",
+   "Мары"
+  ],
+  "short": [
+   "Mary",
+   "Марыйский вел.",
+   "Мары уәл."
+  ]
+ },
+ "TM-S": {
+  "osm": 7328329,
+  "cc": "TM",
+  "core": true,
+  "en": "Ashgabat",
+  "ru": "Ашхабад",
+  "kk": "Ашхабад",
+  "local": "Aşgabat",
+  "aliases": [
+   "Ashkhabad"
+  ],
+  "cap": null,
+  "short": [
+   "Ashgabat",
+   "Ашхабад",
+   "Ашхабад"
+  ]
+ },
+ "TM-AR": {
+  "osm": 15654588,
+  "cc": "TM",
+  "core": true,
+  "en": "Arkadag",
+  "ru": "Аркадаг",
+  "kk": "Аркадаг",
+  "local": "Arkadag şäheri",
+  "aliases": [],
+  "cap": null,
+  "short": [
+   "Arkadag",
+   "Аркадаг",
+   "Аркадаг"
+  ]
+ },
+ "UZ-QR": {
+  "osm": 196241,
+  "cc": "UZ",
+  "core": true,
+  "en": "Republic of Karakalpakstan",
+  "ru": "Республика Каракалпакстан",
+  "kk": "Қарақалпақстан Республикасы",
+  "local": "Qoraqalpogʻiston Respublikasi",
+  "aliases": [
+   "Karakalpakstan",
+   "Qoraqalpogʻiston",
+   "Qoraqalpogiston",
+   "Nukus"
+  ],
+  "cap": [
+   "Nukus",
+   "Нукус",
+   "Нүкіс"
+  ],
+  "short": [
+   "Karakalpakstan",
+   "Каракалпакстан",
+   "Қарақалпақстан"
+  ]
+ },
+ "UZ-XO": {
+  "osm": 196242,
+  "cc": "UZ",
+  "core": true,
+  "en": "Khorezm Region",
+  "ru": "Хорезмская область",
+  "kk": "Хорезм облысы",
+  "local": "Xorazm viloyati",
+  "aliases": [
+   "Xorazm",
+   "Khwarazm",
+   "Urgench"
+  ],
+  "cap": [
+   "Urgench",
+   "Ургенч",
+   "Үргеніш"
+  ],
+  "short": [
+   "Khorezm",
+   "Хорезмская обл.",
+   "Хорезм обл."
+  ]
+ },
+ "UZ-BU": {
+  "osm": 1670973,
+  "cc": "UZ",
+  "core": true,
+  "en": "Bukhara Region",
+  "ru": "Бухарская область",
+  "kk": "Бұхара облысы",
+  "local": "Buxoro viloyati",
+  "aliases": [
+   "Buxoro",
+   "Bukhoro"
+  ],
+  "cap": [
+   "Bukhara",
+   "Бухара",
+   "Бұхара"
+  ],
+  "short": [
+   "Bukhara",
+   "Бухарская обл.",
+   "Бұхара обл."
+  ]
+ },
+ "UZ-NW": {
+  "osm": 196246,
+  "cc": "UZ",
+  "core": true,
+  "en": "Navoi Region",
+  "ru": "Навоийская область",
+  "kk": "Науаи облысы",
+  "local": "Navoiy viloyati",
+  "aliases": [
+   "Navoiy",
+   "Navoiy"
+  ],
+  "cap": [
+   "Navoi",
+   "Навои",
+   "Науаи"
+  ],
+  "short": [
+   "Navoi",
+   "Навоийская обл.",
+   "Науаи обл."
+  ]
+ },
+ "UZ-SA": {
+  "osm": 196249,
+  "cc": "UZ",
+  "core": true,
+  "en": "Samarkand Region",
+  "ru": "Самаркандская область",
+  "kk": "Самарқанд облысы",
+  "local": "Samarqand viloyati",
+  "aliases": [
+   "Samarqand"
+  ],
+  "cap": [
+   "Samarkand",
+   "Самарканд",
+   "Самарқанд"
+  ],
+  "short": [
+   "Samarkand",
+   "Самаркандская обл.",
+   "Самарқанд обл."
+  ]
+ },
+ "UZ-QA": {
+  "osm": 1670974,
+  "cc": "UZ",
+  "core": true,
+  "en": "Kashkadarya Region",
+  "ru": "Кашкадарьинская область",
+  "kk": "Қашқадария облысы",
+  "local": "Qashqadaryo viloyati",
+  "aliases": [
+   "Qashqadaryo",
+   "Qarshi",
+   "Karshi"
+  ],
+  "cap": [
+   "Karshi",
+   "Карши",
+   "Қарши"
+  ],
+  "short": [
+   "Kashkadarya",
+   "Кашкадарьинская обл.",
+   "Қашқадария обл."
+  ]
+ },
+ "UZ-SU": {
+  "osm": 196248,
+  "cc": "UZ",
+  "core": true,
+  "en": "Surkhandarya Region",
+  "ru": "Сурхандарьинская область",
+  "kk": "Сурхандария облысы",
+  "local": "Surxondaryo viloyati",
+  "aliases": [
+   "Surxondaryo",
+   "Termez",
+   "Termiz"
+  ],
+  "cap": [
+   "Termez",
+   "Термез",
+   "Термез"
+  ],
+  "short": [
+   "Surkhandarya",
+   "Сурхандарьинская обл.",
+   "Сурхандария обл."
+  ]
+ },
+ "UZ-JI": {
+  "osm": 196254,
+  "cc": "UZ",
+  "core": true,
+  "en": "Jizzakh Region",
+  "ru": "Джизакская область",
+  "kk": "Жизақ облысы",
+  "local": "Jizzax viloyati",
+  "aliases": [
+   "Jizzax",
+   "Djizak"
+  ],
+  "cap": [
+   "Jizzakh",
+   "Джизак",
+   "Жизақ"
+  ],
+  "short": [
+   "Jizzakh",
+   "Джизакская обл.",
+   "Жизақ обл."
+  ]
+ },
+ "UZ-SI": {
+  "osm": 196253,
+  "cc": "UZ",
+  "core": true,
+  "en": "Syrdarya Region",
+  "ru": "Сырдарьинская область",
+  "kk": "Сырдария облысы",
+  "local": "Sirdaryo viloyati",
+  "aliases": [
+   "Sirdaryo",
+   "Gulistan"
+  ],
+  "cap": [
+   "Gulistan",
+   "Гулистан",
+   "Гүлістан"
+  ],
+  "short": [
+   "Syrdarya",
+   "Сырдарьинская обл.",
+   "Сырдария обл."
+  ]
+ },
+ "UZ-TO": {
+  "osm": 196251,
+  "cc": "UZ",
+  "core": true,
+  "en": "Tashkent Region",
+  "ru": "Ташкентская область",
+  "kk": "Ташкент облысы",
+  "local": "Toshkent viloyati",
+  "aliases": [
+   "Toshkent viloyati",
+   "Nurafshon"
+  ],
+  "cap": [
+   "Nurafshon",
+   "Нурафшан",
+   "Нұрафшан"
+  ],
+  "short": [
+   "Tashkent",
+   "Ташкентская обл.",
+   "Ташкент обл."
+  ]
+ },
+ "UZ-TK": {
+  "osm": 2216724,
+  "cc": "UZ",
+  "core": true,
+  "en": "Tashkent",
+  "ru": "Ташкент",
+  "kk": "Ташкент",
+  "local": "Toshkent shahri",
+  "aliases": [
+   "Toshkent",
+   "Tashkent city"
+  ],
+  "cap": null,
+  "short": [
+   "Tashkent",
+   "Ташкент",
+   "Ташкент"
+  ]
+ },
+ "UZ-NG": {
+  "osm": 178017,
+  "cc": "UZ",
+  "core": true,
+  "en": "Namangan Region",
+  "ru": "Наманганская область",
+  "kk": "Наманган облысы",
+  "local": "Namangan viloyati",
+  "aliases": [],
+  "cap": [
+   "Namangan",
+   "Наманган",
+   "Наманган"
+  ],
+  "short": [
+   "Namangan",
+   "Наманганская обл.",
+   "Наманган обл."
+  ]
+ },
+ "UZ-AN": {
+  "osm": 178016,
+  "cc": "UZ",
+  "core": true,
+  "en": "Andijan Region",
+  "ru": "Андижанская область",
+  "kk": "Әндіжан облысы",
+  "local": "Andijon viloyati",
+  "aliases": [
+   "Andijon"
+  ],
+  "cap": [
+   "Andijan",
+   "Андижан",
+   "Әндіжан"
+  ],
+  "short": [
+   "Andijan",
+   "Андижанская обл.",
+   "Әндіжан обл."
+  ]
+ },
+ "UZ-FA": {
+  "osm": 178018,
+  "cc": "UZ",
+  "core": true,
+  "en": "Fergana Region",
+  "ru": "Ферганская область",
+  "kk": "Ферғана облысы",
+  "local": "Fargʻona viloyati",
+  "aliases": [
+   "Fargʻona",
+   "Fargona",
+   "Ferghana"
+  ],
+  "cap": [
+   "Fergana",
+   "Фергана",
+   "Ферғана"
+  ],
+  "short": [
+   "Fergana",
+   "Ферганская обл.",
+   "Ферғана обл."
+  ]
+ },
+ "RU-AST": {
+  "osm": 112819,
+  "cc": "RU",
+  "core": false,
+  "en": "Astrakhan Oblast",
+  "ru": "Астраханская область",
+  "kk": "Астрахан облысы",
+  "local": "Астраханская область",
+  "aliases": [
+   "Astrakhan"
+  ],
+  "cap": [
+   "Astrakhan",
+   "Астрахань",
+   "Астрахан"
+  ],
+  "short": [
+   "Astrakhan",
+   "Астраханская обл.",
+   "Астрахан обл."
+  ]
+ },
+ "RU-KL": {
+  "osm": 108083,
+  "cc": "RU",
+  "core": false,
+  "en": "Republic of Kalmykia",
+  "ru": "Республика Калмыкия",
+  "kk": "Қалмақ Республикасы",
+  "local": "Хальмг Таңһч",
+  "aliases": [
+   "Kalmykia",
+   "Калмыкия"
+  ],
+  "cap": [
+   "Elista",
+   "Элиста",
+   "Элиста"
+  ],
+  "short": [
+   "Kalmykia",
+   "Калмыкия",
+   "Қалмақстан"
+  ]
+ },
+ "RU-VGG": {
+  "osm": 77665,
+  "cc": "RU",
+  "core": false,
+  "en": "Volgograd Oblast",
+  "ru": "Волгоградская область",
+  "kk": "Волгоград облысы",
+  "local": "Волгоградская область",
+  "aliases": [
+   "Volgograd",
+   "Stalingrad"
+  ],
+  "cap": [
+   "Volgograd",
+   "Волгоград",
+   "Волгоград"
+  ],
+  "short": [
+   "Volgograd",
+   "Волгоградская обл.",
+   "Волгоград обл."
+  ]
+ },
+ "RU-SAR": {
+  "osm": 72193,
+  "cc": "RU",
+  "core": false,
+  "en": "Saratov Oblast",
+  "ru": "Саратовская область",
+  "kk": "Саратов облысы",
+  "local": "Саратовская область",
+  "aliases": [
+   "Saratov"
+  ],
+  "cap": [
+   "Saratov",
+   "Саратов",
+   "Саратов"
+  ],
+  "short": [
+   "Saratov",
+   "Саратовская обл.",
+   "Саратов обл."
+  ]
+ },
+ "RU-SAM": {
+  "osm": 72194,
+  "cc": "RU",
+  "core": false,
+  "en": "Samara Oblast",
+  "ru": "Самарская область",
+  "kk": "Самара облысы",
+  "local": "Самарская область",
+  "aliases": [
+   "Samara",
+   "Kuybyshev"
+  ],
+  "cap": [
+   "Samara",
+   "Самара",
+   "Самара"
+  ],
+  "short": [
+   "Samara",
+   "Самарская обл.",
+   "Самара обл."
+  ]
+ },
+ "RU-ORE": {
+  "osm": 77669,
+  "cc": "RU",
+  "core": false,
+  "en": "Orenburg Oblast",
+  "ru": "Оренбургская область",
+  "kk": "Орынбор облысы",
+  "local": "Оренбургская область",
+  "aliases": [
+   "Orenburg",
+   "Orynbor"
+  ],
+  "cap": [
+   "Orenburg",
+   "Оренбург",
+   "Орынбор"
+  ],
+  "short": [
+   "Orenburg",
+   "Оренбургская обл.",
+   "Орынбор обл."
+  ]
+ },
+ "RU-BA": {
+  "osm": 77677,
+  "cc": "RU",
+  "core": false,
+  "en": "Republic of Bashkortostan",
+  "ru": "Республика Башкортостан",
+  "kk": "Башқұртстан Республикасы",
+  "local": "Башҡортостан Республикаһы",
+  "aliases": [
+   "Bashkortostan",
+   "Bashkiria",
+   "Башкирия"
+  ],
+  "cap": [
+   "Ufa",
+   "Уфа",
+   "Уфа"
+  ],
+  "short": [
+   "Bashkortostan",
+   "Башкортостан",
+   "Башқұртстан"
+  ]
+ },
+ "RU-TA": {
+  "osm": 79374,
+  "cc": "RU",
+  "core": false,
+  "en": "Republic of Tatarstan",
+  "ru": "Республика Татарстан",
+  "kk": "Татарстан Республикасы",
+  "local": "Татарстан Республикасы",
+  "aliases": [
+   "Tatarstan"
+  ],
+  "cap": [
+   "Kazan",
+   "Казань",
+   "Қазан"
+  ],
+  "short": [
+   "Tatarstan",
+   "Татарстан",
+   "Татарстан"
+  ]
+ },
+ "RU-CU": {
+  "osm": 80513,
+  "cc": "RU",
+  "core": false,
+  "en": "Chuvash Republic",
+  "ru": "Чувашская Республика",
+  "kk": "Чуваш Республикасы",
+  "local": "Чӑваш Республики",
+  "aliases": [
+   "Chuvashia",
+   "Чувашия"
+  ],
+  "cap": [
+   "Cheboksary",
+   "Чебоксары",
+   "Чебоксары"
+  ],
+  "short": [
+   "Chuvashia",
+   "Чувашия",
+   "Шувашия"
+  ]
+ },
+ "RU-CHE": {
+  "osm": 77687,
+  "cc": "RU",
+  "core": false,
+  "en": "Chelyabinsk Oblast",
+  "ru": "Челябинская область",
+  "kk": "Челябі облысы",
+  "local": "Челябинская область",
+  "aliases": [
+   "Chelyabinsk"
+  ],
+  "cap": [
+   "Chelyabinsk",
+   "Челябинск",
+   "Челябі"
+  ],
+  "short": [
+   "Chelyabinsk",
+   "Челябинская обл.",
+   "Челябі обл."
+  ]
+ },
+ "RU-KGN": {
+  "osm": 140290,
+  "cc": "RU",
+  "core": false,
+  "en": "Kurgan Oblast",
+  "ru": "Курганская область",
+  "kk": "Қорған облысы",
+  "local": "Курганская область",
+  "aliases": [
+   "Kurgan"
+  ],
+  "cap": [
+   "Kurgan",
+   "Курган",
+   "Қорған"
+  ],
+  "short": [
+   "Kurgan",
+   "Курганская обл.",
+   "Қорған обл."
+  ]
+ },
+ "RU-TYU": {
+  "osm": 140291,
+  "cc": "RU",
+  "core": false,
+  "en": "Tyumen Oblast",
+  "ru": "Тюменская область",
+  "kk": "Түмен облысы",
+  "local": "Тюменская область",
+  "aliases": [
+   "Tyumen"
+  ],
+  "cap": [
+   "Tyumen",
+   "Тюмень",
+   "Түмен"
+  ],
+  "short": [
+   "Tyumen",
+   "Тюменская обл.",
+   "Түмен обл."
+  ]
+ },
+ "RU-OMS": {
+  "osm": 140292,
+  "cc": "RU",
+  "core": false,
+  "en": "Omsk Oblast",
+  "ru": "Омская область",
+  "kk": "Омбы облысы",
+  "local": "Омская область",
+  "aliases": [
+   "Omsk"
+  ],
+  "cap": [
+   "Omsk",
+   "Омск",
+   "Омбы"
+  ],
+  "short": [
+   "Omsk",
+   "Омская обл.",
+   "Омбы обл."
+  ]
+ },
+ "RU-NVS": {
+  "osm": 140294,
+  "cc": "RU",
+  "core": false,
+  "en": "Novosibirsk Oblast",
+  "ru": "Новосибирская область",
+  "kk": "Новосібір облысы",
+  "local": "Новосибирская область",
+  "aliases": [
+   "Novosibirsk"
+  ],
+  "cap": [
+   "Novosibirsk",
+   "Новосибирск",
+   "Новосібір"
+  ],
+  "short": [
+   "Novosibirsk",
+   "Новосибирская обл.",
+   "Новосібір обл."
+  ]
+ },
+ "RU-ALT": {
+  "osm": 144764,
+  "cc": "RU",
+  "core": false,
+  "en": "Altai Krai",
+  "ru": "Алтайский край",
+  "kk": "Алтай өлкесі",
+  "local": "Алтайский край",
+  "aliases": [
+   "Barnaul"
+  ],
+  "cap": [
+   "Barnaul",
+   "Барнаул",
+   "Барнауыл"
+  ],
+  "short": [
+   "Altai Krai",
+   "Алтайский край",
+   "Алтай өлкесі"
+  ]
+ },
+ "RU-AL": {
+  "osm": 145194,
+  "cc": "RU",
+  "core": false,
+  "en": "Altai Republic",
+  "ru": "Республика Алтай",
+  "kk": "Алтай Республикасы",
+  "local": "Алтай Республика",
+  "aliases": [
+   "Gorno-Altaysk",
+   "Mountain Altai",
+   "Горный Алтай"
+  ],
+  "cap": [
+   "Gorno-Altaysk",
+   "Горно-Алтайск",
+   "Горно-Алтайск"
+  ],
+  "short": [
+   "Altai Rep.",
+   "Респ. Алтай",
+   "Алтай Респ."
+  ]
+ },
+ "RU-TY": {
+  "osm": 145195,
+  "cc": "RU",
+  "core": false,
+  "en": "Tuva Republic",
+  "ru": "Республика Тыва",
+  "kk": "Тыва Республикасы",
+  "local": "Тыва Республика",
+  "aliases": [
+   "Tuva",
+   "Tyva",
+   "Тува"
+  ],
+  "cap": [
+   "Kyzyl",
+   "Кызыл",
+   "Қызыл"
+  ],
+  "short": [
+   "Tuva",
+   "Тыва",
+   "Тыва"
+  ]
+ },
+ "RU-KK": {
+  "osm": 190911,
+  "cc": "RU",
+  "core": false,
+  "en": "Republic of Khakassia",
+  "ru": "Республика Хакасия",
+  "kk": "Хакасия Республикасы",
+  "local": "Хакас Республиказы",
+  "aliases": [
+   "Khakassia",
+   "Хакасия"
+  ],
+  "cap": [
+   "Abakan",
+   "Абакан",
+   "Абакан"
+  ],
+  "short": [
+   "Khakassia",
+   "Хакасия",
+   "Хакасия"
+  ]
+ },
+ "RU-BU": {
+  "osm": 145729,
+  "cc": "RU",
+  "core": false,
+  "en": "Republic of Buryatia",
+  "ru": "Республика Бурятия",
+  "kk": "Бурятия Республикасы",
+  "local": "Буряад Республика",
+  "aliases": [
+   "Buryatia",
+   "Бурятия"
+  ],
+  "cap": [
+   "Ulan-Ude",
+   "Улан-Удэ",
+   "Улан-Удэ"
+  ],
+  "short": [
+   "Buryatia",
+   "Бурятия",
+   "Бурятия"
+  ]
+ },
+ "CN-XJ": {
+  "osm": 153310,
+  "cc": "CN",
+  "core": false,
+  "en": "Xinjiang Uyghur Autonomous Region",
+  "ru": "Синьцзян-Уйгурский автономный район",
+  "kk": "Шыңжаң Ұйғыр автономиялық ауданы",
+  "local": "新疆维吾尔自治区",
+  "aliases": [
+   "Xinjiang",
+   "Синьцзян",
+   "Шыңжаң",
+   "East Turkestan"
+  ],
+  "cap": [
+   "Ürümqi",
+   "Урумчи",
+   "Үрімжі"
+  ],
+  "short": [
+   "Xinjiang",
+   "Синьцзян",
+   "Шыңжаң"
+  ]
+ },
+ "CN-GS": {
+  "osm": 153314,
+  "cc": "CN",
+  "core": false,
+  "en": "Gansu Province",
+  "ru": "Провинция Ганьсу",
+  "kk": "Ганьсу провинциясы",
+  "local": "甘肃省",
+  "aliases": [
+   "Gansu",
+   "Ганьсу"
+  ],
+  "cap": [
+   "Lanzhou",
+   "Ланьчжоу",
+   "Ланьчжоу"
+  ],
+  "short": [
+   "Gansu",
+   "Ганьсу",
+   "Ганьсу"
+  ]
+ },
+ "CN-NM": {
+  "osm": 161349,
+  "cc": "CN",
+  "core": false,
+  "en": "Inner Mongolia Autonomous Region",
+  "ru": "Автономный район Внутренняя Монголия",
+  "kk": "Ішкі Моңғолия автономиялық ауданы",
+  "local": "内蒙古自治区",
+  "aliases": [
+   "Inner Mongolia",
+   "Внутренняя Монголия",
+   "Ішкі Моңғолия",
+   "Nei Mongol"
+  ],
+  "cap": [
+   "Hohhot",
+   "Хух-Хото",
+   "Хух-Хото"
+  ],
+  "short": [
+   "Inner Mongolia",
+   "Внутр. Монголия",
+   "Ішкі Моңғолия"
+  ]
+ },
+ "CN-QH": {
+  "osm": 153269,
+  "cc": "CN",
+  "core": false,
+  "en": "Qinghai Province",
+  "ru": "Провинция Цинхай",
+  "kk": "Цинхай провинциясы",
+  "local": "青海省",
+  "aliases": [
+   "Qinghai",
+   "Цинхай",
+   "Kokonor"
+  ],
+  "cap": [
+   "Xining",
+   "Синин",
+   "Синин"
+  ],
+  "short": [
+   "Qinghai",
+   "Цинхай",
+   "Цинхай"
+  ]
+ },
+ "MN-073": {
+  "osm": 270075,
+  "cc": "MN",
+  "core": false,
+  "en": "Arkhangai Province",
+  "ru": "Архангайский аймак",
+  "kk": "Архангай аймағы",
+  "local": "Архангай аймаг",
+  "aliases": [
+   "Arkhangai",
+   "Архангай"
+  ],
+  "cap": [
+   "Tsetserleg",
+   "Цэцэрлэг",
+   "Цэцэрлэг"
+  ],
+  "short": [
+   "Arkhangai",
+   "Архангай",
+   "Архангай"
+  ]
+ },
+ "MN-071": {
+  "osm": 3382266,
+  "cc": "MN",
+  "core": false,
+  "en": "Bayan-Ölgii Province",
+  "ru": "Баян-Улгийский аймак",
+  "kk": "Баян-Өлгий аймағы",
+  "local": "Баян-Өлгий аймаг",
+  "aliases": [
+   "Bayan-Olgii",
+   "Bayan-Ulgii",
+   "Баян-Улгий",
+   "Баян-Өлгий"
+  ],
+  "cap": [
+   "Ölgii",
+   "Улгий",
+   "Өлгий"
+  ],
+  "short": [
+   "Bayan-Ölgii",
+   "Баян-Өлгий",
+   "Баян-Өлгий"
+  ]
+ },
+ "MN-069": {
+  "osm": 270052,
+  "cc": "MN",
+  "core": false,
+  "en": "Bayankhongor Province",
+  "ru": "Баянхонгорский аймак",
+  "kk": "Баянхонгор аймағы",
+  "local": "Баянхонгор аймаг",
+  "aliases": [
+   "Bayankhongor",
+   "Баянхонгор"
+  ],
+  "cap": [
+   "Bayankhongor",
+   "Баянхонгор",
+   "Баянхонгор"
+  ],
+  "short": [
+   "Bayankhongor",
+   "Баянхонгор",
+   "Баянхонгор"
+  ]
+ },
+ "MN-067": {
+  "osm": 270073,
+  "cc": "MN",
+  "core": false,
+  "en": "Bulgan Province",
+  "ru": "Булганский аймак",
+  "kk": "Булған аймағы",
+  "local": "Булган аймаг",
+  "aliases": [
+   "Bulgan",
+   "Булган"
+  ],
+  "cap": [
+   "Bulgan",
+   "Булган",
+   "Булған"
+  ],
+  "short": [
+   "Bulgan",
+   "Булган",
+   "Булған"
+  ]
+ },
+ "MN-037": {
+  "osm": 270091,
+  "cc": "MN",
+  "core": false,
+  "en": "Darkhan-Uul Province",
+  "ru": "Дархан-Уул",
+  "kk": "Дархан-Уул аймағы",
+  "local": "Дархан-Уул аймаг",
+  "aliases": [
+   "Darkhan",
+   "Дархан"
+  ],
+  "cap": [
+   "Darkhan",
+   "Дархан",
+   "Дархан"
+  ],
+  "short": [
+   "Darkhan-Uul",
+   "Дархан-Уул",
+   "Дархан-Уул"
+  ]
+ },
+ "MN-061": {
+  "osm": 269886,
+  "cc": "MN",
+  "core": false,
+  "en": "Dornod Province",
+  "ru": "Восточный аймак",
+  "kk": "Дорнод аймағы",
+  "local": "Дорнод аймаг",
+  "aliases": [
+   "Dornod",
+   "Дорнод"
+  ],
+  "cap": [
+   "Choibalsan",
+   "Чойбалсан",
+   "Чойбалсан"
+  ],
+  "short": [
+   "Dornod",
+   "Дорнод",
+   "Дорнод"
+  ]
+ },
+ "MN-063": {
+  "osm": 270050,
+  "cc": "MN",
+  "core": false,
+  "en": "Dornogovi Province",
+  "ru": "Восточно-Гобийский аймак",
+  "kk": "Дорноговь аймағы",
+  "local": "Дорноговь аймаг",
+  "aliases": [
+   "Dornogovi",
+   "East Gobi",
+   "Дорноговь"
+  ],
+  "cap": [
+   "Sainshand",
+   "Сайншанд",
+   "Сайншанд"
+  ],
+  "short": [
+   "Dornogovi",
+   "Дорноговь",
+   "Дорноговь"
+  ]
+ },
+ "MN-059": {
+  "osm": 270094,
+  "cc": "MN",
+  "core": false,
+  "en": "Dundgovi Province",
+  "ru": "Среднегобийский аймак",
+  "kk": "Дундговь аймағы",
+  "local": "Дундговь аймаг",
+  "aliases": [
+   "Dundgovi",
+   "Middle Gobi",
+   "Дундговь"
+  ],
+  "cap": [
+   "Mandalgovi",
+   "Мандалговь",
+   "Мандалговь"
+  ],
+  "short": [
+   "Dundgovi",
+   "Дундговь",
+   "Дундговь"
+  ]
+ },
+ "MN-065": {
+  "osm": 270054,
+  "cc": "MN",
+  "core": false,
+  "en": "Govi-Altai Province",
+  "ru": "Гоби-Алтайский аймак",
+  "kk": "Говь-Алтай аймағы",
+  "local": "Говь-Алтай аймаг",
+  "aliases": [
+   "Govi-Altai",
+   "Gobi-Altai",
+   "Говь-Алтай"
+  ],
+  "cap": [
+   "Altai",
+   "Алтай",
+   "Алтай"
+  ],
+  "short": [
+   "Govi-Altai",
+   "Говь-Алтай",
+   "Говь-Алтай"
+  ]
+ },
+ "MN-064": {
+  "osm": 270095,
+  "cc": "MN",
+  "core": false,
+  "en": "Govisümber Province",
+  "ru": "Гобисумбэр",
+  "kk": "Говьсүмбэр аймағы",
+  "local": "Говьсүмбэр аймаг",
+  "aliases": [
+   "Govisumber",
+   "Govi-Sumber",
+   "Говьсүмбэр"
+  ],
+  "cap": [
+   "Choir",
+   "Чойр",
+   "Чойр"
+  ],
+  "short": [
+   "Govisümber",
+   "Говьсүмбэр",
+   "Говьсүмбэр"
+  ]
+ },
+ "MN-039": {
+  "osm": 269885,
+  "cc": "MN",
+  "core": false,
+  "en": "Khentii Province",
+  "ru": "Хэнтэйский аймак",
+  "kk": "Хэнтий аймағы",
+  "local": "Хэнтий аймаг",
+  "aliases": [
+   "Khentii",
+   "Hentii",
+   "Хэнтий",
+   "Хэнтэй"
+  ],
+  "cap": [
+   "Chinggis",
+   "Чингис",
+   "Шыңғыс"
+  ],
+  "short": [
+   "Khentii",
+   "Хэнтий",
+   "Хэнтий"
+  ]
+ },
+ "MN-043": {
+  "osm": 270055,
+  "cc": "MN",
+  "core": false,
+  "en": "Khovd Province",
+  "ru": "Кобдоский аймак",
+  "kk": "Ховд аймағы",
+  "local": "Ховд аймаг",
+  "aliases": [
+   "Khovd",
+   "Hovd",
+   "Kobdo",
+   "Ховд",
+   "Кобдо"
+  ],
+  "cap": [
+   "Khovd",
+   "Ховд",
+   "Ховд"
+  ],
+  "short": [
+   "Khovd",
+   "Ховд",
+   "Ховд"
+  ]
+ },
+ "MN-041": {
+  "osm": 270072,
+  "cc": "MN",
+  "core": false,
+  "en": "Khövsgöl Province",
+  "ru": "Хубсугульский аймак",
+  "kk": "Хөвсгөл аймағы",
+  "local": "Хөвсгөл аймаг",
+  "aliases": [
+   "Khovsgol",
+   "Hovsgol",
+   "Хубсугул",
+   "Хөвсгөл"
+  ],
+  "cap": [
+   "Mörön",
+   "Мурэн",
+   "Мөрөн"
+  ],
+  "short": [
+   "Khövsgöl",
+   "Хөвсгөл",
+   "Хөвсгөл"
+  ]
+ },
+ "MN-053": {
+  "osm": 270051,
+  "cc": "MN",
+  "core": false,
+  "en": "Ömnögovi Province",
+  "ru": "Южно-Гобийский аймак",
+  "kk": "Өмнөговь аймағы",
+  "local": "Өмнөговь аймаг",
+  "aliases": [
+   "Omnogovi",
+   "South Gobi",
+   "Умнеговь",
+   "Өмнөговь"
+  ],
+  "cap": [
+   "Dalanzadgad",
+   "Даланзадгад",
+   "Даланзадгад"
+  ],
+  "short": [
+   "Ömnögovi",
+   "Өмнөговь",
+   "Өмнөговь"
+  ]
+ },
+ "MN-035": {
+  "osm": 270092,
+  "cc": "MN",
+  "core": false,
+  "en": "Orkhon Province",
+  "ru": "Орхон",
+  "kk": "Орхон аймағы",
+  "local": "Орхон аймаг",
+  "aliases": [
+   "Orkhon",
+   "Erdenet",
+   "Орхон",
+   "Эрдэнэт"
+  ],
+  "cap": [
+   "Erdenet",
+   "Эрдэнэт",
+   "Эрдэнэт"
+  ],
+  "short": [
+   "Orkhon",
+   "Орхон",
+   "Орхон"
+  ]
+ },
+ "MN-055": {
+  "osm": 270074,
+  "cc": "MN",
+  "core": false,
+  "en": "Övörkhangai Province",
+  "ru": "Уверхангайский аймак",
+  "kk": "Өвөрхангай аймағы",
+  "local": "Өвөрхангай аймаг",
+  "aliases": [
+   "Ovorkhangai",
+   "Uvurkhangai",
+   "Уверхангай",
+   "Өвөрхангай"
+  ],
+  "cap": [
+   "Arvaikheer",
+   "Арвайхээр",
+   "Арвайхээр"
+  ],
+  "short": [
+   "Övörkhangai",
+   "Өвөрхангай",
+   "Өвөрхангай"
+  ]
+ },
+ "MN-049": {
+  "osm": 270089,
+  "cc": "MN",
+  "core": false,
+  "en": "Selenge Province",
+  "ru": "Селенгинский аймак",
+  "kk": "Сэлэнгэ аймағы",
+  "local": "Сэлэнгэ аймаг",
+  "aliases": [
+   "Selenge",
+   "Сэлэнгэ",
+   "Селенга"
+  ],
+  "cap": [
+   "Sükhbaatar",
+   "Сухэ-Батор",
+   "Сүхбаатар"
+  ],
+  "short": [
+   "Selenge",
+   "Сэлэнгэ",
+   "Сэлэнгэ"
+  ]
+ },
+ "MN-051": {
+  "osm": 269874,
+  "cc": "MN",
+  "core": false,
+  "en": "Sükhbaatar Province",
+  "ru": "Сухэ-Баторский аймак",
+  "kk": "Сүхбаатар аймағы",
+  "local": "Сүхбаатар аймаг",
+  "aliases": [
+   "Sukhbaatar",
+   "Сухэ-Батор",
+   "Сүхбаатар"
+  ],
+  "cap": [
+   "Baruun-Urt",
+   "Барун-Урт",
+   "Баруун-Урт"
+  ],
+  "short": [
+   "Sükhbaatar",
+   "Сүхбаатар",
+   "Сүхбаатар"
+  ]
+ },
+ "MN-047": {
+  "osm": 3382267,
+  "cc": "MN",
+  "core": false,
+  "en": "Töv Province",
+  "ru": "Центральный аймак",
+  "kk": "Төв аймағы",
+  "local": "Төв аймаг",
+  "aliases": [
+   "Tov",
+   "Tuv",
+   "Central",
+   "Туве",
+   "Төв"
+  ],
+  "cap": [
+   "Zuunmod",
+   "Зуунмод",
+   "Зуунмод"
+  ],
+  "short": [
+   "Töv",
+   "Төв",
+   "Төв"
+  ]
+ },
+ "MN-046": {
+  "osm": 270059,
+  "cc": "MN",
+  "core": false,
+  "en": "Uvs Province",
+  "ru": "Убсунурский аймак",
+  "kk": "Увс аймағы",
+  "local": "Увс аймаг",
+  "aliases": [
+   "Uvs",
+   "Увс",
+   "Убсунур"
+  ],
+  "cap": [
+   "Ulaangom",
+   "Улангом",
+   "Улаангом"
+  ],
+  "short": [
+   "Uvs",
+   "Увс",
+   "Увс"
+  ]
+ },
+ "MN-057": {
+  "osm": 4074177,
+  "cc": "MN",
+  "core": false,
+  "en": "Zavkhan Province",
+  "ru": "Завханский аймак",
+  "kk": "Завхан аймағы",
+  "local": "Завхан аймаг",
+  "aliases": [
+   "Zavkhan",
+   "Завхан"
+  ],
+  "cap": [
+   "Uliastai",
+   "Улясутай",
+   "Улиастай"
+  ],
+  "short": [
+   "Zavkhan",
+   "Завхан",
+   "Завхан"
+  ]
+ },
+ "MN-1": {
+  "osm": 270090,
+  "cc": "MN",
+  "core": false,
+  "en": "Ulaanbaatar",
+  "ru": "Улан-Батор",
+  "kk": "Ұланбатыр",
+  "local": "Улаанбаатар хот",
+  "aliases": [
+   "Ulan Bator",
+   "Ulan-Bator",
+   "Urga",
+   "Улан-Батор",
+   "Улаанбаатар"
+  ],
+  "cap": null,
+  "short": [
+   "Ulaanbaatar",
+   "Улан-Батор",
+   "Ұланбатыр"
+  ]
+ }
+}
