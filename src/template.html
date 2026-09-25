@@ -77,19 +77,11 @@ svg#map.drag{cursor:grabbing}
 .legend{position:absolute;left:10px;bottom:10px;display:flex;gap:10px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);background:color-mix(in srgb,var(--surface) 88%,transparent);padding:5px 9px;border-radius:8px;border:1px solid var(--hair);max-width:calc(100% - 20px)}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
 
-/* fact card */
-.fact{position:absolute;left:10px;top:10px;width:min(330px,calc(100% - 64px));background:var(--surface);border:1px solid var(--hair);border-radius:12px;box-shadow:var(--shadow);padding:12px 14px 12px;display:flex;flex-direction:column;gap:8px;z-index:2;max-height:calc(100% - 60px);overflow:auto}
-.fact header{display:flex;align-items:flex-start;gap:8px;justify-content:space-between;flex-wrap:nowrap}
-.fact h3{margin:0;font-size:16px;line-height:1.25;text-wrap:balance}
-.fact h3 small{display:block;font-weight:500;color:var(--muted);font-size:12.5px;margin-top:2px}
-.fact .x{border:0;background:none;color:var(--muted);font-size:20px;line-height:1;cursor:pointer;padding:0 2px}
-.fact dl{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;margin:0;font-size:13px}
-.fact dt{color:var(--muted)}
-.fact dd{margin:0;font-weight:500;font-variant-numeric:tabular-nums}
-.fact .dyk{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:2px 0 -4px}
-.fact p{margin:0;font-size:14px}
-.fact .src{font-size:11.5px;color:var(--faint)}
-.fact .more{align-self:flex-start;border:1px solid var(--hair);background:var(--ground);color:var(--ink);font:600 12.5px var(--body);border-radius:8px;padding:5px 10px;cursor:pointer}
+/* fact line */
+.fact{position:absolute;left:10px;top:10px;max-width:min(380px,calc(100% - 64px));background:var(--surface);border:1px solid var(--hair);border-radius:10px;box-shadow:var(--shadow);padding:8px 8px 8px 12px;display:flex;gap:8px;align-items:flex-start;z-index:2;font-size:14px;line-height:1.4}
+.fact p{margin:0}
+.fact b{color:var(--accent);font-weight:700}
+.fact .x{border:0;background:none;color:var(--muted);font-size:18px;line-height:1;cursor:pointer;padding:0 2px;margin-top:1px}
 
 /* result overlay */
 .over{position:absolute;inset:0;background:var(--scrim);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);display:grid;place-items:center;padding:16px;z-index:3}
@@ -148,7 +140,7 @@ td.l{color:var(--muted)}
 .ctylist .divtable{padding:0 14px 10px}
 @media (max-width:640px){
   .counts{gap:14px}.count b{font-size:19px}.legend{font-size:10.5px;gap:7px}
-  .fact{position:static;width:auto;max-height:none;border:0;border-top:1px solid var(--hair);border-radius:0;box-shadow:none}
+  .fact{position:static;max-width:none;border:0;border-top:1px solid var(--hair);border-radius:0;box-shadow:none}
 }
 @media (prefers-reduced-motion:reduce){.r{transition:none}}
 </style>
@@ -245,7 +237,7 @@ td.l{color:var(--muted)}
 </script>
 <script>
 (()=>{
-const R=DATA.regions, IDS=Object.keys(R), SRC=DATA.sources;
+const R=DATA.regions, IDS=Object.keys(R);
 const $=id=>document.getElementById(id);
 const NS="http://www.w3.org/2000/svg";
 const store={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
@@ -267,19 +259,17 @@ en:{name:'Steppe <span>by</span> Steppe',plain:"Steppe by Steppe",tagline:"Trave
   winText:(g,sp,over,h,b)=>`${g} guess${g>1?"es":""} for a ${sp}-region shortest route${over?` (${over} extra)`:""}${h?`, ${h} hint${h>1?"s":""}`:""}${b?", borders shown":""}.`,
   loseText:p=>`One shortest route: ${p}.`,doneWin:(g,sp)=>`Solved in ${g} guess${g>1?"es":""} (shortest: ${sp})`,doneLose:"Not this time: the shortest route is shown on the map",
   shareOk:"Shortest route!",shareOver:o=>`+${o} over shortest`,shareFail:"Didn't make it",shareP:"(practice)",selCopy:"Press Ctrl/⌘+C to copy the selected result.",
-  cap:"Capital",capNone:"Administered from Dushanbe",pop:"Population",area:"Area",dyk:"Did you know?",more:"Another fact",close:"Close",
-  popNone:"No census figure yet (the city opened in 2023)",srcPop:(s,y)=>`Population: ${s}, ${y}.`,areaOsm:"Area measured from current city limits (OpenStreetMap).",
-  km:"km²",regions:n=>`${n} regions`,thR:"Region",thL:"Official local name",thC:"Capital",
+  btw:"btw,",close:"Close",regions:n=>`${n} regions`,thR:"Region",thL:"Official local name",thC:"Capital",
   how:`<ul>
 <li>Connect the two blue regions with a chain of regions that share a land border. Enter the regions in between, in any order.</li>
 <li>Each guess is coloured by how far it is from a shortest route: <b style="color:var(--g0)">green</b> is on one, <b style="color:var(--g1)">yellow</b> adds one step, <b style="color:var(--g2)">orange</b> adds two, and <b style="color:var(--g3)">red</b> adds three or more.</li>
 <li>You get the shortest route's length plus four guesses. <b>Hint</b> outlines a region on the best remaining route. <b>Show borders</b> reveals every region's outline for the rest of the game. Neither uses up a guess, but both show in your result (💡 and 🗺️).</li>
-<li>After each guess you see a fact about that region. Tap any coloured region to see its card again.</li>
+<li>After each guess you get a quick fact about that region. Tap any coloured region for another one.</li>
 <li>Borders count across countries. Cities with regional status (Astana, Bishkek, Dushanbe, Tashkent, Ashgabat, Arkadag and others) are separate stops. Most sit inside a single region, so they only connect to it.</li>
 <li>You can type English, Russian or local official names, or common older spellings (Zhambyl, Navoiy, Soghd, Nur-Sultan…).</li></ul>`,
   about:`<p>Current first-level divisions as of September 2026, including Kazakhstan's 2022 reform (Abai, Jetisu and Ulytau regions) and Turkmenistan's Arkadag, designated a city of national importance in 2023. Names follow each government's English usage, with the official local-language name alongside.</p>
-<p>Population figures come from the national statistics offices (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) and Turkmenistan's 2022 census, each with its year. Region areas are official figures. Boundaries: © OpenStreetMap contributors (ODbL), simplified.</p>`},
-ru:{name:'Степь <span>за</span> степью',plain:"Степь за степью",tagline:"Путешествие от региона к региону по Казахстану, Кыргызстану, Таджикистану, Туркменистану и Узбекистану.",
+<p>Size and population rankings in the facts use official areas and figures from the national statistics offices (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) and Turkmenistan's 2022 census. Boundaries: © OpenStreetMap contributors (ODbL), simplified.</p>`},
+ru:{name:'Steppe <span>by</span> Steppe',plain:"Steppe by Steppe",tagline:"Путешествие от региона к региону по Казахстану, Кыргызстану, Таджикистану, Туркменистану и Узбекистану.",
   daily:"Задача дня",practice:"Тренировка",shortest:"Кратчайший",left:"Осталось попыток",lg0:"На кратчайшем пути",lg1:"+1 шаг",lg2:"+2",lg3:"Далеко",
   ph:"Введите область, регион или город…",guessBtn:"Ввод",hintBtn:"Подсказка",borders:"Показать границы",bordersOn:"Границы видны",bordersTip:"Показать контуры всех регионов. Считается подсказкой.",giveUp:"Сдаться",
   showResult:"Показать итог",seeMap:"Посмотреть карту",copy:"Скопировать",copied:"Скопировано",nextP:"Сыграть тренировку",nextN:"Новый маршрут",
@@ -292,18 +282,16 @@ ru:{name:'Степь <span>за</span> степью',plain:"Степь за ст
   winText:(g,sp,over,h,b)=>`${g} ${plural(g,"попытка","попытки","попыток")} при кратчайшем пути в ${sp} ${plural(sp,"регион","региона","регионов")}${over?` (лишних: ${over})`:""}${h?`, подсказок: ${h}`:""}${b?", с границами":""}.`,
   loseText:p=>`Один из кратчайших путей: ${p}.`,doneWin:(g,sp)=>`Пройдено за ${g} ${plural(g,"попытку","попытки","попыток")} (кратчайший: ${sp})`,doneLose:"В этот раз не вышло — кратчайший путь показан на карте",
   shareOk:"Кратчайший путь!",shareOver:o=>`+${o} к кратчайшему`,shareFail:"Не получилось",shareP:"(тренировка)",selCopy:"Нажмите Ctrl/⌘+C, чтобы скопировать выделенный результат.",
-  cap:"Центр",capNone:"Управляются из Душанбе",pop:"Население",area:"Площадь",dyk:"А вы знали?",more:"Ещё факт",close:"Закрыть",
-  popNone:"Данных переписи пока нет (город открыт в 2023 году)",srcPop:(s,y)=>`Население: ${s}, ${y}.`,areaOsm:"Площадь измерена по нынешним границам города (OpenStreetMap).",
-  km:"км²",regions:n=>`${n} ${plural(n,"регион","региона","регионов")}`,thR:"Регион",thL:"Официальное местное название",thC:"Центр",
+  btw:"Кстати,",close:"Закрыть",regions:n=>`${n} ${plural(n,"регион","региона","регионов")}`,thR:"Регион",thL:"Официальное местное название",thC:"Центр",
   how:`<ul>
 <li>Соедините два синих региона цепочкой регионов, у которых есть общая сухопутная граница. Вводите промежуточные регионы в любом порядке.</li>
 <li>Цвет показывает, насколько регион далёк от кратчайшего пути: <b style="color:var(--g0)">зелёный</b> — на нём, <b style="color:var(--g1)">жёлтый</b> — +1 шаг, <b style="color:var(--g2)">оранжевый</b> — +2, <b style="color:var(--g3)">красный</b> — +3 и больше.</li>
 <li>Попыток — длина кратчайшего пути плюс четыре. <b>Подсказка</b> обводит регион на лучшем оставшемся пути. <b>Показать границы</b> открывает контуры всех регионов до конца игры. Попыток они не тратят, но видны в результате (💡 и 🗺️).</li>
-<li>После каждого хода появляется факт о регионе. Нажмите на любой цветной регион, чтобы снова открыть его карточку.</li>
+<li>После каждого хода — короткий факт о регионе. Нажмите на любой цветной регион, чтобы узнать ещё один.</li>
 <li>Границы между странами тоже считаются. Города с особым статусом (Астана, Бишкек, Душанбе, Ташкент, Ашхабад, Аркадаг и другие) — отдельные остановки; большинство из них окружены одним регионом и соединяются только с ним.</li>
 <li>Можно вводить русские, английские и официальные местные названия, а также старые варианты (Жамбыл, Навоий, Согд, Нур-Султан…).</li></ul>`,
   about:`<p>Действующее административное деление первого уровня на сентябрь 2026 года, включая реформу 2022 года в Казахстане (Абайская, Жетысуская и Улытауская области) и туркменский Аркадаг, получивший в 2023 году статус города государственного значения. Рядом с русским названием приведено официальное название на государственном языке.</p>
-<p>Население — по данным национальных статистических служб (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) и переписи Туркменистана 2022 года, с указанием года. Площади регионов — официальные. Границы: © участники OpenStreetMap (ODbL), упрощены.</p>`}
+<p>Рейтинги по площади и населению в фактах основаны на официальных площадях и данных национальных статистических служб (stat.gov.kz, stat.gov.kg, stat.tj, stat.uz) и переписи Туркменистана 2022 года. Границы: © участники OpenStreetMap (ODbL), упрощены.</p>`}
 };
 let LANG=(store.get("sbs-prefs")||{}).lang||((navigator.language||"").startsWith("ru")?"ru":"en");
 const L=()=>T[LANG];
@@ -359,7 +347,7 @@ svg.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;const r=
     if(d0>0&&d1>0){const mx=(c[0]+dd[0])/2,my=(c[1]+dd[1])/2;zoomAt(d0/d1,vb.x+(mx-r.left)/r.width*vb.w,vb.y+(my-r.top)/r.height*vb.h)}return}
   ptrs.set(e.pointerId,[e.clientX,e.clientY])});
 const up=e=>{const was=ptrs.size;ptrs.delete(e.pointerId);if(!ptrs.size)svg.classList.remove("drag");
-  if(e.type==="pointerup"&&was===1&&moved<6&&downTarget){const id=downTarget.dataset&&downTarget.dataset.id;if(id&&isShown(id))showFact(id,false)}};
+  if(e.type==="pointerup"&&was===1&&moved<6&&downTarget){const id=downTarget.dataset&&downTarget.dataset.id;if(id&&isShown(id))showFact(id)}};
 svg.addEventListener("pointerup",up);svg.addEventListener("pointercancel",up);
 $("zIn").onclick=()=>zoomAt(1/1.4,vb.x+vb.w/2,vb.y+vb.h/2);
 $("zOut").onclick=()=>zoomAt(1.4,vb.x+vb.w/2,vb.y+vb.h/2);
@@ -400,7 +388,7 @@ function guess(id){
   if(connected(G.start,G.end,known())){G.done=true;G.won=true;finish()}
   else if(G.guesses.length>=maxG()){G.done=true;G.won=false;finish()}
   save();
-  if($("tFacts").checked)showFact(id,true);
+  if($("tFacts").checked)showFact(id);
   render();
   const b=R[id].b;if(G.done)fitTo([G.start,G.end,...G.guesses,...solution()]);else if(b[0]<vb.x||b[2]>vb.x+vb.w||b[1]<vb.y||b[3]>vb.y+vb.h)fitTo([G.start,G.end,...G.guesses]);
 }
@@ -412,19 +400,13 @@ function finish(){overlayOpen=true;
   requestAnimationFrame(()=>{const r=$("mapbox").getBoundingClientRect();if(r.top<0||r.bottom>innerHeight)$("mapbox").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})})}
 
 // ---- fact card ----
-function showFact(id,random){const r=R[id];if(!r.facts||!r.facts.length)return;
-  if(factId!==id||random)factIdx=Math.floor(Math.random()*r.facts.length);factId=id;renderFact();render()}
+function showFact(id){const r=R[id];if(!r.facts||!r.facts.length)return;
+  let k=Math.floor(Math.random()*r.facts.length);if(factId===id&&r.facts.length>1&&k===factIdx)k=(k+1)%r.facts.length;
+  factIdx=k;factId=id;renderFact();render()}
 function hideFact(){factId=null;$("fact").hidden=true;for(const el of Object.values(EL))el.classList.remove("focus")}
-function renderFact(){const id=factId;if(!id){$("fact").hidden=true;return}const r=R[id],l=L(),li=LANG==="ru"?1:0;
-  const cap=r.cap?r.cap[li]:(id==="TJ-RA"?l.capNone:null);
-  const rows=[cap?`<dt>${l.cap}</dt><dd>${esc(cap)}</dd>`:"",
-    `<dt>${l.pop}</dt><dd>${r.pop?`${fmt(r.pop)} <span style="color:var(--muted);font-weight:400">(${r.popYear})</span>`:l.popNone}</dd>`,
-    `<dt>${l.area}</dt><dd>${r.areaOsm?"≈ ":""}${fmt(r.area)} ${l.km}</dd>`].join("");
-  const src=[r.pop?l.srcPop(SRC[r.cc][LANG],r.popYear):"",r.areaOsm?l.areaOsm:""].filter(Boolean).join(" ");
-  $("fact").innerHTML=`<header><h3>${esc(nm(id))}<small>${esc(r.local)} · ${l.C[r.cc]}</small></h3><button class="x" type="button" aria-label="${l.close}" id="fx">×</button></header>
-    <dl>${rows}</dl><div class="dyk">${l.dyk}</div><p>${esc(r.facts[factIdx][li])}</p>
-    ${r.facts.length>1?`<button class="more" type="button" id="fmore">${l.more} (${factIdx+1}/${r.facts.length})</button>`:""}<div class="src">${esc(src)}</div>`;
-  $("fact").hidden=false;$("fx").onclick=hideFact;const m=$("fmore");if(m)m.onclick=()=>{factIdx=(factIdx+1)%r.facts.length;renderFact()};
+function renderFact(){const id=factId;if(!id){$("fact").hidden=true;return}const r=R[id],f=r.facts[factIdx][LANG==="ru"?1:0];
+  $("fact").innerHTML=`<p><b>${L().btw}</b> ${esc(f)}</p><button class="x" type="button" aria-label="${L().close}" id="fx">×</button>`;
+  $("fact").hidden=false;$("fx").onclick=hideFact;
   for(const [k,el] of Object.entries(EL))el.classList.toggle("focus",k===id)}
 
 // ---- render ----
@@ -498,7 +480,7 @@ $("lEn").onclick=()=>setLang("en");$("lRu").onclick=()=>setLang("ru");
 $("next").onclick=$("next2").onclick=()=>newGame("practice");
 $("seeMap").onclick=()=>{overlayOpen=false;render()};
 $("showRes").onclick=()=>{overlayOpen=true;render();$("mapbox").scrollIntoView({block:"start"})};
-$("guesses").addEventListener("click",e=>{const li=e.target.closest("li[data-id]");if(li)showFact(li.dataset.id,false)});
+$("guesses").addEventListener("click",e=>{const li=e.target.closest("li[data-id]");if(li)showFact(li.dataset.id)});
 $("copy").onclick=()=>{const t=$("rShare").textContent;const done=()=>{$("copy").textContent=L().copied;setTimeout(()=>$("copy").textContent=L().copy,1600)};
   try{navigator.clipboard.writeText(t).then(done,selectShare)}catch(e){selectShare()}};
 function selectShare(){const r=document.createRange();r.selectNodeContents($("rShare"));const s=getSelection();s.removeAllRanges();s.addRange(r);msg(L().selCopy)}

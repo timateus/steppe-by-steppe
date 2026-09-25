@@ -26,11 +26,40 @@ for cc in ["KZ","KG","TJ","TM","UZ"]:
     u=unary_union([shapes[i].buffer(300) for i in shapes if m['meta'][i]['cc']==cc]).buffer(-300).simplify(1500)
     from shapely.geometry import mapping
     countries[cc]=path(mapping(u))
-F=json.load(open('data/facts.json'))
+F=json.load(open('data/facts.json'))['regions']
+S=json.load(open('data/short_facts.json'))
+CEN={"KZ":"Kazakhstan","KG":"Kyrgyzstan","TJ":"Tajikistan","TM":"Turkmenistan","UZ":"Uzbekistan"}
+CRU={"KZ":"Казахстана","KG":"Кыргызстана","TJ":"Таджикистана","TM":"Туркменистана","UZ":"Узбекистана"}
+ORD_EN={2:"2nd",3:"3rd"}; ORD_RU={2:"второй",3:"третий"}
+def rank_facts():
+    # Rankings among a country's regions (cities excluded), from official area and population.
+    out={}
+    for cc in CEN:
+        ids=[i for i in F if i.startswith(cc) and (F[i]['cap'] or i=="TJ-RA")]
+        n=len(ids)
+        for key in ("area","pop"):
+            order=sorted(ids,key=lambda i:-F[i][key])
+            vals=[F[i][key] for i in order]
+            for k,i in enumerate(order):
+                pos=k+1
+                if not (pos==1 or pos==n or (pos==2 and n>=5) or (pos==3 and n>=7)): continue
+                near=[vals[j] for j in (k-1,k+1) if 0<=j<n]
+                if any(abs(vals[k]-v)/max(vals[k],v)<0.03 for v in near): continue
+                name=META[i]['en'].replace('Republic of','the Republic of'); ru=F[i]['ru']
+                if key=="area":
+                    e=("the biggest" if pos==1 else "the smallest" if pos==n else f"the {ORD_EN[pos]} biggest")+f" region in {CEN[cc]}"
+                    r=("крупнейший по площади" if pos==1 else "самый маленький по площади" if pos==n else f"{ORD_RU[pos]} по площади")+f" регион {CRU[cc]}"
+                else:
+                    e=("the most populous" if pos==1 else "the least populated" if pos==n else f"the {ORD_EN[pos]} most populous")+f" region in {CEN[cc]}"
+                    r=("самый населённый" if pos==1 else "наименее населённый" if pos==n else f"{ORD_RU[pos]} по населению")+f" регион {CRU[cc]}"
+                out.setdefault(i,[]).append([f"{name} is {e}!",f"{ru} — {r}!"])
+    return out
+META=m['meta']
+RF=rank_facts()
 for i,r in regions.items():
-    f=F['regions'][i]
-    r.update(ru=f['ru'],cap=f['cap'],pop=f['pop'],popYear=f['popYear'],area=f['area'],areaOsm=f.get('areaOsm',False),facts=f['facts'])
-out=dict(W=W,H=H,regions=regions,countries=countries,sources=F['sources'])
+    f=F[i]
+    r.update(ru=f['ru'],cap=f['cap'],facts=S[i]+RF.get(i,[]))
+out=dict(W=W,H=H,regions=regions,countries=countries)
 s_=json.dumps(out,ensure_ascii=False,separators=(',',':'))
 open('build/data.js','w').write("const DATA="+s_+";")
 print(H,len(s_))
