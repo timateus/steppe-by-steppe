@@ -37,20 +37,19 @@ The facts shown in the game are the short one-liners in `data/short_facts.json` 
 - **Area:** official figures for regions. The 11 cities use areas measured from their current OpenStreetMap limits, marked "≈".
 - **Facts:** well-established history, geography and landmarks, cross-checked against Wikipedia and UNESCO listings. Edit the file and run `./build.sh` to change them.
 
-## Shared daily statistics (optional)
+## Shared daily statistics
 
-`worker/` is a small Cloudflare Worker with a D1 (SQLite) database. The page sends one result per player per daily route and reads back today's totals. Cloudflare's free plan covers it.
+`worker/` is a small Cloudflare Worker with a D1 (SQLite) database, on Cloudflare's free plan. The page sends one result per player per daily route and reads back today's totals. Only a random per-browser id and the game result are stored: no names or IP addresses.
 
-```bash
-cd worker
-npm install
-npx wrangler login
-npx wrangler d1 create steppe-by-steppe      # copy the database_id into wrangler.toml
-npx wrangler d1 execute steppe-by-steppe --remote --file=schema.sql
-npx wrangler deploy                          # prints the Worker's URL
-```
+The **Deploy stats server** GitHub Action (`.github/workflows/stats-worker.yml`) creates the database, deploys the Worker, and writes its address to `stats.json`, which the page reads. It runs when `worker/` changes, or by hand from the Actions tab. One-time setup, all in the browser:
 
-Then set `STATS_URL` at the top of the statistics section in `src/app.js` to that URL, run `./build.sh` and push. Only a random per-browser id and the game result are stored: no names or IP addresses. The claude.ai version can't reach outside services, so it shows personal statistics only.
+1. Create a free account at [dash.cloudflare.com](https://dash.cloudflare.com/sign-up) and open **Workers & Pages** once, so your `workers.dev` subdomain is created.
+2. Copy your **Account ID** (Workers & Pages overview, right-hand side).
+3. Create an API token at **My Profile → API Tokens → Create Token**: start from the **Edit Cloudflare Workers** template, add the permission **Account → D1 → Edit**, and create it.
+4. In this repo, go to **Settings → Secrets and variables → Actions** and add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+5. Go to **Actions → Deploy stats server → Run workflow**.
+
+The claude.ai version can't reach outside services, so it shows personal statistics only.
 
 ## Data and build
 

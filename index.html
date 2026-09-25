@@ -512,8 +512,9 @@ function renderFact(){const id=factId;if(!id||!META[id].facts[factIdx]){$("fact"
   $("fact").hidden=false;$("fx").onclick=hideFact}
 
 // ---- statistics: personal (this browser) and, when STATS_URL is set, everyone's daily results ----
-// STATS_URL points at the Cloudflare Worker in worker/ (see README). Empty = personal stats only.
-const STATS_URL="";
+// The stats server's address comes from stats.json, which the "Deploy stats server" GitHub
+// Action writes next to index.html. Without it the page shows personal stats only.
+let STATS_URL="";
 const statsKey=()=>"sbs-stats-"+MODE;
 function loadStats(){const st=store.get(statsKey());if(st)return st;
   const old=MODE==="core"&&store.get("sbs-stats");// earlier versions kept only totals
@@ -528,6 +529,8 @@ function recordDaily(){const st=loadStats();if(st.last===G.date)return;
   store.set(statsKey(),st)}
 let GLOBAL=null;
 const statsOn=()=>STATS_URL&&!/(^|\.)claude\.ai$/.test(location.hostname);
+if(!/(^|\.)claude\.ai$/.test(location.hostname))fetch("stats.json",{cache:"no-store"}).then(r=>r.ok?r.json():null)
+  .then(j=>{if(j&&/^https:\/\/[\w.-]+$/.test(j.url||"")){STATS_URL=j.url;if(G)fetchGlobal()}}).catch(()=>{});
 function clientId(){let id=store.get("sbs-cid");if(!id){id=Math.random().toString(36).slice(2)+Date.now().toString(36);store.set("sbs-cid",id)}return id}
 function fetchGlobal(){if(!statsOn()||!G||G.mode!=="daily")return;const g=G;
   fetch(`${STATS_URL}/stats?day=${g.date}&map=${MODE}&route=${g.start}>${g.end}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j&&G===g){GLOBAL=j;renderStats()}}).catch(()=>{})}

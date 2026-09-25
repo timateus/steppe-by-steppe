@@ -1,0 +1,70 @@
+# Deploys worker/ (shared daily statistics) to Cloudflare and tells the site where it lives.
+# Needs two repository secrets: CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see README).
+name: Deploy stats server
+
+on:
+  push:
+    branches: [main]
+    paths: ["worker/**", ".github/workflows/stats-worker.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: stats-worker
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::warning::Stats server not deployed: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repository secrets, then re-run this workflow."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-node@v4
+        if: env.SKIP != '1'
+        with:
+          node-version: 20
+
+      - name: Install wrangler
+        if: env.SKIP != '1'
+        working-directory: worker
+        run: npm ci
+
+      - name: Create or find the database
+        if: env.SKIP != '1'
+        working-directory: worker
+        run: |
+          find_id() { npx wrangler d1 list --json | jq -r '.[] | select(.name=="steppe-by-steppe") | .uuid'; }
+          ID=$(find_id)
+          if [ -z "$ID" ]; then npx wrangler d1 create steppe-by-steppe; ID=$(find_id); fi
+          test -n "$ID"
+          sed -i "s/^database_id = .*/database_id = \"$ID\"/" wrangler.toml
+          npx wrangler d1 execute steppe-by-steppe --remote --file=schema.sql
+
+      - name: Deploy
+        id: deploy
+        if: env.SKIP != '1'
+        working-directory: worker
+        run: |
+          npx wrangler deploy | tee deploy.log
+          URL=$(grep -oE 'https://[A-Za-z0-9.-]+\.workers\.dev' deploy.log | head -1)
+          test -n "$URL"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Point the site at the server
+        if: env.SKIP != '1'
+        run: |
+          printf '{"url":"%s"}\n' "${{ steps.deploy.outputs.url }}" > stats.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git diff --cached --quiet || { git commit -m "Update stats server address"; git push; }
