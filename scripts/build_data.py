@@ -26,7 +26,11 @@ for cc in ["KZ","KG","TJ","TM","UZ"]:
     u=unary_union([shapes[i].buffer(300) for i in shapes if m['meta'][i]['cc']==cc]).buffer(-300).simplify(1500)
     from shapely.geometry import mapping
     countries[cc]=path(mapping(u))
-out=dict(W=W,H=H,regions=regions,countries=countries)
+F=json.load(open('data/facts.json'))
+for i,r in regions.items():
+    f=F['regions'][i]
+    r.update(ru=f['ru'],cap=f['cap'],pop=f['pop'],popYear=f['popYear'],area=f['area'],areaOsm=f.get('areaOsm',False),facts=f['facts'])
+out=dict(W=W,H=H,regions=regions,countries=countries,sources=F['sources'])
 s_=json.dumps(out,ensure_ascii=False,separators=(',',':'))
 open('build/data.js','w').write("const DATA="+s_+";")
 print(H,len(s_))

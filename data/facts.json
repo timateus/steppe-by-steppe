@@ -1,0 +1,290 @@
+{
+  "sources": {
+    "KZ": {"en": "Bureau of National Statistics of Kazakhstan (stat.gov.kz)", "ru": "Бюро национальной статистики Казахстана (stat.gov.kz)"},
+    "KG": {"en": "National Statistical Committee of the Kyrgyz Republic (stat.gov.kg)", "ru": "Национальный статистический комитет Кыргызской Республики (stat.gov.kg)"},
+    "TJ": {"en": "Agency on Statistics under the President of Tajikistan (stat.tj)", "ru": "Агентство по статистике при Президенте Таджикистана (stat.tj)"},
+    "TM": {"en": "2022 Census of Turkmenistan", "ru": "Перепись населения Туркменистана 2022 года"},
+    "UZ": {"en": "National Statistics Committee of Uzbekistan (stat.uz)", "ru": "Национальный комитет по статистике Узбекистана (stat.uz)"}
+  },
+  "regions": {
+    "KZ-10": {"ru": "Абайская область", "cap": ["Semey", "Семей"], "pop": 610183, "popYear": 2022, "area": 185500, "facts": [
+      ["Named after Abai Qunanbaiuly, the poet and founder of written Kazakh literature, who was born here in 1845.", "Названа в честь Абая Кунанбаева — поэта и основоположника казахской письменной литературы, родившегося здесь в 1845 году."],
+      ["The former Semipalatinsk nuclear test site lies here: the USSR carried out more than 450 nuclear tests on it between 1949 and 1989.", "Здесь находится бывший Семипалатинский полигон: с 1949 по 1989 год СССР провёл на нём более 450 ядерных испытаний."],
+      ["Fyodor Dostoevsky served in Semey, then called Semipalatinsk, from 1854 to 1859 after his Siberian penal servitude.", "Фёдор Достоевский служил в Семипалатинске (ныне Семей) с 1854 по 1859 год после сибирской каторги."]
+    ]},
+    "KZ-11": {"ru": "Акмолинская область", "cap": ["Kokshetau", "Кокшетау"], "pop": 786012, "popYear": 2022, "area": 146219, "facts": [
+      ["Burabay (Borovoe), with its pine forests, lakes and granite outcrops, is often called the 'Kazakh Switzerland'.", "Бурабай (Боровое) с сосновыми лесами, озёрами и гранитными скалами часто называют «казахстанской Швейцарией»."],
+      ["The region was at the heart of the 1950s Virgin Lands campaign, which ploughed up millions of hectares of steppe for wheat.", "Область была центром освоения целины в 1950-х годах, когда под пшеницу распахали миллионы гектаров степи."],
+      ["Astana, now a separate city, was the region's centre and was itself called Akmola until 1998.", "Астана, ныне отдельный город, была центром области и до 1998 года сама называлась Акмолой."]
+    ]},
+    "KZ-15": {"ru": "Актюбинская область", "cap": ["Aktobe", "Актобе"], "pop": 924845, "popYear": 2022, "area": 300629, "facts": [
+      ["At about 300,000 km², it has been Kazakhstan's largest region since Karaganda Region was split in 2022.", "Площадь около 300 тыс. км² — после разделения Карагандинской области в 2022 году это крупнейший регион Казахстана."],
+      ["The Khromtau deposits hold some of the world's largest reserves of chromium ore.", "Месторождения Хромтау — одни из крупнейших в мире запасов хромовой руды."],
+      ["Aktobe means 'white hill' in Kazakh.", "Название Актобе по-казахски означает «белый холм»."]
+    ]},
+    "KZ-19": {"ru": "Алматинская область", "cap": ["Konaev", "Конаев"], "pop": 1497025, "popYear": 2022, "area": 105100, "facts": [
+      ["In 2022 the regional capital moved to Konaev, the town formerly called Kapshagay, on the Kapshagay Reservoir.", "В 2022 году центр области перенесли в Конаев — бывший Капшагай на берегу Капшагайского водохранилища."],
+      ["Charyn Canyon, sometimes compared to the Grand Canyon, cuts through the east of the region.", "На востоке области находится Чарынский каньон, который иногда сравнивают с Большим каньоном."],
+      ["The Ili River flows from China across the region to Lake Balkhash.", "Через область из Китая к озеру Балхаш течёт река Или."]
+    ]},
+    "KZ-23": {"ru": "Атырауская область", "cap": ["Atyrau", "Атырау"], "pop": 689674, "popYear": 2022, "area": 118631, "facts": [
+      ["The giant Tengiz and Kashagan oil fields lie here, on and off the northern shore of the Caspian Sea.", "Здесь, на северном побережье Каспия и в его акватории, находятся гигантские месторождения нефти Тенгиз и Кашаган."],
+      ["The Ural River, often taken as a border between Europe and Asia, runs through the city of Atyrau.", "Через город Атырау протекает река Урал, которую часто считают границей Европы и Азии."],
+      ["Atyrau was called Guryev until 1992.", "До 1992 года Атырау назывался Гурьевом."]
+    ]},
+    "KZ-27": {"ru": "Западно-Казахстанская область", "cap": ["Oral", "Уральск"], "pop": 686655, "popYear": 2022, "area": 151339, "facts": [
+      ["Oral (Uralsk) was founded by Yaik Cossacks in 1613.", "Уральск основан яицкими казаками в 1613 году."],
+      ["The Karachaganak field is one of the world's largest gas condensate deposits.", "Карачаганак — одно из крупнейших в мире газоконденсатных месторождений."],
+      ["Alexander Pushkin visited Uralsk in 1833 to gather material on Pugachev's rebellion.", "Александр Пушкин приезжал в Уральск в 1833 году, собирая материалы о восстании Пугачёва."]
+    ]},
+    "KZ-31": {"ru": "Жамбылская область", "cap": ["Taraz", "Тараз"], "pop": 1215482, "popYear": 2022, "area": 144264, "facts": [
+      ["Taraz officially celebrated its 2,000th anniversary in 2002.", "В 2002 году Тараз официально отметил своё 2000-летие."],
+      ["The region is named after Jambyl Jabayev, a famous improvising poet (akyn).", "Область названа в честь знаменитого акына Жамбыла Жабаева."],
+      ["The Aisha Bibi mausoleum near Taraz, from the 11th–12th centuries, is covered in carved terracotta tiles.", "Мавзолей Айша-биби XI–XII веков близ Тараза облицован резной терракотовой плиткой."]
+    ]},
+    "KZ-33": {"ru": "Жетысуская область", "cap": ["Taldykorgan", "Талдыкорган"], "pop": 698952, "popYear": 2022, "area": 118500, "facts": [
+      ["Jetisu means 'Seven Rivers', the same name as the historical region of Semirechye in Russian.", "Жетысу означает «Семь рек», по-русски — исторический Семиречье."],
+      ["The region was created in 2022 from the northern part of Almaty Region.", "Область создана в 2022 году из северной части Алматинской области."],
+      ["Lake Alakol, a salt lake popular for its beaches, lies on the region's border with Abai Region.", "На границе с Абайской областью лежит солёное озеро Алаколь, популярное место пляжного отдыха."]
+    ]},
+    "KZ-35": {"ru": "Карагандинская область", "cap": ["Karaganda", "Караганда"], "pop": 1134146, "popYear": 2022, "area": 239100, "facts": [
+      ["Karaganda grew up in the 1930s around one of the largest coal basins of the Soviet Union.", "Караганда выросла в 1930-х годах вокруг одного из крупнейших угольных бассейнов СССР."],
+      ["The region was home to Karlag, one of the largest camps of the Gulag system.", "Здесь располагался Карлаг — один из крупнейших лагерей системы ГУЛАГ."],
+      ["Lake Balkhash, whose northern shore belongs to the region, is fresh in its western half and salty in its eastern half.", "Озеро Балхаш, северный берег которого относится к области, в западной части пресное, а в восточной — солёное."]
+    ]},
+    "KZ-39": {"ru": "Костанайская область", "cap": ["Kostanay", "Костанай"], "pop": 832445, "popYear": 2022, "area": 196001, "facts": [
+      ["Kostanay was founded in 1879 as Nikolaevsk.", "Костанай основан в 1879 году под названием Николаевск."],
+      ["It is one of Kazakhstan's main grain-growing regions.", "Это один из главных зерновых регионов Казахстана."],
+      ["The Naurzum Nature Reserve is part of the UNESCO World Heritage site 'Saryarka — Steppe and Lakes of Northern Kazakhstan'.", "Наурзумский заповедник входит в объект Всемирного наследия ЮНЕСКО «Сарыарка — степи и озёра Северного Казахстана»."]
+    ]},
+    "KZ-43": {"ru": "Кызылординская область", "cap": ["Kyzylorda", "Кызылорда"], "pop": 830901, "popYear": 2022, "area": 226019, "facts": [
+      ["The Baikonur Cosmodrome, leased to Russia, is here. Yuri Gagarin launched from it in 1961.", "Здесь находится космодром Байконур, арендуемый Россией. В 1961 году с него стартовал Юрий Гагарин."],
+      ["Kyzylorda was the capital of the Kazakh ASSR from 1925 to 1929.", "В 1925–1929 годах Кызылорда была столицей Казахской АССР."],
+      ["The Kokaral Dam, completed in 2005, has helped bring back the northern (Small) Aral Sea.", "Кокаральская плотина, построенная в 2005 году, помогла возродить Северное (Малое) Аральское море."]
+    ]},
+    "KZ-47": {"ru": "Мангистауская область", "cap": ["Aktau", "Актау"], "pop": 761401, "popYear": 2022, "area": 165642, "facts": [
+      ["The Karagiye Depression, 132 m below sea level, is one of the lowest points on Earth.", "Впадина Карагие — 132 м ниже уровня моря, одна из самых низких точек на Земле."],
+      ["Aktau was called Shevchenko from 1964 to 1991, after the Ukrainian poet who was exiled to this region.", "С 1964 по 1991 год Актау назывался Шевченко — в честь украинского поэта, отбывавшего ссылку в этих краях."],
+      ["The region is famous for underground mosques and necropolises, such as Beket-Ata.", "Регион славится подземными мечетями и некрополями, например Бекет-Ата."]
+    ]},
+    "KZ-55": {"ru": "Павлодарская область", "cap": ["Pavlodar", "Павлодар"], "pop": 754829, "popYear": 2022, "area": 124800, "facts": [
+      ["The Ekibastuz coal basin has some of the largest open-pit coal mines in the world, including Bogatyr.", "В Экибастузском угольном бассейне находятся одни из крупнейших в мире угольных разрезов, в том числе «Богатырь»."],
+      ["Bayanaul, set up in 1985, was Kazakhstan's first national park.", "Баянаул, созданный в 1985 году, — первый национальный парк Казахстана."],
+      ["The Irtysh River flows through the region on its way from China to Russia.", "Через область протекает Иртыш, текущий из Китая в Россию."]
+    ]},
+    "KZ-59": {"ru": "Северо-Казахстанская область", "cap": ["Petropavl", "Петропавловск"], "pop": 534966, "popYear": 2022, "area": 97993, "facts": [
+      ["Petropavl grew from the St Peter fortress, founded in 1752.", "Петропавловск вырос из крепости Святого Петра, основанной в 1752 году."],
+      ["It is Kazakhstan's northernmost region and borders Russia along its whole northern edge.", "Самый северный регион Казахстана: по всей северной границе граничит с Россией."],
+      ["The region has thousands of small lakes scattered among birch groves and wheat fields.", "В области тысячи небольших озёр среди берёзовых колков и пшеничных полей."]
+    ]},
+    "KZ-61": {"ru": "Туркестанская область", "cap": ["Turkistan", "Туркестан"], "pop": 2110502, "popYear": 2022, "area": 116100, "facts": [
+      ["The Mausoleum of Khoja Ahmed Yasawi, begun on Timur's orders in 1389, is a UNESCO World Heritage Site.", "Мавзолей Ходжи Ахмеда Ясави, строительство которого начато по приказу Тимура в 1389 году, — объект Всемирного наследия ЮНЕСКО."],
+      ["Until 2018 the region was called South Kazakhstan, and its capital was Shymkent.", "До 2018 года область называлась Южно-Казахстанской, а её центром был Шымкент."],
+      ["Aksu-Zhabagly, founded in 1926, is the oldest nature reserve in Central Asia.", "Аксу-Жабаглинский заповедник, основанный в 1926 году, — старейший в Центральной Азии."]
+    ]},
+    "KZ-62": {"ru": "Улытауская область", "cap": ["Jezkazgan", "Жезказган"], "pop": 221014, "popYear": 2022, "area": 188900, "facts": [
+      ["Created in 2022, it is Kazakhstan's least populated region.", "Создана в 2022 году и является наименее населённым регионом Казахстана."],
+      ["The Ulytau mountains are seen as a historic heartland of the Kazakh people. Tradition places the mausoleum of Jochi, Genghis Khan's eldest son, here.", "Горы Улытау считаются исторической колыбелью казахского народа. По преданию, здесь находится мавзолей Джучи, старшего сына Чингисхана."],
+      ["Jezkazgan is one of Kazakhstan's main copper-mining centres.", "Жезказган — один из главных центров добычи меди в Казахстане."]
+    ]},
+    "KZ-63": {"ru": "Восточно-Казахстанская область", "cap": ["Oskemen", "Усть-Каменогорск"], "pop": 730818, "popYear": 2022, "area": 97700, "facts": [
+      ["Mount Belukha (4,506 m), the highest peak of the Altai, stands on the border with Russia.", "На границе с Россией возвышается Белуха (4506 м) — высшая точка Алтая."],
+      ["Lake Markakol, high in the Altai, is known for its clear water and the rare lenok fish.", "Высокогорное озеро Маркаколь на Алтае известно прозрачной водой и редкой рыбой ленок."],
+      ["Oskemen is a centre of non-ferrous metallurgy, producing zinc, lead, titanium and uranium products.", "Усть-Каменогорск — центр цветной металлургии: здесь производят цинк, свинец, титан и продукцию из урана."]
+    ]},
+    "KZ-71": {"ru": "Астана", "cap": null, "pop": 1340782, "popYear": 2022, "area": 800, "areaOsm": true, "facts": [
+      ["Astana has been the capital since 1997. It was renamed Nur-Sultan in 2019 and went back to Astana in 2022.", "Столица с 1997 года. В 2019 году город переименовали в Нур-Султан, а в 2022-м вернули название Астана."],
+      ["The 97 m Bayterek tower refers to 1997, the year the capital moved here.", "Высота монумента «Байтерек» — 97 м, в память о 1997 годе, когда сюда перенесли столицу."],
+      ["The tent-shaped Khan Shatyr entertainment centre was designed by Norman Foster.", "Шатёр развлекательного центра «Хан Шатыр» спроектировал Норман Фостер."]
+    ]},
+    "KZ-75": {"ru": "Алматы", "cap": null, "pop": 2147113, "popYear": 2022, "area": 704, "areaOsm": true, "facts": [
+      ["Almaty, Kazakhstan's largest city, was the capital until 1997.", "Алматы — крупнейший город Казахстана и его столица до 1997 года."],
+      ["The city was founded in 1854 as the Russian fort Verny.", "Город основан в 1854 году как русское укрепление Верный."],
+      ["The Medeu skating rink sits in the mountains at about 1,690 m.", "Каток «Медеу» находится в горах на высоте около 1690 м."]
+    ]},
+    "KZ-79": {"ru": "Шымкент", "cap": null, "pop": 1184113, "popYear": 2022, "area": 1170, "areaOsm": true, "facts": [
+      ["In 2018 Shymkent became Kazakhstan's third city of republican significance.", "В 2018 году Шымкент стал третьим городом республиканского значения в Казахстане."],
+      ["It is Kazakhstan's third-largest city.", "Это третий по величине город Казахстана."],
+      ["Shymkent celebrated its 2,200th anniversary in 2011.", "В 2011 году Шымкент отметил 2200-летие."]
+    ]},
+
+    "KG-B": {"ru": "Баткенская область", "cap": ["Batken", "Баткен"], "pop": 594700, "popYear": 2025, "area": 17048, "facts": [
+      ["Batken Region was split off from Osh Region in 1999.", "Баткенская область выделена из Ошской в 1999 году."],
+      ["It surrounds enclaves of Uzbekistan (Sokh, Shakhimardan) and Tajikistan (Vorukh).", "На её территории находятся анклавы Узбекистана (Сох, Шахимардан) и Таджикистана (Ворух)."],
+      ["Batken is famous for its apricots, grown on terraces across the region.", "Баткен славится абрикосами, которые выращивают по всей области."]
+    ]},
+    "KG-C": {"ru": "Чуйская область", "cap": ["Bishkek", "Бишкек"], "pop": 1102100, "popYear": 2025, "area": 19895, "facts": [
+      ["The 11th-century Burana Tower near Tokmok marks the site of Balasagun, a capital of the Karakhanids.", "Башня Бурана XI века близ Токмока отмечает место Баласагуна — столицы Караханидов."],
+      ["Balasagun, Suyab and Nevaket are part of the UNESCO 'Silk Roads: Chang'an–Tianshan Corridor' listing.", "Баласагун, Суяб и Невакет входят в объект ЮНЕСКО «Шёлковый путь: сеть маршрутов Чанъань — Тянь-Шаньского коридора»."],
+      ["Ala-Archa National Park, a favourite climbing area, is less than an hour from Bishkek.", "Национальный парк Ала-Арча, любимое место альпинистов, находится меньше чем в часе езды от Бишкека."]
+    ]},
+    "KG-Y": {"ru": "Иссык-Кульская область", "cap": ["Karakol", "Каракол"], "pop": 549800, "popYear": 2025, "area": 43735, "facts": [
+      ["Lake Issyk-Kul, about 180 km long, is one of the largest mountain lakes in the world. Being slightly salty, it doesn't freeze in winter.", "Иссык-Куль длиной около 180 км — одно из крупнейших горных озёр мира. Оно слегка солёное и зимой не замерзает."],
+      ["The explorer Nikolai Przhevalsky died in Karakol in 1888, and the city carried his name for decades.", "Путешественник Николай Пржевальский умер в Караколе в 1888 году, и город десятилетиями носил его имя."],
+      ["Cholpon-Ata hosted the World Nomad Games in 2014, 2016 and 2018.", "Чолпон-Ата принимал Всемирные игры кочевников в 2014, 2016 и 2018 годах."]
+    ]},
+    "KG-J": {"ru": "Джалал-Абадская область", "cap": ["Manas", "Манас"], "pop": 1358500, "popYear": 2025, "area": 32418, "facts": [
+      ["Arslanbob has one of the largest natural walnut forests in the world.", "В Арсланбобе растёт один из крупнейших в мире природных орехоплодовых лесов."],
+      ["The regional capital, Jalal-Abad, was renamed Manas in 2025.", "Областной центр Джалал-Абад в 2025 году переименован в Манас."],
+      ["The Toktogul Reservoir on the Naryn River feeds Kyrgyzstan's largest hydropower plant.", "Токтогульское водохранилище на реке Нарын питает крупнейшую ГЭС Кыргызстана."]
+    ]},
+    "KG-N": {"ru": "Нарынская область", "cap": ["Naryn", "Нарын"], "pop": 314900, "popYear": 2025, "area": 44160, "facts": [
+      ["It is Kyrgyzstan's largest region by area, and almost all of it lies above 2,000 m.", "Крупнейшая по площади область Кыргызстана; почти вся её территория лежит выше 2000 м."],
+      ["Tash Rabat is a stone caravanserai on a Silk Road route to Kashgar, usually dated to the 15th century.", "Таш-Рабат — каменный караван-сарай на пути в Кашгар, обычно датируемый XV веком."],
+      ["Herders take their flocks to summer pastures around Lake Song-Kol, at about 3,000 m.", "Летом пастухи перегоняют стада на пастбища вокруг озера Сон-Куль на высоте около 3000 м."]
+    ]},
+    "KG-O": {"ru": "Ошская область", "cap": ["Osh", "Ош"], "pop": 1514900, "popYear": 2025, "area": 28934, "facts": [
+      ["It is Kyrgyzstan's most populous region.", "Самая населённая область Кыргызстана."],
+      ["Lenin Peak (7,134 m) rises on the border with Tajikistan, above the Alay Valley.", "На границе с Таджикистаном над Алайской долиной возвышается пик Ленина (7134 м)."],
+      ["The Pamir Highway climbs from Osh through the Alay Valley towards Tajikistan.", "Памирский тракт идёт от Оша через Алайскую долину в Таджикистан."]
+    ]},
+    "KG-T": {"ru": "Таласская область", "cap": ["Talas", "Талас"], "pop": 280500, "popYear": 2025, "area": 13406, "facts": [
+      ["In 751 the Abbasid Caliphate defeated Tang China at the Battle of Talas, fought somewhere along the Talas River.", "В 751 году в битве при Таласе, где-то на реке Талас, Аббасидский халифат разбил войска китайской империи Тан."],
+      ["Tradition names the Manas Ordo complex as the burial place of Manas, the hero of the Kyrgyz national epic.", "Предание называет комплекс «Манас Ордо» местом погребения Манаса, героя кыргызского эпоса."],
+      ["It is Kyrgyzstan's least populated region.", "Наименее населённая область Кыргызстана."]
+    ]},
+    "KG-GB": {"ru": "Бишкек", "cap": null, "pop": 1191000, "popYear": 2025, "area": 231, "areaOsm": true, "facts": [
+      ["Bishkek grew around the Kokand fortress of Pishpek and was called Frunze from 1926 to 1991.", "Бишкек вырос вокруг кокандской крепости Пишпек и с 1926 по 1991 год назывался Фрунзе."],
+      ["The city stands at about 800 m at the foot of the Kyrgyz Ala-Too range, whose snowy peaks are visible from the centre.", "Город лежит на высоте около 800 м у подножия Кыргызского Ала-Тоо, чьи снежные вершины видны из центра."],
+      ["Bishkek is also the administrative centre of the surrounding Chüy Region.", "Бишкек также служит административным центром окружающей его Чуйской области."]
+    ]},
+    "KG-GO": {"ru": "Ош", "cap": null, "pop": 333629, "popYear": 2022, "area": 154, "areaOsm": true, "facts": [
+      ["Osh is one of the oldest cities in Central Asia and officially celebrated its 3,000th anniversary in 2000.", "Ош — один из древнейших городов Центральной Азии; в 2000 году он официально отметил 3000-летие."],
+      ["Sulaiman-Too, the sacred mountain in the city, became Kyrgyzstan's first UNESCO World Heritage Site in 2009.", "Священная гора Сулайман-Тоо в черте города в 2009 году стала первым объектом ЮНЕСКО в Кыргызстане."],
+      ["The Jayma Bazaar is one of the largest open-air markets in Central Asia.", "Базар Жайма — один из крупнейших открытых рынков Центральной Азии."]
+    ]},
+
+    "TJ-SU": {"ru": "Согдийская область", "cap": ["Khujand", "Худжанд"], "pop": 2823900, "popYear": 2022, "area": 25400, "facts": [
+      ["Khujand was founded as Alexandria Eschate ('the Furthest') by Alexander the Great in 329 BC.", "Худжанд был основан Александром Македонским в 329 году до н. э. как Александрия Эсхата («Крайняя»)."],
+      ["Sarazm, a proto-urban settlement from the 4th–3rd millennia BC, was Tajikistan's first UNESCO World Heritage Site.", "Саразм, протогородское поселение IV–III тысячелетий до н. э., — первый объект Всемирного наследия ЮНЕСКО в Таджикистане."],
+      ["The Kayrakkum Reservoir on the Syr Darya is nicknamed the 'Tajik Sea'.", "Кайраккумское водохранилище на Сырдарье называют «Таджикским морем»."]
+    ]},
+    "TJ-RA": {"ru": "Районы республиканского подчинения", "cap": null, "pop": 2270000, "popYear": 2022, "area": 28600, "facts": [
+      ["It isn't a province but a group of districts governed directly by the central government in Dushanbe.", "Это не область, а группа районов, подчинённых напрямую центральному правительству в Душанбе."],
+      ["The restored Hisor Fortress, west of Dushanbe, guarded the valley for centuries.", "Восстановленная Гиссарская крепость к западу от Душанбе веками охраняла долину."],
+      ["The Varzob Gorge, just north of Dushanbe, leads to the Anzob Pass and the Fann Mountains.", "Варзобское ущелье к северу от Душанбе ведёт к перевалу Анзоб и Фанским горам."]
+    ]},
+    "TJ-KT": {"ru": "Хатлонская область", "cap": ["Bokhtar", "Бохтар"], "pop": 3444000, "popYear": 2022, "area": 24800, "facts": [
+      ["The Nurek Dam on the Vakhsh River, about 300 m high, is among the tallest dams in the world.", "Нурекская плотина на реке Вахш высотой около 300 м — одна из самых высоких в мире."],
+      ["It is Tajikistan's most populous region. Its capital, Bokhtar, was called Kurgan-Tyube until 2018.", "Самая населённая область Таджикистана. Её центр Бохтар до 2018 года назывался Курган-Тюбе."],
+      ["A 13 m reclining Buddha was excavated at the Ajina-Tepa monastery here and is now in the national museum in Dushanbe.", "При раскопках монастыря Аджина-Тепа здесь нашли 13-метрового лежащего Будду; сейчас он хранится в национальном музее в Душанбе."]
+    ]},
+    "TJ-GB": {"ru": "Горно-Бадахшанская автономная область", "cap": ["Khorugh", "Хорог"], "pop": 230100, "popYear": 2022, "area": 64200, "facts": [
+      ["It covers about 45% of Tajikistan's territory but is home to only about 2–3% of its people.", "Занимает около 45% территории Таджикистана, но здесь живёт лишь 2–3% населения страны."],
+      ["Ismoil Somoni Peak (7,495 m), once Communism Peak, was the highest point in the Soviet Union.", "Пик Исмоила Сомони (7495 м), бывший пик Коммунизма, был высшей точкой Советского Союза."],
+      ["Lake Sarez formed in 1911, when an earthquake set off a landslide that dammed the Murghab River.", "Сарезское озеро образовалось в 1911 году, когда землетрясение вызвало оползень, перегородивший реку Мургаб."]
+    ]},
+    "TJ-DU": {"ru": "Душанбе", "cap": null, "pop": 1228400, "popYear": 2023, "area": 197, "areaOsm": true, "facts": [
+      ["Dushanbe means 'Monday' in Tajik. The city grew from a village known for its Monday market.", "«Душанбе» по-таджикски значит «понедельник»: город вырос из кишлака, где по понедельникам проходил базар."],
+      ["From 1929 to 1961 the city was called Stalinabad.", "С 1929 по 1961 год город назывался Сталинабад."],
+      ["Its 165 m flagpole, raised in 2011, was briefly the tallest in the world.", "Флагшток высотой 165 м, установленный в 2011 году, недолго был самым высоким в мире."]
+    ]},
+
+    "TM-A": {"ru": "Ахалский велаят", "cap": ["Arkadag", "Аркадаг"], "pop": 886845, "popYear": 2022, "area": 97160, "facts": [
+      ["It is the homeland of the Akhal-Teke, a horse breed famed for its metallic sheen.", "Родина ахалтекинцев — породы лошадей, знаменитой металлическим блеском шерсти."],
+      ["The ruins of Nisa, an early capital of the Parthian Empire, are a UNESCO World Heritage Site.", "Руины Нисы, ранней столицы Парфянского царства, — объект Всемирного наследия ЮНЕСКО."],
+      ["The Darvaza gas crater, the 'Gates of Hell', has been burning in the Karakum Desert since the 1970s.", "Газовый кратер Дарваза («Врата ада») горит в пустыне Каракумы с 1970-х годов."]
+    ]},
+    "TM-B": {"ru": "Балканский велаят", "cap": ["Balkanabat", "Балканабад"], "pop": 529895, "popYear": 2022, "area": 139270, "facts": [
+      ["Turkmenistan's largest region runs along the whole of the country's Caspian coast.", "Крупнейший регион Туркменистана протянулся вдоль всего каспийского побережья страны."],
+      ["Garabogazköl, a shallow bay of the Caspian, is one of the saltiest bodies of water in the world.", "Кара-Богаз-Гол — мелководный залив Каспия, один из самых солёных водоёмов мира."],
+      ["The port of Türkmenbaşy was called Krasnovodsk until 1993.", "Порт Туркменбаши до 1993 года назывался Красноводск."]
+    ]},
+    "TM-D": {"ru": "Дашогузский велаят", "cap": ["Dashoguz", "Дашогуз"], "pop": 1550354, "popYear": 2022, "area": 73430, "facts": [
+      ["Köneürgenç, once the capital of Khwarazm, is a UNESCO World Heritage Site. Its 60 m Kutlug-Timur minaret is one of the tallest in Central Asia.", "Кёнеургенч, бывшая столица Хорезма, — объект ЮНЕСКО. Его 60-метровый минарет Кутлуг-Тимура — один из самых высоких в Центральной Азии."],
+      ["The city of Dashoguz was known as Tashauz in Soviet times.", "В советское время город Дашогуз назывался Ташауз."],
+      ["The region lies in the lower Amu Darya delta, one of Central Asia's oldest irrigated oases.", "Регион лежит в низовьях Амударьи — одном из древнейших орошаемых оазисов Центральной Азии."]
+    ]},
+    "TM-L": {"ru": "Лебапский велаят", "cap": ["Türkmenabat", "Туркменабад"], "pop": 1447298, "popYear": 2022, "area": 93730, "facts": [
+      ["Lebap means 'riverbank': the region follows the Amu Darya for hundreds of kilometres.", "«Лебап» означает «берег реки»: область на сотни километров тянется вдоль Амударьи."],
+      ["Aýrybaba (3,137 m) in the Köýtendag range is the highest point in Turkmenistan. A nearby plateau is covered in dinosaur footprints.", "Гора Айрыбаба (3137 м) в хребте Кугитанг — высшая точка Туркменистана; неподалёку плато со следами динозавров."],
+      ["Türkmenabat was known as Chardzhou until 1999.", "До 1999 года Туркменабад назывался Чарджоу."]
+    ]},
+    "TM-M": {"ru": "Марыйский велаят", "cap": ["Mary", "Мары"], "pop": 1613386, "popYear": 2022, "area": 87150, "facts": [
+      ["Ancient Merv, a UNESCO site, was one of the largest cities in the world in the 12th century.", "Древний Мерв, объект ЮНЕСКО, в XII веке был одним из крупнейших городов мира."],
+      ["The Galkynyş field is one of the largest natural gas fields in the world.", "Месторождение Галкыныш — одно из крупнейших газовых месторождений мира."],
+      ["The region's oasis is watered by the Murghab River, which flows down from Afghanistan.", "Оазис области орошает река Мургаб, текущая из Афганистана."]
+    ]},
+    "TM-S": {"ru": "Ашхабад", "cap": null, "pop": 1030063, "popYear": 2022, "area": 979, "areaOsm": true, "facts": [
+      ["In 2013 Guinness World Records listed Ashgabat as the city with the most buildings clad in white marble.", "В 2013 году Книга рекордов Гиннесса назвала Ашхабад городом с наибольшим числом зданий, облицованных белым мрамором."],
+      ["An earthquake in 1948 almost completely destroyed the city.", "Землетрясение 1948 года почти полностью разрушило город."],
+      ["Ashgabat was founded in 1881 as a Russian military settlement.", "Ашхабад основан в 1881 году как русское военное поселение."]
+    ]},
+    "TM-AR": {"ru": "Аркадаг", "cap": null, "pop": null, "popYear": null, "area": 48, "areaOsm": true, "facts": [
+      ["Arkadag is a new 'smart city' about 30 km west of Ashgabat. It opened in June 2023.", "Аркадаг — новый «умный город» примерно в 30 км к западу от Ашхабада, открытый в июне 2023 года."],
+      ["The city is named after the honorary title 'Arkadag' ('Protector') of former president Gurbanguly Berdimuhamedow.", "Город назван по почётному титулу бывшего президента Гурбангулы Бердымухамедова — «Аркадаг» («Покровитель»)."],
+      ["It became the capital of Ahal Region in December 2022, and a 2023 law gave it the status of a city of national importance.", "В декабре 2022 года город стал центром Ахалского велаята, а закон 2023 года придал ему статус города государственного значения."]
+    ]},
+
+    "UZ-QR": {"ru": "Республика Каракалпакстан", "cap": ["Nukus", "Нукус"], "pop": 2046890, "popYear": 2026, "area": 161358, "facts": [
+      ["It is an autonomous republic within Uzbekistan with its own constitution, and it covers over a third of the country.", "Автономная республика в составе Узбекистана со своей конституцией; занимает более трети территории страны."],
+      ["The Savitsky Museum in Nukus holds one of the world's largest collections of Russian avant-garde art.", "Музей Савицкого в Нукусе хранит одно из крупнейших в мире собраний русского авангарда."],
+      ["Moynaq was once an Aral Sea fishing port. Today the shore is far away, and rusting ships lie in the sand.", "Муйнак когда-то был рыболовецким портом на Арале; теперь море далеко, а в песках ржавеют корабли."]
+    ]},
+    "UZ-XO": {"ru": "Хорезмская область", "cap": ["Urgench", "Ургенч"], "pop": 2075000, "popYear": 2026, "area": 6464, "facts": [
+      ["Itchan Kala, the walled inner town of Khiva, became Central Asia's first UNESCO World Heritage Site in 1990.", "Ичан-Кала, обнесённый стеной старый город Хивы, в 1990 году стал первым объектом ЮНЕСКО в Центральной Азии."],
+      ["The word 'algorithm' comes from the name of al-Khwarizmi, the mathematician from Khwarazm.", "Слово «алгоритм» происходит от имени математика аль-Хорезми, уроженца Хорезма."],
+      ["Khiva's turquoise Kalta Minor minaret was left unfinished in the 1850s.", "Бирюзовый минарет Кальта-Минор в Хиве так и остался недостроенным в 1850-х годах."]
+    ]},
+    "UZ-BU": {"ru": "Бухарская область", "cap": ["Bukhara", "Бухара"], "pop": 2112200, "popYear": 2026, "area": 41937, "facts": [
+      ["The historic centre of Bukhara, a city more than 2,500 years old, is a UNESCO World Heritage Site.", "Исторический центр Бухары, которой более 2500 лет, — объект Всемирного наследия ЮНЕСКО."],
+      ["The 10th-century Samanid Mausoleum is one of the oldest surviving monuments of Islamic architecture in Central Asia.", "Мавзолей Саманидов X века — один из древнейших сохранившихся памятников исламской архитектуры в Центральной Азии."],
+      ["Avicenna (Ibn Sina) was born in 980 in Afshona, near Bukhara.", "Авиценна (Ибн Сина) родился в 980 году в Афшоне близ Бухары."]
+    ]},
+    "UZ-NW": {"ru": "Навоийская область", "cap": ["Navoi", "Навои"], "pop": 1118595, "popYear": 2026, "area": 109375, "facts": [
+      ["After Karakalpakstan, it is the largest region in Uzbekistan. Most of it lies in the Kyzylkum Desert.", "Крупнейшая область Узбекистана после Каракалпакстана; большая её часть лежит в пустыне Кызылкум."],
+      ["Muruntau is one of the largest open-pit gold mines in the world.", "Мурунтау — один из крупнейших в мире золотых карьеров."],
+      ["The city of Navoi, founded in 1958, is named after the 15th-century poet Alisher Navoi.", "Город Навои, основанный в 1958 году, назван в честь поэта XV века Алишера Навои."]
+    ]},
+    "UZ-SA": {"ru": "Самаркандская область", "cap": ["Samarkand", "Самарканд"], "pop": 4396800, "popYear": 2026, "area": 16773, "facts": [
+      ["Samarkand was Timur's capital. He is buried in the Gur-e-Amir mausoleum.", "Самарканд был столицей Тимура; он похоронен в мавзолее Гур-Эмир."],
+      ["The Registan, framed by three madrasas, is one of the most famous squares in the Islamic world.", "Регистан с тремя медресе — одна из самых знаменитых площадей исламского мира."],
+      ["Ulugh Beg built an astronomical observatory here in the 1420s. It was one of the finest of its time.", "Улугбек построил здесь в 1420-х годах обсерваторию — одну из лучших в своё время."]
+    ]},
+    "UZ-QA": {"ru": "Кашкадарьинская область", "cap": ["Karshi", "Карши"], "pop": 3731800, "popYear": 2026, "area": 28568, "facts": [
+      ["Shahrisabz, Timur's birthplace, is a UNESCO World Heritage Site and home to the ruins of his Ak-Saray palace.", "Шахрисабз — родина Тимура и объект ЮНЕСКО, где сохранились руины его дворца Ак-Сарай."],
+      ["The Shurtan gas field supplies a large gas-chemical complex.", "Шуртанское газовое месторождение снабжает крупный газохимический комплекс."],
+      ["Karshi was known in the Middle Ages as Nasaf, or Nakhshab.", "В средние века Карши был известен как Насаф, или Нахшаб."]
+    ]},
+    "UZ-SU": {"ru": "Сурхандарьинская область", "cap": ["Termez", "Термез"], "pop": 3024900, "popYear": 2026, "area": 20099, "facts": [
+      ["Uzbekistan's southernmost region borders Afghanistan across the Amu Darya. The two are linked by the Friendship Bridge at Termez.", "Самая южная область Узбекистана граничит по Амударье с Афганистаном; их соединяет Мост Дружбы у Термеза."],
+      ["Kara-Tepe and Fayaz-Tepe near Termez are among the most important Buddhist monasteries in Central Asia.", "Кара-Тепе и Фаяз-Тепе под Термезом — одни из важнейших буддийских монастырей Центральной Азии."],
+      ["Summer temperatures here are among the highest in Central Asia and often pass 40 °C.", "Летние температуры здесь одни из самых высоких в Центральной Азии и нередко превышают 40 °C."]
+    ]},
+    "UZ-JI": {"ru": "Джизакская область", "cap": ["Jizzakh", "Джизак"], "pop": 1559883, "popYear": 2026, "area": 21179, "facts": [
+      ["Timur's Gate, a narrow gorge on the old road to Samarkand, has rock inscriptions left by Ulugh Beg.", "На скалах ущелья «Ворота Тамерлана» по дороге на Самарканд сохранились надписи Улугбека."],
+      ["The Aydar–Arnasay lakes formed in 1969, when floodwater from the Syr Darya was released into the desert.", "Айдаро-Арнасайские озёра образовались в 1969 году, когда паводковые воды Сырдарьи сбросили в пустыню."],
+      ["The region takes in part of the Mirzachul (Hungry Steppe), which was irrigated in Soviet times.", "Часть области лежит в Мирзачуле (Голодной степи), орошённой в советское время."]
+    ]},
+    "UZ-SI": {"ru": "Сырдарьинская область", "cap": ["Gulistan", "Гулистан"], "pop": 942630, "popYear": 2026, "area": 4276, "facts": [
+      ["It has the smallest population of Uzbekistan's regions.", "Самая малонаселённая область Узбекистана."],
+      ["Most of the region lies in the Mirzachul (Hungry Steppe), once desert and now irrigated farmland.", "Большая часть области лежит в Мирзачуле (Голодной степи) — бывшей пустыне, ставшей орошаемыми землями."],
+      ["The Syrdarya power station at Shirin is one of the largest thermal power plants in Central Asia.", "Сырдарьинская ТЭС в Ширине — одна из крупнейших тепловых электростанций Центральной Азии."]
+    ]},
+    "UZ-TO": {"ru": "Ташкентская область", "cap": ["Nurafshon", "Нурафшан"], "pop": 3174600, "popYear": 2026, "area": 15258, "facts": [
+      ["Chimgan and the Charvak Reservoir are the favourite mountain getaways for people from Tashkent.", "Чимган и Чарвакское водохранилище — любимые места горного отдыха ташкентцев."],
+      ["The Almalyk mining and metallurgical complex is one of Uzbekistan's biggest producers of copper and gold.", "Алмалыкский ГМК — один из крупнейших производителей меди и золота в Узбекистане."],
+      ["The regional capital, Nurafshon, was formerly called Toytepa.", "Областной центр Нурафшан раньше назывался Тойтепа."]
+    ]},
+    "UZ-TK": {"ru": "Ташкент", "cap": null, "pop": 3195900, "popYear": 2026, "area": 634, "areaOsm": true, "facts": [
+      ["Tashkent is the largest city in Central Asia.", "Ташкент — крупнейший город Центральной Азии."],
+      ["Much of the city was rebuilt after the 1966 earthquake.", "Значительная часть города была отстроена заново после землетрясения 1966 года."],
+      ["The Tashkent Metro opened in 1977 and was the first in Central Asia. It is famous for its ornate stations.", "Ташкентское метро, открытое в 1977 году, — первое в Центральной Азии и знаменито богато украшенными станциями."]
+    ]},
+    "UZ-NG": {"ru": "Наманганская область", "cap": ["Namangan", "Наманган"], "pop": 3202700, "popYear": 2026, "area": 7181, "facts": [
+      ["Namangan is known as the 'city of flowers' and holds a flower festival every year.", "Наманган называют «городом цветов»; здесь ежегодно проходит праздник цветов."],
+      ["The ruins of Akhsikent, a medieval capital of the Fergana Valley, stand on the Syr Darya.", "На Сырдарье сохранились руины Ахсикента — средневековой столицы Ферганской долины."],
+      ["Chust is famous for its knives and its embroidered skullcaps (doppi).", "Чуст славится ножами и расшитыми тюбетейками (дуппи)."]
+    ]},
+    "UZ-AN": {"ru": "Андижанская область", "cap": ["Andijan", "Андижан"], "pop": 3533900, "popYear": 2026, "area": 4303, "facts": [
+      ["It is Uzbekistan's smallest region by area and one of its most densely populated.", "Самая маленькая по площади область Узбекистана и одна из самых густонаселённых."],
+      ["Babur, founder of the Mughal Empire in India, was born in Andijan in 1483.", "Бабур, основатель империи Великих Моголов в Индии, родился в Андижане в 1483 году."],
+      ["The Asaka car plant has made most of Uzbekistan's cars since 1996.", "Автозавод в Асаке с 1996 года выпускает большую часть автомобилей Узбекистана."]
+    ]},
+    "UZ-FA": {"ru": "Ферганская область", "cap": ["Fergana", "Фергана"], "pop": 4239400, "popYear": 2026, "area": 7005, "facts": [
+      ["Margilan has been a silk-weaving centre for centuries and is known for its atlas and adras ikat fabrics.", "Маргилан веками был центром шелкоткачества и славится тканями икат — атласом и адрасом."],
+      ["Rishtan is famous for its blue-glazed ceramics.", "Риштан знаменит керамикой с голубой глазурью."],
+      ["The Shakhimardan enclave, surrounded by Kyrgyzstan, belongs to Fergana Region.", "Анклав Шахимардан, окружённый территорией Кыргызстана, относится к Ферганской области."]
+    ]}
+  }
+}
