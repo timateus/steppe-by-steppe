@@ -1,0 +1,11 @@
+name = "steppe-by-steppe-stats"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+ALLOW_ORIGIN = "https://timateus.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "steppe-by-steppe"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"

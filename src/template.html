@@ -85,6 +85,23 @@ svg#map.drag{cursor:grabbing}
 .fact b{color:var(--accent);font-weight:700}
 .fact .x{border:0;background:none;color:var(--muted);font-size:18px;line-height:1;cursor:pointer;padding:0 2px;margin-top:1px}
 
+/* statistics */
+.stats{display:flex;flex-direction:column;gap:8px;font-size:13.5px}
+.stats:empty{display:none}
+.st-g{background:var(--accent-soft);border-radius:9px;padding:8px 10px;color:var(--ink)}
+.st-h{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted);margin-top:4px}
+.st-h2{font-size:12px;color:var(--muted)}
+.st-none{margin:0;color:var(--muted)}
+.st-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;text-align:center}
+.st-nums b{display:block;font-family:var(--display);font-weight:500;font-size:22px;line-height:1.1;font-variant-numeric:tabular-nums}
+.st-nums small{color:var(--muted);font-size:11px}
+.st-dist{display:grid;grid-template-columns:auto 1fr;gap:3px 8px;align-items:center;font-variant-numeric:tabular-nums}
+.st-dist span{font-size:12px;color:var(--muted);text-align:right}
+.st-dist .bar{background:var(--faint);color:var(--surface);font-size:11.5px;font-weight:700;border-radius:4px;padding:1px 6px;text-align:right;min-width:22px}
+.st-dist .bar.me{background:var(--g0)}
+.st-dist .bar.x.me{background:var(--lose)}
+details.box .stats{margin-top:10px;max-width:520px}
+
 /* result overlay */
 .over{position:absolute;inset:0;background:var(--scrim);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);display:grid;place-items:center;padding:16px;z-index:3}
 .panel{background:var(--surface);border:1px solid var(--hair);border-radius:16px;box-shadow:var(--shadow);padding:20px 22px;width:min(440px,100%);display:flex;flex-direction:column;gap:12px;max-height:100%;overflow:auto;border-top:6px solid var(--win)}
@@ -101,9 +118,12 @@ svg#map.drag{cursor:grabbing}
 .field{position:relative;flex:1 1 280px}
 .field input{width:100%;font:500 16px var(--body);color:var(--ink);background:var(--surface);border:1.5px solid var(--hair);border-radius:11px;padding:12px 14px;outline:none}
 .field input:focus{border-color:var(--accent)}
-.sugg{position:absolute;left:0;right:0;bottom:calc(100% + 6px);background:var(--surface);border:1px solid var(--hair);border-radius:11px;box-shadow:var(--shadow);list-style:none;margin:0;padding:4px;z-index:5;max-height:300px;overflow:auto}
+.sugg{position:absolute;left:0;right:0;bottom:calc(100% + 6px);background:var(--surface);border:1px solid var(--hair);border-radius:11px;box-shadow:var(--shadow);list-style:none;margin:0;padding:4px;z-index:5;max-height:min(320px,50vh);overflow:auto;overscroll-behavior:contain}
 .sugg li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:8px 10px;border-radius:8px;cursor:pointer}
 .sugg li[aria-selected="true"]{background:var(--accent-soft)}
+.sugg li.hd{cursor:default;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted);padding:10px 10px 4px;border-top:1px solid var(--hair);border-radius:0;margin-top:2px}
+.sugg li.hd:first-child{border-top:0;margin-top:0}
+.sugg li.used span:first-child{color:var(--faint)}
 .sugg .loc{color:var(--muted);font-size:12.5px;text-align:right}
 .btn{touch-action:manipulation;font:600 14.5px var(--body);border-radius:11px;padding:0 16px;min-height:46px;cursor:pointer;border:1.5px solid var(--hair);background:var(--surface);color:var(--ink)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
@@ -216,6 +236,7 @@ td.l{color:var(--muted)}
           <h2 id="rTitle"></h2>
           <p id="rText"></p>
           <pre id="rShare"></pre>
+          <div class="stats" id="rStats"></div>
           <div class="row">
             <button class="btn primary" id="copy" type="button"></button>
             <button class="btn" id="next" type="button"></button>
@@ -251,6 +272,7 @@ td.l{color:var(--muted)}
     <label><input type="checkbox" id="tFacts" checked> <span data-t="factsToggle"></span></label>
   </div>
 
+  <details class="box"><summary id="statsTitle"></summary><div class="stats" id="statsBox"></div></details>
   <details class="box"><summary data-t="howTitle"></summary><div id="how"></div></details>
   <details class="box"><summary id="listTitle"></summary><div id="about"></div><div id="divs" class="ctylist"></div></details>
 </div>

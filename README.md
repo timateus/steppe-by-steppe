@@ -11,6 +11,8 @@ Open `index.html` in a browser to play. It's a single self-contained file with n
 - **Hint** outlines a region on the best remaining route. **Show borders** reveals every region's outline. Neither uses a guess, but both appear in the shared result (💡, 🗺️).
 - After each guess, a one-line fact about the region pops up on the map ("btw, …"). Tap any coloured region for another.
 - The interface is in **English and Russian** (EN/RU switch in the header). Region names can be typed in either language or in the local official form.
+- Typing a country (or its people: "Kazakh", "узбек", "қазақ") lists all of that country's regions.
+- **Statistics:** each player's daily games (played, win %, streak, results by guesses over the shortest route) are kept in their browser. With the stats Worker deployed, everyone also sees how many people played today's route, how many made it and the average score.
 - **Daily** gives everyone the same route each day (seeded by the date). **Practice** gives unlimited random routes.
 
 ## The 55 regions (as of September 2026)
@@ -34,6 +36,21 @@ The facts shown in the game are the short one-liners in `data/short_facts.json` 
 - **Population:** national statistics offices, each with the year of the figure. Kazakhstan: Bureau of National Statistics (stat.gov.kz), 2022. Kyrgyzstan: National Statistical Committee (stat.gov.kg), 2025 (Osh city: 2022 census). Tajikistan: Agency on Statistics (stat.tj), 2022 (Dushanbe: 2023). Turkmenistan: 2022 census. Uzbekistan: National Statistics Committee (stat.uz), 2026.
 - **Area:** official figures for regions. The 11 cities use areas measured from their current OpenStreetMap limits, marked "≈".
 - **Facts:** well-established history, geography and landmarks, cross-checked against Wikipedia and UNESCO listings. Edit the file and run `./build.sh` to change them.
+
+## Shared daily statistics (optional)
+
+`worker/` is a small Cloudflare Worker with a D1 (SQLite) database. The page sends one result per player per daily route and reads back today's totals. Cloudflare's free plan covers it.
+
+```bash
+cd worker
+npm install
+npx wrangler login
+npx wrangler d1 create steppe-by-steppe      # copy the database_id into wrangler.toml
+npx wrangler d1 execute steppe-by-steppe --remote --file=schema.sql
+npx wrangler deploy                          # prints the Worker's URL
+```
+
+Then set `STATS_URL` at the top of the statistics section in `src/app.js` to that URL, run `./build.sh` and push. Only a random per-browser id and the game result are stored: no names or IP addresses. The claude.ai version can't reach outside services, so it shows personal statistics only.
 
 ## Data and build
 
