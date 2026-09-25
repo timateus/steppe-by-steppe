@@ -1,0 +1,6 @@
+{
+  "name": "steppe-by-steppe",
+  "private": true,
+  "scripts": { "build": "./build.sh" },
+  "devDependencies": { "mapshaper": "^0.6.0" }
+}
